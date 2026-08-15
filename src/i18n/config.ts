@@ -42,6 +42,11 @@ export function urlFor(id: PageId, locale: Locale): string {
 export const ui = {
   fr: {
     siteTitle: 'Ali Amad',
+    /* Affichés sur deux lignes dans l'en-tête : d'un seul tenant, la ligne
+       débordait sur le menu. L'université reste citée avant l'hôpital. */
+    role: 'Professeur de psychiatrie',
+    affiliation: 'Université de Lille, CHU de Lille',
+    /* Version d'un seul tenant, pour les métadonnées et le titre d'onglet. */
     tagline: 'Professeur de psychiatrie — Université de Lille, CHU de Lille',
     nav: {
       home: 'Accueil',
@@ -57,6 +62,8 @@ export const ui = {
   },
   en: {
     siteTitle: 'Ali Amad',
+    role: 'Professor of Psychiatry',
+    affiliation: 'University of Lille, Lille University Hospital',
     tagline: 'Professor of Psychiatry — University of Lille, Lille University Hospital',
     nav: {
       home: 'Home',

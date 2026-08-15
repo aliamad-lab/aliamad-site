@@ -20,7 +20,8 @@ const other: Locale = locale === 'fr' ? 'en' : 'fr';
   <div class="site-header__inner">
     <a class="site-header__identity" href={urlFor('home', locale)}>
       <span class="site-header__name">{t.siteTitle}</span>
-      <span class="site-header__tagline">{t.tagline}</span>
+      <span class="site-header__role">{t.role}</span>
+      <span class="site-header__affiliation">{t.affiliation}</span>
     </a>
 
     <nav class="site-nav" aria-label={locale === 'fr' ? 'Navigation principale' : 'Main navigation'}>

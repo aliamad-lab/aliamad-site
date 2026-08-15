@@ -18,9 +18,10 @@
   --font-display: 'EB Garamond', Georgia, 'Times New Roman', serif;
   --font-text: 'EB Garamond', Georgia, 'Times New Roman', serif;
 
-  /* Largeur de lecture : environ 70 signes par ligne dans ce corps. Au-delà,
-     l'œil peine à retrouver le début de la ligne suivante. */
-  --measure: 40rem;
+  /* Largeur de lecture. Le texte étant justifié et coupé automatiquement, la
+     colonne supporte d'être plus large qu'en drapeau : les fins de ligne sont
+     alignées, l'œil retrouve son repère. Au-delà, la lecture décrocherait. */
+  --measure: 47rem;
   /* Les bandeaux débordent la colonne de texte : une image large ancre la page,
      là où un texte large fatigue. */
   --measure-large: 58rem;
@@ -139,10 +140,12 @@ a:hover {
   line-height: 1.15;
 }
 
-.site-header__tagline {
+.site-header__role,
+.site-header__affiliation {
   display: block;
   font-size: 0.85rem;
   color: var(--ink-soft);
+  line-height: 1.35;
 }
 
 .site-nav {
@@ -206,6 +209,27 @@ main {
   max-width: var(--measure);
   margin-inline: auto;
   padding: clamp(2rem, 5vw, 3.5rem) var(--gutter);
+}
+
+/*
+ * Texte justifié, comme dans un livre français.
+ *
+ * La césure automatique en est la condition : sans elle, le navigateur écarte
+ * les mots pour aligner les fins de ligne et creuse des rivières blanches. Elle
+ * s'appuie sur l'attribut lang de la page, d'où l'importance de le déclarer
+ * correctement — ce que le site Google Sites ne faisait pas.
+ *
+ * En dessous de 34rem, la colonne devient trop étroite pour que la justification
+ * reste propre, même coupée : on repasse au fer à gauche.
+ */
+@media (min-width: 34rem) {
+  .prose p,
+  .prose li {
+    text-align: justify;
+    hyphens: auto;
+    /* Évite les coupures trop courtes, disgracieuses en début et fin de mot. */
+    hyphenate-limit-chars: 7 3 3;
+  }
 }
 
 .prose h4 {
