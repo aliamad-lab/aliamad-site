@@ -55,7 +55,8 @@ pronostic fonctionnel ou vital.
 ### Traitements physiques
 
 Enfin, une place centrale est accordée aux traitements physiques — en
-particulier l'électroconvulsivothérapie et les techniques de neuromodulation —
+particulier l'[électroconvulsivothérapie](https://www.conn-ect.com/) et les
+techniques de neuromodulation —
 envisagés comme des outils thérapeutiques majeurs dans les formes sévères ou
 résistantes, et intégrés dans une réflexion clinique globale visant à mieux
 cibler les traitements et à mieux prédire l'évolution des troubles
