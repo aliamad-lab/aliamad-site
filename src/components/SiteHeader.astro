@@ -1,0 +1,44 @@
+---
+import { navOrder, routes, ui, urlFor, type Locale, type PageId } from '../i18n/config';
+
+interface Props {
+  locale: Locale;
+  pageId: PageId;
+}
+
+const { locale, pageId } = Astro.props;
+const t = ui[locale];
+
+// Le sélecteur pointe vers l'équivalent de la page courante, jamais vers
+// l'accueil : la bascule reste cohérente au fil de la navigation (§5).
+// Drapeau britannique pour l'anglais, jamais américain.
+const other: Locale = locale === 'fr' ? 'en' : 'fr';
+---
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__identity" href={urlFor('home', locale)}>
+      <span class="site-header__name">{t.siteTitle}</span>
+      <span class="site-header__tagline">{t.tagline}</span>
+    </a>
+
+    <nav class="site-nav" aria-label={locale === 'fr' ? 'Navigation principale' : 'Main navigation'}>
+      <ul>
+        {
+          navOrder.map((id) => (
+            <li>
+              <a href={urlFor(id, locale)} aria-current={id === pageId ? 'page' : undefined}>
+                {t.nav[id]}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <a class="lang-switch" href={urlFor(pageId, other)} lang={other} hreflang={other} title={t.switchTo}>
+      <span class="lang-switch__flag" aria-hidden="true">{other === 'en' ? '🇬🇧' : '🇫🇷'}</span>
+      <span class="lang-switch__label">{other === 'en' ? 'English' : 'Français'}</span>
+    </a>
+  </div>
+</header>

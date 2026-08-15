@@ -1,0 +1,268 @@
+/*
+ * Charte provisoire — phase 0.
+ *
+ * Les valeurs ci-dessous posent la direction retenue au cahier des charges §9
+ * (fond papier, accent bleu de Prusse, serif, pas de cartes à ombres) mais ne
+ * sont pas les valeurs définitives : la phase 2 les arrête sur essais visuels.
+ * Tout passe par des variables pour qu'un changement de teinte ou de police
+ * reste une modification d'une seule ligne.
+ */
+
+:root {
+  /* Fond papier plutôt qu'écran : légèrement chaud, jamais blanc pur. */
+  --paper: #fbf9f4;
+  --paper-sunk: #f4f0e6;
+  --ink: #1c1c1a;
+  --ink-soft: #4a4843;
+  --rule: #ddd7c8;
+
+  /* Bleu de Prusse — accent unique du site. */
+  --accent: #14395c;
+  --accent-deep: #0d2740;
+
+  --font-display: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  --font-text: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+
+  --measure: 34rem; /* largeur de lecture confortable */
+  --gutter: clamp(1.25rem, 5vw, 4rem);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: clamp(1.05rem, 0.98rem + 0.3vw, 1.18rem);
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  line-height: 1.2;
+  font-weight: 600;
+  color: var(--accent-deep);
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(1.9rem, 1.4rem + 2.2vw, 2.9rem);
+  margin-block: 0 0.6em;
+}
+
+h2 {
+  font-size: clamp(1.4rem, 1.2rem + 1vw, 1.85rem);
+  margin-block: 2.2em 0.5em;
+}
+
+h3 {
+  font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
+  margin-block: 1.9em 0.4em;
+}
+
+p {
+  margin-block: 0 1.1em;
+  max-width: var(--measure);
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: var(--accent-deep);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip-link:focus {
+  left: var(--gutter);
+  top: 0.5rem;
+  z-index: 10;
+  background: var(--paper);
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--accent);
+}
+
+/* ---------- En-tête ---------- */
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+}
+
+.site-header__inner {
+  max-width: 68rem;
+  margin-inline: auto;
+  padding: 1.5rem var(--gutter) 1.1rem;
+  display: grid;
+  gap: 0.9rem 1.5rem;
+  grid-template-areas:
+    'identity lang'
+    'nav nav';
+  align-items: start;
+}
+
+.site-header__identity {
+  grid-area: identity;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.site-header__name {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  letter-spacing: 0.01em;
+  color: var(--accent-deep);
+}
+
+.site-header__tagline {
+  display: block;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+  letter-spacing: 0.02em;
+}
+
+.site-nav {
+  grid-area: nav;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.6rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: var(--ink-soft);
+  font-size: 0.94rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding-block: 0.2rem;
+  border-bottom: 2px solid transparent;
+}
+
+.site-nav a:hover {
+  color: var(--accent);
+}
+
+.site-nav a[aria-current='page'] {
+  color: var(--accent-deep);
+  border-bottom-color: var(--accent);
+}
+
+.lang-switch {
+  grid-area: lang;
+  justify-self: end;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--ink-soft);
+  border: 1px solid var(--rule);
+  padding: 0.3rem 0.6rem;
+}
+
+.lang-switch:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ---------- Contenu ---------- */
+
+main {
+  max-width: 68rem;
+  margin-inline: auto;
+  padding: clamp(2rem, 5vw, 3.5rem) var(--gutter);
+}
+
+/* ---------- Pied de page ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  background: var(--paper-sunk);
+  margin-top: 4rem;
+}
+
+.site-footer__inner {
+  max-width: 68rem;
+  margin-inline: auto;
+  padding: 2.5rem var(--gutter) 1rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.site-footer__heading {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-soft);
+  margin: 0 0 0.7rem;
+  font-weight: 600;
+}
+
+.site-footer p {
+  margin-block: 0 0.5em;
+  font-size: 0.92rem;
+}
+
+.site-footer__address {
+  color: var(--ink-soft);
+  max-width: 24rem;
+}
+
+.site-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.1rem;
+  font-size: 0.92rem;
+}
+
+.site-footer__legal {
+  max-width: 68rem;
+  margin-inline: auto;
+  padding: 0 var(--gutter) 2.5rem;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+@media (min-width: 46rem) {
+  .site-header__inner {
+    grid-template-areas: 'identity nav lang';
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+  }
+
+  .site-nav ul {
+    justify-content: flex-end;
+  }
+}

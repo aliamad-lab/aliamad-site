@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import { navOrder, routes, ui, type PageId } from '../i18n/config';
+
+/**
+ * Les pages françaises sont générées depuis la table des routes : ajouter une
+ * rubrique au menu la crée dans les deux langues, sans risque de divergence
+ * entre les deux versions du site.
+ */
+export function getStaticPaths() {
+  return navOrder.map((id) => ({
+    params: { slug: routes[id].fr || undefined },
+    props: { pageId: id as PageId },
+  }));
+}
+
+const { pageId } = Astro.props;
+const t = ui.fr;
+const heading = t.nav[pageId];
+const title = pageId === 'home' ? `${t.siteTitle} — ${t.tagline}` : `${heading} — ${t.siteTitle}`;
+---
+
+<Base locale="fr" pageId={pageId} title={title} description={t.tagline}>
+  <h1>{heading}</h1>
+  <p>Contenu en cours de migration.</p>
+</Base>

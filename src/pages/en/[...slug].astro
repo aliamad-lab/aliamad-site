@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { navOrder, routes, ui, type PageId } from '../../i18n/config';
+
+export function getStaticPaths() {
+  return navOrder.map((id) => ({
+    params: { slug: routes[id].en || undefined },
+    props: { pageId: id as PageId },
+  }));
+}
+
+const { pageId } = Astro.props;
+const t = ui.en;
+const heading = t.nav[pageId];
+const title = pageId === 'home' ? `${t.siteTitle} — ${t.tagline}` : `${heading} — ${t.siteTitle}`;
+---
+
+<Base locale="en" pageId={pageId} title={title} description={t.tagline}>
+  <h1>{heading}</h1>
+  <p>Translation pending.</p>
+</Base>

@@ -1,0 +1,55 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { ui, urlFor, locales, type Locale, type PageId } from '../i18n/config';
+import '../styles/global.css';
+
+interface Props {
+  locale: Locale;
+  pageId: PageId;
+  title: string;
+  description: string;
+}
+
+const { locale, pageId, title, description } = Astro.props;
+const t = ui[locale];
+const canonical = new URL(urlFor(pageId, locale), Astro.site);
+
+// Le site Google Sites déclarait lang="en" sur des pages françaises. On rétablit
+// ici la langue réelle de chaque page, pour les lecteurs d'écran comme pour le
+// référencement. Les commentaires restent dans le frontmatter : un commentaire
+// HTML serait servi au visiteur.
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    {
+      locales.map((l) => (
+        <link rel="alternate" hreflang={l} href={new URL(urlFor(pageId, l), Astro.site)} />
+      ))
+    }
+    <link rel="alternate" hreflang="x-default" href={new URL(urlFor(pageId, 'fr'), Astro.site)} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={locale === 'fr' ? 'fr_FR' : 'en_GB'} />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenu">{t.skipToContent}</a>
+    <SiteHeader locale={locale} pageId={pageId} />
+    <main id="contenu">
+      <slot />
+    </main>
+    <SiteFooter locale={locale} />
+  </body>
+</html>
