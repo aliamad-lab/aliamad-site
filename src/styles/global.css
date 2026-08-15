@@ -299,6 +299,10 @@ main {
   max-width: 24rem;
 }
 
+.site-footer__address span {
+  display: block;
+}
+
 .site-footer__links {
   list-style: none;
   margin: 0;

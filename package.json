@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "publications": "node scripts/build-publications.mjs",
-    "favicons": "node scripts/build-favicons.mjs"
+    "favicons": "node scripts/build-favicons.mjs",
+    "thumbnails": "node scripts/fetch-thumbnails.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^7.0.5",

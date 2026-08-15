@@ -10,6 +10,9 @@ description: >-
 ---
 
 import VideoEmbed from '../../../components/VideoEmbed.astro';
+import vignetteFondamentale from '../../../assets/images/videos/calypso-clinique-fondamentale.jpg';
+import vignetteEpistemologie from '../../../assets/images/videos/calypso-bases-epistemologiques.jpg';
+import vignetteDepression from '../../../assets/images/videos/calypso-depression.jpg';
 
 Mon activité de recherche s'inscrit à l'interface entre clinique psychiatrique
 spécialisée et neurosciences cliniques. Elle vise à mieux caractériser les
@@ -49,6 +52,7 @@ fragiles.
 
 <VideoEmbed
   id="mPIuvoqGzm4"
+  thumbnail={vignetteFondamentale}
   title="La clinique fondamentale"
   context="Communication au Congrès Français de Psychiatrie, 2019"
 />
@@ -58,6 +62,7 @@ précise du projet, sont détaillées dans cette communication.
 
 <VideoEmbed
   id="dY2bxclkMtg"
+  thumbnail={vignetteEpistemologie}
   title="Bases épistémologiques et présentation du projet CALYPSO"
   context="Communication au Congrès Français de Psychiatrie, Lille, 2022"
 />
@@ -73,6 +78,7 @@ mouvements de la tête.
 
 <VideoEmbed
   id="H6OMQm-QRL8"
+  thumbnail={vignetteDepression}
   title="Premiers résultats de CALYPSO appliquée à la dépression"
   context="Communication à L'Encéphale, 2025"
 />

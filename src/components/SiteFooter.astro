@@ -17,11 +17,18 @@ const year = new Date().getFullYear();
       <h2 class="site-footer__heading">{t.contactLabel}</h2>
       <p><ContactLink /></p>
       <p class="site-footer__address">
-        {
-          locale === 'fr'
-            ? 'Faculté de médecine, Université de Lille — Service de psychiatrie adulte, CHU de Lille'
-            : 'Faculty of Medicine, University of Lille — Department of Adult Psychiatry, Lille University Hospital'
-        }
+        {/* Une ligne par institution : d'un seul tenant, la ligne était trop longue.
+            L'université reste citée avant l'hôpital. */}
+        <span>
+          {locale === 'fr'
+            ? 'Faculté de médecine, Université de Lille'
+            : 'Faculty of Medicine, University of Lille'}
+        </span>
+        <span>
+          {locale === 'fr'
+            ? 'Service de psychiatrie adulte, CHU de Lille'
+            : 'Department of Adult Psychiatry, Lille University Hospital'}
+        </span>
       </p>
     </div>
 

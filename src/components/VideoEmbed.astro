@@ -1,37 +1,51 @@
 ---
+import { Image } from 'astro:assets';
+
 interface Props {
   /** Identifiant YouTube de la vidéo */
   id: string;
   title: string;
   /** Contexte de la communication : congrès, lieu, année */
   context?: string;
+  /** Miniature, récupérée par `npm run thumbnails` puis versionnée */
+  thumbnail: ImageMetadata;
 }
 
-const { id, title, context } = Astro.props;
+const { id, title, context, thumbnail } = Astro.props;
 const locale = Astro.currentLocale ?? 'fr';
-const label = locale === 'en' ? 'Play video' : 'Voir la vidéo';
-const notice =
-  locale === 'en'
-    ? 'Loads from YouTube on click'
-    : 'Se charge depuis YouTube au clic';
+const label = locale === 'en' ? `Play: ${title}` : `Lire la vidéo : ${title}`;
 
 /**
- * Aucune requête n'est adressée à YouTube tant que le visiteur n'a pas cliqué.
- * Une iframe classique appellerait Google au chargement de la page et y
- * déposerait des traceurs, ce qui imposerait un bandeau de consentement. Ici,
- * rien ne part sans action explicite, et la lecture passe par le domaine sans
- * cookie de YouTube.
+ * La miniature est servie par le site, pas par YouTube : la page a l'aspect
+ * d'une vidéo embarquée, mais aucune requête ne part chez Google tant que le
+ * visiteur n'a pas cliqué. Une iframe classique — ou même une miniature appelée
+ * sur i.ytimg.com — signalerait chaque visite dès l'ouverture de la page, ce
+ * qui imposerait un bandeau de consentement.
  */
 ---
 
 <figure class="video">
-  <div class="video__stage" data-video-id={id} data-video-title={title}>
-    <button type="button" class="video__play">
-      <span class="video__play-icon" aria-hidden="true">▶</span>
-      <span class="video__play-label">{label}</span>
-    </button>
-    <span class="video__notice">{notice}</span>
-  </div>
+  <button class="video__stage" type="button" data-video-id={id} data-video-title={title} aria-label={label}>
+    <Image
+      class="video__thumb"
+      src={thumbnail}
+      alt=""
+      widths={[480, 720, 1080]}
+      sizes="(min-width: 47rem) 47rem, 100vw"
+      format="webp"
+      loading="lazy"
+    />
+    <span class="video__play" aria-hidden="true">
+      <svg viewBox="0 0 68 48" width="68" height="48">
+        <path
+          class="video__play-fond"
+          d="M66.5 7.7a8.6 8.6 0 0 0-6-6C55.2 0 34 0 34 0S12.8 0 7.5 1.7a8.6 8.6 0 0 0-6 6A89.6 89.6 0 0 0 0 24a89.6 89.6 0 0 0 1.5 16.3 8.6 8.6 0 0 0 6 6C12.8 48 34 48 34 48s21.2 0 26.5-1.7a8.6 8.6 0 0 0 6-6A89.6 89.6 0 0 0 68 24a89.6 89.6 0 0 0-1.5-16.3z"
+        ></path>
+        <path d="M45 24 27 14v20z" fill="#fff"></path>
+      </svg>
+    </span>
+  </button>
+
   <figcaption class="video__caption">
     <strong>{title}</strong>
     {context && <span class="video__context">{context}</span>}
@@ -40,19 +54,18 @@ const notice =
 
 <script>
   for (const stage of document.querySelectorAll<HTMLElement>('.video__stage[data-video-id]')) {
-    stage.querySelector('.video__play')?.addEventListener('click', () => {
+    stage.addEventListener('click', () => {
       const { videoId, videoTitle } = stage.dataset;
       if (!videoId) return;
 
       const frame = document.createElement('iframe');
       frame.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`;
       frame.title = videoTitle ?? '';
-      frame.loading = 'lazy';
       frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture';
       frame.allowFullscreen = true;
       frame.className = 'video__iframe';
 
-      stage.replaceChildren(frame);
+      stage.replaceWith(frame);
     });
   }
 </script>
@@ -60,51 +73,51 @@ const notice =
 <style>
   .video {
     margin: 2rem 0;
-    max-width: 44rem;
   }
 
   .video__stage {
     position: relative;
+    display: block;
+    width: 100%;
     aspect-ratio: 16 / 9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.75rem;
-    background: var(--paper-sunk);
+    padding: 0;
     border: 1px solid var(--rule);
+    background: var(--paper-sunk);
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .video__stage :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
   .video__play {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
-    font: inherit;
-    font-size: 0.95rem;
-    color: var(--paper);
-    background: var(--accent);
-    border: 0;
-    padding: 0.6rem 1.2rem;
-    cursor: pointer;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
   }
 
-  .video__play:hover {
-    background: var(--accent-deep);
+  .video__play-fond {
+    fill: #1f1f1f;
+    fill-opacity: 0.8;
+    transition: fill-opacity 0.15s;
   }
 
-  .video__play-icon {
-    font-size: 0.8em;
-  }
-
-  .video__notice {
-    font-size: 0.8rem;
-    color: var(--ink-soft);
+  .video__stage:hover .video__play-fond,
+  .video__stage:focus-visible .video__play-fond {
+    fill: #c00;
+    fill-opacity: 1;
   }
 
   .video__iframe {
     width: 100%;
-    height: 100%;
+    aspect-ratio: 16 / 9;
     border: 0;
+    display: block;
   }
 
   .video__caption {
