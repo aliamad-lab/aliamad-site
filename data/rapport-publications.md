@@ -2,10 +2,10 @@
 
 Généré le 15/08/2026 depuis `data/scholar-export.bib`.
 
-- **278** publications retenues
-- **209** appariées à un DOI (75 %)
+- **274** publications retenues
+- **209** appariées à un DOI (76 %)
 - **201** avec des affiliations exploitables pour la carte
-- **2** doublon(s) écarté(s)
+- **3** doublon(s) écarté(s)
 
 ## Titres douteux (1)
 
@@ -81,14 +81,10 @@ rempli le mauvais champ. À remplacer par le vrai titre, ou à supprimer.
 - 2012 — Schizophrénie chez l'adulte *(Pathologies Schizophréniques)*
 - 2011 — Etude des hallucinations dans la schizophrénie par imagerie en tenseur de diffusion et tractographie
 - 2011 — Fibromyalgia and psychiatry: 35 years later… what's new? *(Presse medicale (Paris, France: 1983))*
-- s.d. — B and Bruchhage, Muriel MK and Lowry, Ruth Gand Wheeler, James and Robertson, Andrew and Williams, Steven CR and Smith, Marcus S (2016). Motor Learning Induces Plasticity in the
-- s.d. — CONTRIBUTIONS FOR THE EUROPEAN ASSOCIATION FOR PSYCHOSOMATIC MEDICINE
-- s.d. — Drum Training induces MR visible changes in the Cerebellum and Cortex
-- s.d. — Sensory Gating Inventory (SGI)[2]. Parallèlement à ce concept clinique, l’exploration neurophysiologique des potentiels évoqués auditifs (PEA) a fourni un marqueur endophénotypique robuste dans la SCZ: le déficit d’atténuation du potentiel P50 dans le paradigme des doubles clics (3), supposé rendre compte d’une anomalie de filtrage préattentionnelle des entrées sensorielles (3).
 
 ## Champs manquants dans l’export Scholar
 
-**Sans revue (14)**
+**Sans revue (10)**
 
 - 2026 — BRAIN COMMUNICATIONS
 - 2026 — Observable Physical Signs in Psychiatric Disorders: A Systematic Review of the existing scientific literature
@@ -100,10 +96,6 @@ rempli le mauvais champ. À remplacer par le vrai titre, ou à supprimer.
 - 2015 — Prise en charge des troubles du comportement alimentaire dans la schizophrénie
 - 2014 — Étude de la plasticité cérébrale en psychiatrie à partir de plusieurs modèles pathologiques: le trouble de personnalité borderline et les hallucinations
 - 2011 — Etude des hallucinations dans la schizophrénie par imagerie en tenseur de diffusion et tractographie
-- s.d. — B and Bruchhage, Muriel MK and Lowry, Ruth Gand Wheeler, James and Robertson, Andrew and Williams, Steven CR and Smith, Marcus S (2016). Motor Learning Induces Plasticity in the
-- s.d. — CONTRIBUTIONS FOR THE EUROPEAN ASSOCIATION FOR PSYCHOSOMATIC MEDICINE
-- s.d. — Drum Training induces MR visible changes in the Cerebellum and Cortex
-- s.d. — Sensory Gating Inventory (SGI)[2]. Parallèlement à ce concept clinique, l’exploration neurophysiologique des potentiels évoqués auditifs (PEA) a fourni un marqueur endophénotypique robuste dans la SCZ: le déficit d’atténuation du potentiel P50 dans le paradigme des doubles clics (3), supposé rendre compte d’une anomalie de filtrage préattentionnelle des entrées sensorielles (3).
 
 **Sans auteur (8)**
 
@@ -116,17 +108,15 @@ rempli le mauvais champ. À remplacer par le vrai titre, ou à supprimer.
 - 2018 — Supervised off-label prescribing of methylphenidate in adult ADHD
 - 2014 — The arcuate fasciculus in auditory-verbal hallucinations: a meta-analysis of diffusion-tensor-imaging studies
 
-**Sans année (4)**
+**Sans année (0)**
 
-- B and Bruchhage, Muriel MK and Lowry, Ruth Gand Wheeler, James and Robertson, Andrew and Williams, Steven CR and Smith, Marcus S (2016). Motor Learning Induces Plasticity in the
-- CONTRIBUTIONS FOR THE EUROPEAN ASSOCIATION FOR PSYCHOSOMATIC MEDICINE
-- Drum Training induces MR visible changes in the Cerebellum and Cortex
-- Sensory Gating Inventory (SGI)[2]. Parallèlement à ce concept clinique, l’exploration neurophysiologique des potentiels évoqués auditifs (PEA) a fourni un marqueur endophénotypique robuste dans la SCZ: le déficit d’atténuation du potentiel P50 dans le paradigme des doubles clics (3), supposé rendre compte d’une anomalie de filtrage préattentionnelle des entrées sensorielles (3).
+*Aucune.*
 
 ## Doublons écartés
 
 **Par titre identique**
 
+- Motor Learning Induces Plasticity in the Resting Brain—Drumming Up a Connection
 - Drum training induces long-term plasticity in the cerebellum and connected cortical thickness
 - Hospitalization in French forensic units: results of a patient satisfaction survey.
 
@@ -138,6 +128,7 @@ rempli le mauvais champ. À remplacer par le vrai titre, ou à supprimer.
 - Les complaintes du carabin. Modèle pour un raisonnement clinique pratique The laments of the medical student. Model for a practice clinical reasoning (DOI 10.1016/j.amp.2016.08.003)
 - Les maladies neurologiques à expression psychiatrique: importance de l’examen neurologique Neurological diseases with psychiatric expression: Importance of neurological examination (DOI 10.1016/j.amp.2017.03.004)
 - L’examen clinique psychiatrique standardisé pour l’étudiant, c’est possible! A standardized psychiatric clinical examination for students is possible! (DOI 10.1016/j.amp.2018.09.007)
+- Drum Training induces MR visible changes in the Cerebellum and Cortex (DOI 10.1038/s41598-020-65877-2)
 - Religiosity and prevalence of suicide, psychiatric disorders and psychotic symptoms in the French general population (DOI 10.1007/s00406-021-01233-3)
 - Correction: Psychiatric adverse events associated with infliximab: a cohort study from the French nationwide discharge abstract database (DOI 10.3389/fphar.2025.1719490)
 

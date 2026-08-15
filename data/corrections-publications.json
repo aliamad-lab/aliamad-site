@@ -1,0 +1,44 @@
+{
+  "_lisezMoi": [
+    "Corrections appliquées à l'export Google Scholar, qui contient des entrées",
+    "mal formées. Ce fichier est la seule chose à modifier pour retirer ou",
+    "rectifier une référence : le script n'a pas à être touché.",
+    "",
+    "Les clés sont celles du fichier .bib (première ligne de chaque entrée).",
+    "À chaque nouvel export Scholar, ces corrections restent valables tant que",
+    "les clés ne changent pas ; le rapport de relecture signale les nouveaux cas."
+  ],
+
+  "exclusions": {
+    "horncontributions": "Titre réduit au nom d'une société savante, sans article identifiable derrière.",
+    "fovetsensory": "Le champ titre contient un fragment de corps de texte, pas un titre."
+  },
+
+  "remplacements": {
+    "amadb": {
+      "_motif": "Export Scholar corrompu : la liste d'auteurs avait débordé dans le champ titre, tronquant celui-ci à « Motor Learning Induces Plasticity in the ». Références rétablies depuis Crossref, auteurs reconstitués depuis le champ corrompu.",
+      "titre": "Motor Learning Induces Plasticity in the Resting Brain—Drumming Up a Connection",
+      "auteurs": [
+        "Amad, Ali",
+        "Seidman, Jade",
+        "Draper, Stephen B",
+        "Bruchhage, Muriel MK",
+        "Lowry, Ruth G",
+        "Wheeler, James",
+        "Robertson, Andrew",
+        "Williams, Steven CR",
+        "Smith, Marcus S"
+      ],
+      "annee": 2016,
+      "revue": "Cerebral Cortex",
+      "doi": "10.1093/cercor/bhw048"
+    },
+
+    "bruchhagedrum": {
+      "_motif": "Titre de version préliminaire, sans année ni revue dans l'export. Le DOI rattache l'entrée à l'article publié ; la déduplication par DOI la fusionne alors avec la version complète déjà présente.",
+      "annee": 2020,
+      "revue": "Scientific Reports",
+      "doi": "10.1038/s41598-020-65877-2"
+    }
+  }
+}

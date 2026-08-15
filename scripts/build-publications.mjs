@@ -19,6 +19,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const SOURCE = 'data/scholar-export.bib';
+const CORRECTIONS = 'data/corrections-publications.json';
 const CACHE = 'data/cache-enrichissement.json';
 const SORTIE = 'src/data/publications.json';
 const RAPPORT = 'data/rapport-publications.md';
@@ -251,6 +252,31 @@ console.log('Lecture de', SOURCE);
 let publications = lireBib(SOURCE);
 console.log(`  ${publications.length} entrées`);
 
+/**
+ * Corrections manuelles, appliquées avant tout traitement.
+ *
+ * L'export Scholar comporte des entrées irrécupérables par programme : champs
+ * intervertis, titres tronqués, fragments de texte à la place d'un titre. Elles
+ * sont rectifiées ou écartées ici, dans un fichier de données que l'on peut
+ * modifier sans toucher au script.
+ */
+const corrections = JSON.parse(fs.readFileSync(CORRECTIONS, 'utf8'));
+
+const exclues = publications.filter((p) => p.cle in corrections.exclusions);
+publications = publications.filter((p) => !(p.cle in corrections.exclusions));
+if (exclues.length) console.log(`  ${exclues.length} entrée(s) écartée(s) manuellement`);
+
+let rectifiees = 0;
+for (const p of publications) {
+  const correction = corrections.remplacements[p.cle];
+  if (!correction) continue;
+  for (const [champ, valeur] of Object.entries(correction)) {
+    if (!champ.startsWith('_')) p[champ] = valeur;
+  }
+  rectifiees++;
+}
+if (rectifiees) console.log(`  ${rectifiees} entrée(s) rectifiée(s) manuellement`);
+
 const nbRevues = normaliserRevues(publications);
 console.log(`  ${nbRevues} revues distinctes après normalisation`);
 
@@ -266,9 +292,13 @@ let avecInstitutions = 0;
 for (const [i, pub] of publications.entries()) {
   const clef = clefTitre(pub.titre);
 
+  // Un DOI fourni par une correction fait autorité : on ne le cherche pas, on
+  // s'en sert directement pour interroger OpenAlex.
+  const doiManuel = corrections.remplacements[pub.cle]?.doi ?? null;
+
   if (!(clef in cache)) {
     try {
-      const cr = await chercherCrossref(pub);
+      const cr = doiManuel ? { doi: doiManuel } : await chercherCrossref(pub);
       let oa = null;
       if (cr?.doi) {
         await pause(120);
@@ -284,6 +314,16 @@ for (const [i, pub] of publications.entries()) {
   }
 
   Object.assign(pub, cache[clef]);
+
+  // Les corrections manuelles sont réappliquées : elles priment sur ce que les
+  // services renvoient, faute de quoi le cache écraserait le travail à la main.
+  const correction = corrections.remplacements[pub.cle];
+  if (correction) {
+    for (const [champ, valeur] of Object.entries(correction)) {
+      if (!champ.startsWith('_')) pub[champ] = valeur;
+    }
+  }
+
   if (pub.doi) apparies++;
   if (pub.institutions?.length) avecInstitutions++;
 

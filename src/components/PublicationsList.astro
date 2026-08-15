@@ -26,13 +26,14 @@ const annees = [...parAnnee.keys()].sort((a, b) => {
   return b - a;
 });
 
-const total = affichables.length;
-const avecDoi = affichables.filter((p) => p.doi).length;
+// Un chiffre arrondi vieillit mieux qu'un décompte exact, qui donnerait à
+// croire à une précision que l'export Scholar ne garantit pas.
+const arrondi = Math.floor(affichables.length / 10) * 10;
 
 const t =
   locale === 'en'
-    ? { total: (n: number) => `${n} publications`, libre: 'Open access' }
-    : { total: (n: number) => `${n} publications`, libre: 'En accès libre' };
+    ? { total: `More than ${arrondi} publications`, libre: 'Open access', replier: 'Fold or unfold this year' }
+    : { total: `Plus de ${arrondi} publications`, libre: 'En accès libre', replier: 'Plier ou déplier cette année' };
 
 /**
  * Scholar livre les auteurs sous deux formes mêlées : « Amad, Ali » et
@@ -74,15 +75,21 @@ function formaterAuteur(brut: string): string {
 const estAli = (auteur: string) => /^Amad\b/i.test(formaterAuteur(auteur));
 ---
 
-<p class="publications__compte">
-  {t.total(total)}
-  {avecDoi > 0 && <span class="publications__doi-compte"> · {avecDoi} avec DOI</span>}
-</p>
+<p class="publications__compte">{t.total}</p>
 
 {
-  annees.map((annee) => (
-    <section class="publications__annee">
-      <h2 id={`annee-${annee}`}>{annee}</h2>
+  annees.map((annee, rang) => (
+    /*
+     * <details> plie et déplie sans une ligne de JavaScript, reste accessible
+     * au clavier et aux lecteurs d'écran, et laisse le contenu trouvable par
+     * la recherche du navigateur. L'année la plus récente s'ouvre d'emblée,
+     * les précédentes attendent le clic.
+     */
+    <details class="publications__annee" open={rang === 0}>
+      <summary id={`annee-${annee}`}>
+        <span class="publications__annee-titre">{annee}</span>
+        <span class="publications__annee-compte">{parAnnee.get(annee)!.length}</span>
+      </summary>
       <ol class="publications__liste">
         {parAnnee.get(annee)!.map((p) => (
           <li class="publication">
@@ -125,7 +132,7 @@ const estAli = (auteur: string) => /^Amad\b/i.test(formaterAuteur(auteur));
           </li>
         ))}
       </ol>
-    </section>
+    </details>
   ))
 }
 
@@ -137,11 +144,52 @@ const estAli = (auteur: string) => /^Amad\b/i.test(formaterAuteur(auteur));
     border-bottom: 1px solid var(--rule);
   }
 
-  .publications__annee h2 {
-    font-size: 1.5rem;
-    margin-block: 2.2em 0.6em;
-    padding-bottom: 0.2em;
+  .publications__annee summary {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    cursor: pointer;
+    list-style: none;
+    margin-block: 1.4em 0.6em;
+    padding-bottom: 0.25em;
     border-bottom: 1px solid var(--rule);
+  }
+
+  /* Le triangle par défaut de Safari, remplacé par le chevron ci-dessous. */
+  .publications__annee summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .publications__annee summary::before {
+    content: '';
+    width: 0.42em;
+    height: 0.42em;
+    border-right: 1.5px solid var(--accent);
+    border-bottom: 1.5px solid var(--accent);
+    transform: rotate(-45deg);
+    transition: transform 0.15s ease;
+    flex: none;
+    align-self: center;
+  }
+
+  .publications__annee[open] summary::before {
+    transform: rotate(45deg);
+  }
+
+  .publications__annee-titre {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--accent-deep);
+  }
+
+  .publications__annee-compte {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+  }
+
+  .publications__annee summary:hover .publications__annee-titre {
+    color: var(--accent);
   }
 
   .publications__liste {
