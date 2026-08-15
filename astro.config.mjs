@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
+import { unified } from '@astrojs/markdown-remark';
 
 /**
  * Le site vit successivement à deux adresses :
@@ -51,7 +52,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    rehypePlugins: [rehypeBaseUrl],
+    processor: unified({ rehypePlugins: [rehypeBaseUrl] }),
   },
   redirects: {
     // La page Calypso du site actuel renvoie désormais au site du projet.

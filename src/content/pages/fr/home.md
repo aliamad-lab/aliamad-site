@@ -7,11 +7,6 @@ description: >-
   Ali Amad, professeur de psychiatrie à l'Université de Lille et au CHU de
   Lille. Clinique des troubles psychiatriques sévères et résistants, recherche
   en neurosciences cliniques, enseignement universitaire.
-banner: ../../../assets/images/accueil-darwin-chat-dos-arque.jpg
-bannerAlt: >-
-  Gravure ancienne d'un chat au dos arqué et au poil hérissé, dans une posture
-  de menace, illustrant l'expression des émotions.
-bannerFocus: 50% 40%
 ---
 
 Je suis professeur de psychiatrie à la Faculté de médecine de l'Université de

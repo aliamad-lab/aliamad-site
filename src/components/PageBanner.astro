@@ -33,8 +33,17 @@ const { image, alt, focus = '50% 50%', credit } = Astro.props;
 </figure>
 
 <style>
+  /*
+   * Le bandeau déborde la colonne de texte : une image large ancre la page,
+   * là où une ligne de texte large fatiguerait la lecture. Le décalage de 50 %
+   * puis le recentrage permettent de sortir d'un conteneur plus étroit sans
+   * toucher à la structure.
+   */
   .banner {
     margin: 0 0 clamp(1.5rem, 4vw, 2.5rem);
+    width: min(var(--measure-large), calc(100vw - 2 * var(--gutter)));
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 
   .banner :global(img) {

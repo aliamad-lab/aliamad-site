@@ -50,6 +50,10 @@ const canonical = pageId ? new URL(urlFor(pageId, locale), Astro.site) : new URL
 // aliamad.com et se mettrait en concurrence avec lui dans les résultats de
 // recherche. Seul le domaine définitif est indexable.
 const indexable = Astro.site?.host === 'www.aliamad.com' && !noindex;
+
+// Les fichiers de public/ doivent eux aussi porter le préfixe de déploiement,
+// sans quoi les icônes manquent sur l'adresse de recette.
+const asset = (file: string) => `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${file}`;
 ---
 
 <!doctype html>
@@ -61,6 +65,11 @@ const indexable = Astro.site?.host === 'www.aliamad.com' && !noindex;
     <meta name="description" content={description} />
     {!indexable && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonical} />
+
+    {/* La gravure du chat au dos arqué, déjà utilisée comme icône du site actuel. */}
+    <link rel="icon" type="image/png" sizes="32x32" href={asset('favicon-32.png')} />
+    <link rel="icon" type="image/png" sizes="96x96" href={asset('favicon-96.png')} />
+    <link rel="apple-touch-icon" href={asset('apple-touch-icon.png')} />
 
     {
       pageId && (
