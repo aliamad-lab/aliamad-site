@@ -7,14 +7,18 @@ import Base from '../layouts/Base.astro';
  * vide. Le texte est repris mot pour mot du site actuel — c'est un document à
  * portée réglementaire, pas un contenu éditorial que l'on reformule.
  *
- * La page reste hors du menu et sans version anglaise, comme aujourd'hui.
+ * La page reste hors du menu et sans version anglaise, comme aujourd'hui, et
+ * porte un noindex : DicoSemioPsy est un travail mené avec l'AESP, présenté sur
+ * le site de l'association. Cette page n'existe ici que pour honorer l'adresse
+ * déclarée sur Google Play, pas pour figurer parmi les résultats de recherche
+ * concernant Ali.
  */
 const title = 'Politique de confidentialité — Application DicoSemioPsy';
 const description =
   "Politique de confidentialité de l'application DicoSemioPsy, lexique de sémiologie psychiatrique illustré : aucune donnée personnelle collectée, aucun traceur, aucune publicité.";
 ---
 
-<Base locale="fr" title={title} description={description}>
+<Base locale="fr" title={title} description={description} noindex>
   <article class="prose">
     <h1>Politique de confidentialité – Application DicoSemioPsy</h1>
 

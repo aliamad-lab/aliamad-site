@@ -13,9 +13,15 @@ interface Props {
   pageId?: PageId;
   title: string;
   description: string;
+  /**
+   * Retire la page des moteurs de recherche tout en la laissant joignable.
+   * Utile pour une adresse qui doit exister sans faire partie du site aux yeux
+   * du public.
+   */
+  noindex?: boolean;
 }
 
-const { locale, pageId, title, description } = Astro.props;
+const { locale, pageId, title, description, noindex = false } = Astro.props;
 const t = ui[locale];
 
 const canonical = pageId ? new URL(urlFor(pageId, locale), Astro.site) : new URL(Astro.url.pathname, Astro.site);
@@ -28,7 +34,7 @@ const canonical = pageId ? new URL(urlFor(pageId, locale), Astro.site) : new URL
 // Le site de recette ne doit surtout pas être indexé : il ferait doublon avec
 // aliamad.com et se mettrait en concurrence avec lui dans les résultats de
 // recherche. Seul le domaine définitif est indexable.
-const indexable = Astro.site?.host === 'www.aliamad.com';
+const indexable = Astro.site?.host === 'www.aliamad.com' && !noindex;
 ---
 
 <!doctype html>
