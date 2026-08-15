@@ -1,0 +1,147 @@
+---
+import publications from '../data/publications.json';
+
+const locale = Astro.currentLocale ?? 'fr';
+
+/**
+ * Les publications sont groupées par année décroissante. Le titre porte le lien
+ * vers le DOI quand il existe : sans lui, le lecteur reste devant une liste de
+ * titres inertes, sans moyen d'atteindre l'article.
+ */
+// Une référence sans titre ne peut pas être présentée au lecteur. Elle reste
+// dans les données et dans le rapport de relecture, où elle attend d'être
+// complétée, mais n'apparaît pas ici sous forme de ligne vide.
+const affichables = publications.filter((p) => p.titre?.trim());
+
+const parAnnee = new Map<number | string, typeof publications>();
+for (const p of affichables) {
+  const annee = p.annee ?? (locale === 'en' ? 'Undated' : 'Sans date');
+  if (!parAnnee.has(annee)) parAnnee.set(annee, []);
+  parAnnee.get(annee)!.push(p);
+}
+
+const annees = [...parAnnee.keys()].sort((a, b) => {
+  if (typeof a === 'string') return 1;
+  if (typeof b === 'string') return -1;
+  return b - a;
+});
+
+const total = affichables.length;
+const avecDoi = affichables.filter((p) => p.doi).length;
+
+const t =
+  locale === 'en'
+    ? { total: (n: number) => `${n} publications`, libre: 'Open access' }
+    : { total: (n: number) => `${n} publications`, libre: 'En accès libre' };
+
+/** Met en évidence la signature d'Ali parmi ses co-auteurs. */
+const estAli = (auteur: string) => /(^|[\s,])Amad([\s,]|$)/i.test(auteur) || /^Amad,/i.test(auteur);
+---
+
+<p class="publications__compte">
+  {t.total(total)}
+  {avecDoi > 0 && <span class="publications__doi-compte"> · {avecDoi} avec DOI</span>}
+</p>
+
+{
+  annees.map((annee) => (
+    <section class="publications__annee">
+      <h2 id={`annee-${annee}`}>{annee}</h2>
+      <ol class="publications__liste">
+        {parAnnee.get(annee)!.map((p) => (
+          <li class="publication">
+            <span class="publication__auteurs">
+              {p.auteurs.map((a, i) => (
+                <>
+                  {i > 0 && ', '}
+                  <span class={estAli(a) ? 'publication__moi' : undefined}>{a}</span>
+                </>
+              ))}
+              {p.auteurs.length > 0 && '. '}
+            </span>
+
+            <span class="publication__titre">
+              {p.doi ? (
+                <a href={`https://doi.org/${p.doi}`} rel="noopener">
+                  {p.titre}
+                </a>
+              ) : (
+                p.titre
+              )}
+              .
+            </span>
+
+            {p.revue && <span class="publication__revue"> {p.revue}</span>}
+            {p.volume && <span>, {p.volume}</span>}
+            {p.numero && <span>({p.numero})</span>}
+            {p.pages && <span>, {p.pages}</span>}
+            {(p.revue || p.volume || p.pages) && '.'}
+
+            {p.accesLibre && p.urlAccesLibre && (
+              <>
+                {' '}
+                <a class="publication__libre" href={p.urlAccesLibre} rel="noopener">
+                  {t.libre}
+                </a>
+              </>
+            )}
+          </li>
+        ))}
+      </ol>
+    </section>
+  ))
+}
+
+<style>
+  .publications__compte {
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .publications__annee h2 {
+    font-size: 1.5rem;
+    margin-block: 2.2em 0.6em;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .publications__liste {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: publication;
+  }
+
+  .publication {
+    /* Le texte justifié convient au discours suivi, pas à des références où
+       les blancs se creuseraient entre noms propres et numéros de volume. */
+    text-align: left;
+    hyphens: manual;
+    font-size: 0.98rem;
+    line-height: 1.55;
+    margin-block: 0 1em;
+    padding-left: 1.4rem;
+    text-indent: -1.4rem;
+  }
+
+  .publication__moi {
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .publication__auteurs,
+  .publication__revue {
+    color: var(--ink-soft);
+  }
+
+  .publication__revue {
+    font-style: italic;
+  }
+
+  .publication__libre {
+    font-size: 0.85em;
+    white-space: nowrap;
+  }
+</style>

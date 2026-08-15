@@ -16,6 +16,10 @@ Mon activité associe la [clinique](/clinique) des troubles psychiatriques
 sévères et résistants, la [recherche](/recherche) en neurosciences cliniques et
 l'[enseignement](/enseignement) universitaire.
 
+Je dirige depuis février 2026 la [F2RSM Psy](https://www.f2rsmpsy.fr/),
+fédération régionale de recherche en psychiatrie et santé mentale
+Hauts-de-France.
+
 Mes travaux portent en particulier sur le développement d'une clinique
 objective, conçue comme un socle nécessaire à l'interprétation neuroscientifique
 des maladies psychiatriques. Je m'intéresse également à l'étude de la catatonie,
