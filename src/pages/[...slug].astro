@@ -1,26 +1,34 @@
 ---
+import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { navOrder, routes, ui, type PageId } from '../i18n/config';
+import PageBanner from '../components/PageBanner.astro';
+import { routes } from '../i18n/config';
 
 /**
- * Les pages françaises sont générées depuis la table des routes : ajouter une
- * rubrique au menu la crée dans les deux langues, sans risque de divergence
- * entre les deux versions du site.
+ * Les pages françaises sont générées depuis la collection de contenu : chaque
+ * fichier Markdown produit une page, à l'adresse que lui assigne la table des
+ * routes. Aucune adresse n'est écrite en dur.
  */
-export function getStaticPaths() {
-  return navOrder.map((id) => ({
-    params: { slug: routes[id].fr || undefined },
-    props: { pageId: id as PageId },
+export async function getStaticPaths() {
+  const entries = await getCollection('pages', (entry) => entry.data.locale === 'fr');
+
+  return entries.map((entry) => ({
+    params: { slug: routes[entry.data.pageId].fr || undefined },
+    props: { entry },
   }));
 }
 
-const { pageId } = Astro.props;
-const t = ui.fr;
-const heading = t.nav[pageId];
-const title = pageId === 'home' ? `${t.siteTitle} — ${t.tagline}` : `${heading} — ${t.siteTitle}`;
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { pageId, title, heading, description, banner, bannerAlt, bannerFocus, bannerCredit } = entry.data;
 ---
 
-<Base locale="fr" pageId={pageId} title={title} description={t.tagline}>
+<Base locale="fr" pageId={pageId} title={title} description={description}>
+  {banner && bannerAlt && (
+    <PageBanner image={banner} alt={bannerAlt} focus={bannerFocus} credit={bannerCredit} />
+  )}
   <h1>{heading}</h1>
-  <p>Contenu en cours de migration.</p>
+  <div class="prose">
+    <Content />
+  </div>
 </Base>

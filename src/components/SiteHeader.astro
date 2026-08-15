@@ -3,7 +3,8 @@ import { navOrder, routes, ui, urlFor, type Locale, type PageId } from '../i18n/
 
 interface Props {
   locale: Locale;
-  pageId: PageId;
+  /** Absent sur les pages isolées, sans équivalent dans l'autre langue. */
+  pageId?: PageId;
 }
 
 const { locale, pageId } = Astro.props;
@@ -36,9 +37,15 @@ const other: Locale = locale === 'fr' ? 'en' : 'fr';
       </ul>
     </nav>
 
-    <a class="lang-switch" href={urlFor(pageId, other)} lang={other} hreflang={other} title={t.switchTo}>
-      <span class="lang-switch__flag" aria-hidden="true">{other === 'en' ? '🇬🇧' : '🇫🇷'}</span>
-      <span class="lang-switch__label">{other === 'en' ? 'English' : 'Français'}</span>
-    </a>
+    {
+      pageId && (
+        <a class="lang-switch" href={urlFor(pageId, other)} lang={other} hreflang={other} title={t.switchTo}>
+          <span class="lang-switch__flag" aria-hidden="true">
+            {other === 'en' ? '🇬🇧' : '🇫🇷'}
+          </span>
+          <span class="lang-switch__label">{other === 'en' ? 'English' : 'Français'}</span>
+        </a>
+      )
+    }
   </div>
 </header>

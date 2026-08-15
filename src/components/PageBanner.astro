@@ -1,0 +1,53 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+  image: ImageMetadata;
+  alt: string;
+  /** Point de focalisation CSS, ex. « 50% 30% » */
+  focus?: string;
+  credit?: string;
+}
+
+const { image, alt, focus = '50% 50%', credit } = Astro.props;
+
+/**
+ * L'original n'est jamais rogné : il est servi entier, et seul le point de
+ * focalisation décide de ce qui reste visible dans le bandeau. Recadrer revient
+ * donc à changer une valeur dans le frontmatter, et l'image reste réutilisable
+ * autrement — ce que le format bannière de Google Sites interdisait.
+ */
+---
+
+<figure class="banner">
+  <Image
+    src={image}
+    alt={alt}
+    widths={[640, 960, 1440, 1920]}
+    sizes="(min-width: 68rem) 68rem, 100vw"
+    format="webp"
+    style={`object-position: ${focus}`}
+    loading="eager"
+  />
+  {credit && <figcaption class="banner__credit">{credit}</figcaption>}
+</figure>
+
+<style>
+  .banner {
+    margin: 0 0 clamp(1.5rem, 4vw, 2.5rem);
+  }
+
+  .banner :global(img) {
+    width: 100%;
+    height: clamp(12rem, 34vw, 22rem);
+    object-fit: cover;
+    display: block;
+  }
+
+  .banner__credit {
+    margin-top: 0.5rem;
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    font-style: italic;
+  }
+</style>

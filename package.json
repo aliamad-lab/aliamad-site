@@ -10,6 +10,7 @@
     "publications": "node scripts/build-publications.mjs"
   },
   "dependencies": {
+    "@astrojs/mdx": "^7.0.5",
     "astro": "^7.2.2",
     "sharp": "^0.35.3"
   }

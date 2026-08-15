@@ -1,0 +1,16 @@
+---
+pageId: publications
+locale: fr
+title: Publications — Ali Amad
+heading: Publications
+description: >-
+  Publications scientifiques d'Ali Amad en psychiatrie et neurosciences
+  cliniques : articles originaux, revues et chapitres d'ouvrages.
+banner: ../../../assets/images/publications-revues.jpg
+bannerAlt: Revues scientifiques ouvertes et empilées sur une table.
+bannerFocus: 50% 50%
+---
+
+Mes travaux de recherche ont donné lieu à des publications scientifiques
+incluant des articles originaux, des revues et des chapitres d'ouvrages,
+principalement dans le champ de la psychiatrie et des neurosciences cliniques.

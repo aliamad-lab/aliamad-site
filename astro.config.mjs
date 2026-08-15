@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import mdx from '@astrojs/mdx';
 
 /**
  * Le site vit successivement à deux adresses :
@@ -14,9 +15,32 @@ import { defineConfig } from 'astro/config';
 const site = process.env.SITE_URL ?? 'https://www.aliamad.com';
 const base = process.env.SITE_BASE ?? '/';
 
+/**
+ * Les liens écrits dans le contenu Markdown sont naturellement absolus
+ * (`/clinique`). En recette, le site étant servi depuis un sous-répertoire, ils
+ * mèneraient à des 404. Ce greffon leur applique le même préfixe que celui
+ * qu'`urlFor` applique aux liens de navigation, pour que l'auteur du contenu
+ * n'ait jamais à s'en préoccuper.
+ */
+function rehypeBaseUrl() {
+  const prefix = base.replace(/\/$/, '');
+  return (tree) => {
+    if (!prefix) return;
+    const walk = (node) => {
+      const href = node?.properties?.href;
+      if (node.tagName === 'a' && typeof href === 'string' && href.startsWith('/') && !href.startsWith('//')) {
+        node.properties.href = prefix + href;
+      }
+      for (const child of node.children ?? []) walk(child);
+    };
+    walk(tree);
+  };
+}
+
 export default defineConfig({
   site,
   base,
+  integrations: [mdx()],
   i18n: {
     defaultLocale: 'fr',
     locales: ['fr', 'en'],
@@ -25,6 +49,15 @@ export default defineConfig({
       // (/clinique, /recherche…) pour ne pas casser les liens existants.
       prefixDefaultLocale: false,
     },
+  },
+  markdown: {
+    rehypePlugins: [rehypeBaseUrl],
+  },
+  redirects: {
+    // La page Calypso du site actuel renvoie désormais au site du projet.
+    // Son contenu propre — clinique fondamentale, origine du nom, vidéos —
+    // a rejoint la page Recherche, le site du projet ne le portant pas.
+    '/calypso': 'https://calypso.univ-lille.fr/',
   },
   build: {
     format: 'directory',

@@ -6,24 +6,29 @@ import '../styles/global.css';
 
 interface Props {
   locale: Locale;
-  pageId: PageId;
+  /**
+   * Absent pour les pages isolées, hors menu et sans équivalent dans l'autre
+   * langue — la politique de confidentialité de DicoSemioPsy, par exemple.
+   */
+  pageId?: PageId;
   title: string;
   description: string;
 }
 
 const { locale, pageId, title, description } = Astro.props;
 const t = ui[locale];
-const canonical = new URL(urlFor(pageId, locale), Astro.site);
 
-// Le site de recette ne doit surtout pas être indexé : il ferait doublon avec
-// aliamad.com et se mettrait en concurrence avec lui dans les résultats de
-// recherche. Seul le domaine définitif est indexable.
-const indexable = Astro.site?.host === 'www.aliamad.com';
+const canonical = pageId ? new URL(urlFor(pageId, locale), Astro.site) : new URL(Astro.url.pathname, Astro.site);
 
 // Le site Google Sites déclarait lang="en" sur des pages françaises. On rétablit
 // ici la langue réelle de chaque page, pour les lecteurs d'écran comme pour le
 // référencement. Les commentaires restent dans le frontmatter : un commentaire
 // HTML serait servi au visiteur.
+
+// Le site de recette ne doit surtout pas être indexé : il ferait doublon avec
+// aliamad.com et se mettrait en concurrence avec lui dans les résultats de
+// recherche. Seul le domaine définitif est indexable.
+const indexable = Astro.site?.host === 'www.aliamad.com';
 ---
 
 <!doctype html>
@@ -37,11 +42,15 @@ const indexable = Astro.site?.host === 'www.aliamad.com';
     <link rel="canonical" href={canonical} />
 
     {
-      locales.map((l) => (
-        <link rel="alternate" hreflang={l} href={new URL(urlFor(pageId, l), Astro.site)} />
-      ))
+      pageId && (
+        <>
+          {locales.map((l) => (
+            <link rel="alternate" hreflang={l} href={new URL(urlFor(pageId, l), Astro.site)} />
+          ))}
+          <link rel="alternate" hreflang="x-default" href={new URL(urlFor(pageId, 'fr'), Astro.site)} />
+        </>
+      )
     }
-    <link rel="alternate" hreflang="x-default" href={new URL(urlFor(pageId, 'fr'), Astro.site)} />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
