@@ -166,7 +166,15 @@ function dedupliquer(publications) {
 const cache = fs.existsSync(CACHE) ? JSON.parse(fs.readFileSync(CACHE, 'utf8')) : {};
 const pause = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/** Proportion de mots communs : suffisant pour valider un appariement de titre. */
+/**
+ * Proportion de mots communs entre deux titres.
+ *
+ * Le dénominateur est le plus grand des deux ensembles, et non le plus petit :
+ * sinon un titre de deux mots inclus dans un titre long obtient un score
+ * parfait. C'est ainsi qu'une entrée intitulée « BRAIN COMMUNICATIONS » — où
+ * Scholar avait mis le nom de la revue à la place du titre — s'était vu
+ * attribuer le DOI d'un article sans rapport.
+ */
 function similarite(a, b) {
   const mots = (s) => new Set(clefTitre(s).split(' ').filter((m) => m.length > 3));
   const A = mots(a);
@@ -174,10 +182,19 @@ function similarite(a, b) {
   if (!A.size || !B.size) return 0;
   let communs = 0;
   for (const m of A) if (B.has(m)) communs++;
-  return communs / Math.min(A.size, B.size);
+  return communs / Math.max(A.size, B.size);
 }
 
+/**
+ * Un titre de moins de quatre mots significatifs ne permet pas un appariement
+ * fiable : trop peu de matière pour distinguer un article d'un autre. On
+ * préfère l'absence de DOI à un DOI faux.
+ */
+const titreApparaissable = (t) => clefTitre(t).split(' ').filter((m) => m.length > 3).length >= 4;
+
 async function chercherCrossref(pub) {
+  if (!titreApparaissable(pub.titre)) return null;
+
   const requete = new URL('https://api.crossref.org/works');
   requete.searchParams.set('query.bibliographic', `${pub.titre} ${pub.revue}`.slice(0, 300));
   requete.searchParams.set('rows', '3');
@@ -275,6 +292,52 @@ for (const [i, pub] of publications.entries()) {
 
 fs.writeFileSync(CACHE, JSON.stringify(cache, null, 1));
 
+/**
+ * Seconde déduplication, par DOI cette fois.
+ *
+ * Scholar produit parfois deux entrées pour un même article, l'une correcte,
+ * l'autre dont le champ titre a reçu le nom de la revue. Leurs titres diffèrent,
+ * la comparaison par titre ne peut donc pas les rapprocher — mais leur DOI est
+ * le même. Cette passe n'est possible qu'après l'enrichissement.
+ */
+// Un titre tout en capitales et sans revue associée trahit un champ mal rempli.
+const qualite = (x) =>
+  (x.revue ? 2 : 0) + (x.titre && x.titre === x.titre.toUpperCase() ? -3 : 0) + (x.titre?.length ?? 0) / 100;
+
+const groupesDoi = new Map();
+for (const p of publications) {
+  if (!p.doi) continue;
+  if (!groupesDoi.has(p.doi)) groupesDoi.set(p.doi, []);
+  groupesDoi.get(p.doi).push(p);
+}
+
+const gagnantes = new Set();
+const doublonsDoi = [];
+for (const [doi, groupe] of groupesDoi) {
+  // Tri explicite plutôt que comparaison au fil de l'eau : le résultat ne
+  // dépend plus de l'ordre de lecture du fichier.
+  const triees = [...groupe].sort((a, b) => qualite(b) - qualite(a));
+  gagnantes.add(triees[0]);
+  for (const perdante of triees.slice(1)) doublonsDoi.push(`${perdante.titre} (DOI ${doi})`);
+}
+
+if (doublonsDoi.length) {
+  publications = publications.filter((p) => !p.doi || gagnantes.has(p));
+  console.log(`  ${doublonsDoi.length} doublon(s) supplémentaire(s) détecté(s) par DOI`);
+}
+
+// Scholar conserve le double tiret LaTeX, qui doit s'afficher comme un tiret
+// demi-cadratin — dans les pages comme dans les titres.
+for (const p of publications) {
+  if (p.pages) p.pages = p.pages.replace(/-{2,}/g, '–');
+  if (p.titre) p.titre = p.titre.replace(/(\w)-{2,}(\w)/g, '$1 – $2');
+}
+
+// Les compteurs sont établis après les deux déduplications, sans quoi ils
+// décriraient un jeu de données qui n'existe plus.
+apparies = publications.filter((p) => p.doi).length;
+avecInstitutions = publications.filter((p) => p.institutions?.length).length;
+
 publications.sort((a, b) => (b.annee ?? 0) - (a.annee ?? 0) || a.titre.localeCompare(b.titre, 'fr'));
 
 fs.mkdirSync(path.dirname(SORTIE), { recursive: true });
@@ -289,6 +352,17 @@ const sansRevue = publications.filter((p) => !p.revue);
 const sansAuteur = publications.filter((p) => !p.auteurs.length);
 const sansAnnee = publications.filter((p) => !p.annee);
 
+/**
+ * Un titre qui reproduit le nom d'une revue présente ailleurs dans le corpus
+ * est presque toujours un enregistrement Scholar mal rempli, où le champ revue
+ * a débordé sur le champ titre. On ne corrige pas d'office — impossible de
+ * deviner le vrai titre — mais on le signale nommément.
+ */
+const revuesConnues = new Set(publications.map((p) => clefTitre(p.revue)).filter(Boolean));
+const titresSuspects = publications.filter(
+  (p) => p.titre && revuesConnues.has(clefTitre(p.titre)) && !p.revue,
+);
+
 const rapport = [
   '# Relecture de la bibliographie',
   '',
@@ -298,6 +372,15 @@ const rapport = [
   `- **${apparies}** appariées à un DOI (${Math.round((apparies / publications.length) * 100)} %)`,
   `- **${avecInstitutions}** avec des affiliations exploitables pour la carte`,
   `- **${doublons.length}** doublon(s) écarté(s)`,
+  '',
+  `## Titres douteux (${titresSuspects.length})`,
+  '',
+  "Le titre reproduit le nom d'une revue : l'export Scholar a vraisemblablement",
+  'rempli le mauvais champ. À remplacer par le vrai titre, ou à supprimer.',
+  '',
+  ...(titresSuspects.length
+    ? titresSuspects.map((p) => `- clé \`${p.cle}\` — ${p.annee ?? 's.d.'} — « ${p.titre} »`)
+    : ['*Aucun.*']),
   '',
   '## Sans DOI — à vérifier à la main',
   '',
@@ -321,7 +404,13 @@ const rapport = [
   '',
   '## Doublons écartés',
   '',
+  '**Par titre identique**',
+  '',
   ...(doublons.length ? doublons.map((t) => `- ${t}`) : ['*Aucun.*']),
+  '',
+  '**Par DOI identique** — titres différents, même article',
+  '',
+  ...(doublonsDoi.length ? doublonsDoi.map((t) => `- ${t}`) : ['*Aucun.*']),
   '',
   `## Entrées sans titre (${sansTitre.length})`,
   '',

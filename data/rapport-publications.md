@@ -2,13 +2,21 @@
 
 Généré le 15/08/2026 depuis `data/scholar-export.bib`.
 
-- **286** publications retenues
-- **225** appariées à un DOI (79 %)
-- **215** avec des affiliations exploitables pour la carte
+- **278** publications retenues
+- **209** appariées à un DOI (75 %)
+- **201** avec des affiliations exploitables pour la carte
 - **2** doublon(s) écarté(s)
+
+## Titres douteux (1)
+
+Le titre reproduit le nom d'une revue : l'export Scholar a vraisemblablement
+rempli le mauvais champ. À remplacer par le vrai titre, ou à supprimer.
+
+- clé `deneve2026brain` — 2026 — « BRAIN COMMUNICATIONS »
 
 ## Sans DOI — à vérifier à la main
 
+- 2026 — BRAIN COMMUNICATIONS
 - 2026 — Electroconvulsive therapy, it's all about (psycho) education! *(Annales Medico-Psychologiques)*
 - 2026 — Observable Physical Signs in Psychiatric Disorders: A Systematic Review of the existing scientific literature
 - 2026 — The hearing with the" custody and liberty judge": How is it perceived by incarcerated people involuntary hospitalized? *(L'encéphale)*
@@ -16,21 +24,26 @@ Généré le 15/08/2026 depuis `data/scholar-export.bib`.
 - 2025 — Using Expressive Prosody to Differentiate bvFTD from Psychiatric Conditions *(Alzheimer's Association International Conference)*
 - 2024 — Epidemiology of psychiatric disorders in French prisons *(Annales Medico-Psychologiques)*
 - 2024 — Which solution to functional somatic disorder: The ACSEPT program *(L'encéphale)*
+- 2023 — Saisonnalité de la catatonie en France *(Revue d'Épidémiologie et de Santé Publique)*
 - 2023 — Transformer multimodal pour la détection du stress *(COmpression et REprésentation des Signaux Audiovisuels (2023))*
 - 2022 — A descriptive study of psychiatric care and pre-sentencing psychiatric reports in a French high-security prison *(L'encéphale)*
 - 2022 — Treatment options for drug-induced sialorrhea: Prescribing guidelines *(L'encéphale)*
+- 2021 — La tachypsychie *(Annales Médico-psychologiques, revue psychiatrique)*
 - 2021 — Racing and crowded thoughts *(Annales Médico-psychologiques, revue psychiatrique)*
 - 2020 — Advices from sleep experts to sleep well and keep regular rhythms for adults and children in this period of COVID-19 containment *(Médecine du sommeil)*
 - 2020 — Health care delivery and psychiatric hospitalizations in the prisons of the North of France: An observational study *(Revue d'Épidémiologie et de Santé Publique)*
 - 2020 — Is COVID-19 associated with posttraumatic stress disorder? *(The Journal of clinical psychiatry)*
 - 2019 —  *(French Journal of Psychiatry)*
+- 2019 — L’électroconvulsivothérapie en psychiatrie et neurologie *(Pratique Neurologique-FMC)*
 - 2019 — Psychiatry, psychology and the medical approach of diseases *(La Revue du Praticien)*
+- 2018 — Aux frontières de la sémiologie psychiatrique! *(Annales Médico-psychologiques, revue psychiatrique)*
 - 2018 — Involuntary hospitalization: A survey of liberty and custody judges *(L'encéphale)*
 - 2018 — Personnalités obsessionnelles compulsives
 - 2018 — Supervised off-label prescribing of methylphenidate in adult ADHD *(L'encéphale)*
 - 2017 — Examen clinique de l’adulte en psychiatrie *(EMC-Psychiatrie)*
 - 2017 — Hospitalization in French forensic units: results of a patient satisfaction survey *(Revue d'Épidémiologie et de Santé Publique)*
 - 2017 — Neurological diseases with psychiatric expression: importance of neurological examination *(Annales Médico-psychologiques, revue psychiatrique)*
+- 2017 — Sémiologie du syndrome catatonique *(Annales Médico-psychologiques, revue psychiatrique)*
 - 2017 — Semiology of catatonic syndrome *(Annales Medico-Psychologiques)*
 - 2017 — The motor semiology in psychiatry: A forgotten dimension! *(Annales Medico-Psychologiques)*
 - 2016 — Brain imaging in clinical psychiatry: From differential diagnosis to machine learning *(L'information psychiatrique)*
@@ -43,6 +56,7 @@ Généré le 15/08/2026 depuis `data/scholar-export.bib`.
 - 2015 — Bright light therapy in seasonal bipolar depressions *(L'encéphale)*
 - 2015 — For a free and collaborative dissemination of psychiatric education *(European psychiatry)*
 - 2015 — Hypothèses neurodéveloppementales et plasticité cérébrale
+- 2015 — Le jardinier et le botaniste *(Proposition d'une organiation minimale de la sémiologie psychiatrique pour l'étudiant en médecine. Annales Medico Psychologiques)*
 - 2015 — Prison psychiatric between necessity and ambiguity *(Annales Medico-Psychologiques)*
 - 2015 — Psychiatry in prison: A specific semiology? *(Annales Medico-Psychologiques)*
 - 2015 — Rédiger un courrier en psychiatrie *(http://www.asso-aesp.fr/semiologie/outils-pratiques/courriers-medicaux/)*
@@ -55,6 +69,7 @@ Généré le 15/08/2026 depuis `data/scholar-export.bib`.
 - 2014 — Itinéraires de patients souffrant de troubles psychiatriques en prison: passé, présent et devenir après l’incarcération *(La Lettre du psychiatre)*
 - 2014 — Prescrire les psychotropes en milieu pénitentiaire *(La Lettre du psychiatre)*
 - 2014 — Schizophrenia and informed consent to research *(L'encéphale)*
+- 2014 — Sciences et psychiatrie *(Annales Médico-psychologiques, revue psychiatrique)*
 - 2014 — Travel and psychotic disorders: clinical aspects and practical recommendations *(Presse medicale (Paris, France: 1983))*
 - 2013 — Diabète et ramadan *(Correspondances en MHDN)*
 - 2013 — Le bipolaire, la prison et la loi *(La Lettre du psychiatre)*
@@ -73,23 +88,18 @@ Généré le 15/08/2026 depuis `data/scholar-export.bib`.
 
 ## Champs manquants dans l’export Scholar
 
-**Sans revue (19)**
+**Sans revue (14)**
 
 - 2026 — BRAIN COMMUNICATIONS
 - 2026 — Observable Physical Signs in Psychiatric Disorders: A Systematic Review of the existing scientific literature
 - 2023 — rTMS and depression: A correspondence you should take the time to read.
 - 2022 — Refining the clinical approach of psychotic experiences in people who are incarcerated.
-- 2018 — L’examen clinique psychiatrique standardisé pour l’étudiant, c’est possible! A standardized psychiatric clinical examination for students is possible!
 - 2018 — Personnalités obsessionnelles compulsives
-- 2017 — Les maladies neurologiques à expression psychiatrique: importance de l’examen neurologique Neurological diseases with psychiatric expression: Importance of neurological examination
 - 2017 — Sémiologie du syndrome catatonique Semiology of catatonic syndrome
-- 2016 — Le boucher du Prince Wen-houei. De l’art médical du recueil sémiologique valide en psychiatrie The dexterous butcher of Prince Wen-hui. Some elements on the medical art of valid semiologic psychiatric collection
-- 2016 — Les complaintes du carabin. Modèle pour un raisonnement clinique pratique The laments of the medical student. Model for a practice clinical reasoning
 - 2015 — Hypothèses neurodéveloppementales et plasticité cérébrale
 - 2015 — Prise en charge des troubles du comportement alimentaire dans la schizophrénie
 - 2014 — Étude de la plasticité cérébrale en psychiatrie à partir de plusieurs modèles pathologiques: le trouble de personnalité borderline et les hallucinations
 - 2011 — Etude des hallucinations dans la schizophrénie par imagerie en tenseur de diffusion et tractographie
-- 2011 — Histoire de la maladie mentale dans le Moyen-Orient
 - s.d. — B and Bruchhage, Muriel MK and Lowry, Ruth Gand Wheeler, James and Robertson, Andrew and Williams, Steven CR and Smith, Marcus S (2016). Motor Learning Induces Plasticity in the
 - s.d. — CONTRIBUTIONS FOR THE EUROPEAN ASSOCIATION FOR PSYCHOSOMATIC MEDICINE
 - s.d. — Drum Training induces MR visible changes in the Cerebellum and Cortex
@@ -115,8 +125,21 @@ Généré le 15/08/2026 depuis `data/scholar-export.bib`.
 
 ## Doublons écartés
 
+**Par titre identique**
+
 - Drum training induces long-term plasticity in the cerebellum and connected cortical thickness
 - Hospitalization in French forensic units: results of a patient satisfaction survey.
+
+**Par DOI identique** — titres différents, même article
+
+- Histoire de la maladie mentale dans le Moyen-Orient (DOI 10.1016/j.amp.2010.06.023)
+- Advanced glycation end products and schizophrenia: A systematic (DOI 10.1016/j.jpsychires.2015.04.023)
+- Le boucher du Prince Wen-houei. De l’art médical du recueil sémiologique valide en psychiatrie The dexterous butcher of Prince Wen-hui. Some elements on the medical art of valid semiologic psychiatric collection (DOI 10.1016/j.amp.2016.03.009)
+- Les complaintes du carabin. Modèle pour un raisonnement clinique pratique The laments of the medical student. Model for a practice clinical reasoning (DOI 10.1016/j.amp.2016.08.003)
+- Les maladies neurologiques à expression psychiatrique: importance de l’examen neurologique Neurological diseases with psychiatric expression: Importance of neurological examination (DOI 10.1016/j.amp.2017.03.004)
+- L’examen clinique psychiatrique standardisé pour l’étudiant, c’est possible! A standardized psychiatric clinical examination for students is possible! (DOI 10.1016/j.amp.2018.09.007)
+- Religiosity and prevalence of suicide, psychiatric disorders and psychotic symptoms in the French general population (DOI 10.1007/s00406-021-01233-3)
+- Correction: Psychiatric adverse events associated with infliximab: a cohort study from the French nationwide discharge abstract database (DOI 10.3389/fphar.2025.1719490)
 
 ## Entrées sans titre (1)
 

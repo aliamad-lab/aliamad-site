@@ -15,7 +15,7 @@
   "revue": "2026 IEEE 20th International Conference on Automatic Face and Gesture Recognition (FG)",
   "volume": "",
   "numero": "",
-  "pages": "1--9",
+  "pages": "1–9",
   "editeur": "",
   "doi": "10.1109/fg67764.2026.11557002",
   "titreCrossref": "A Non-Invasive 3D Gait Analysis Framework for Quantifying Psychomotor Retardation in Major Depressive Disorder",
@@ -78,16 +78,7 @@
   "volume": "",
   "numero": "",
   "pages": "",
-  "editeur": "",
-  "doi": "10.1093/braincomms/fcag052",
-  "titreCrossref": "Passing the torch at\n                    <i>Brain Communications</i>",
-  "score": 1,
-  "openalex": "https://openalex.org/W7133345176",
-  "citations": 0,
-  "revueOpenAlex": "Brain Communications",
-  "accesLibre": true,
-  "urlAccesLibre": "https://doi.org/10.1093/braincomms/fcag052",
-  "institutions": []
+  "editeur": ""
  },
  {
   "cle": "demesmaeker2026consultation",
@@ -104,7 +95,7 @@
   "revue": "Biopsychosocial Science and Medicine",
   "volume": "88",
   "numero": "5",
-  "pages": "493--497",
+  "pages": "493–497",
   "editeur": "LWW",
   "doi": "10.1097/psy.0000000000001484",
   "titreCrossref": "Consultation-Liaison Psychiatry Interventions: The Sooner, The Better",
@@ -172,7 +163,7 @@
   "revue": "Annales Medico-Psychologiques",
   "volume": "184",
   "numero": "1",
-  "pages": "28--31",
+  "pages": "28–31",
   "editeur": ""
  },
  {
@@ -273,7 +264,7 @@
   "revue": "European psychiatry",
   "volume": "69",
   "numero": "S1",
-  "pages": "S244--S246",
+  "pages": "S244–S246",
   "editeur": "Cambridge University Press",
   "doi": "10.1192/j.eurpsy.2026.12057",
   "titreCrossref": "Impact of Remote Patient Monitoring On Major Depressive episode And Bipolar Disorder Treatment Outcomes: EC-102 Randomized Controlled Trial",
@@ -515,7 +506,7 @@
   "revue": "Molecular psychiatry",
   "volume": "31",
   "numero": "2",
-  "pages": "1171--1172",
+  "pages": "1171–1172",
   "editeur": "Nature Publishing Group UK London",
   "doi": "10.1038/s41380-025-03363-9",
   "titreCrossref": "No precision psychiatry without clinical precision",
@@ -602,7 +593,7 @@
   "revue": "L'encéphale",
   "volume": "",
   "numero": "",
-  "pages": "S0013--7006",
+  "pages": "S0013–7006",
   "editeur": ""
  },
  {
@@ -626,7 +617,7 @@
   "revue": "medRxiv",
   "volume": "",
   "numero": "",
-  "pages": "2026--01",
+  "pages": "2026–01",
   "editeur": "Cold Spring Harbor Laboratory Press",
   "doi": "10.64898/2026.01.13.26344004",
   "titreCrossref": "The MULTIMODHAL randomized controlled trial: fMRI-based symptom capture for guiding rTMS treatment of drug-resistant hallucinations in patients with schizophrenia",
@@ -712,7 +703,7 @@
   "revue": "European psychiatry",
   "volume": "",
   "numero": "",
-  "pages": "1--50",
+  "pages": "1–50",
   "editeur": "Cambridge University Press",
   "doi": "10.1192/j.eurpsy.2026.12238",
   "titreCrossref": "Use of electroconvulsive therapy in Nordic and western European countries",
@@ -878,7 +869,7 @@
   "revue": "The Journal of clinical psychiatry",
   "volume": "86",
   "numero": "3",
-  "pages": "25m15826--25m15826",
+  "pages": "25m15826–25m15826",
   "editeur": "",
   "doi": "10.4088/jcp.25m15826",
   "titreCrossref": "Bright Light Therapy in the Morning or Midday for the Treatment of Nonseasonal Depression in Bipolar Disorder (LuBi)",
@@ -1087,65 +1078,6 @@
   ]
  },
  {
-  "cle": "thillard2025correction",
-  "type": "article",
-  "titre": "Correction: Psychiatric adverse events associated with infliximab: a cohort study from the French nationwide discharge abstract database",
-  "auteurs": [
-   "Thillard, Eve-Marie",
-   "Gautier, Sophie",
-   "Babykina, Evgeniya",
-   "Carton, Louise",
-   "Amad, Ali",
-   "Bouzillé, Guillaume",
-   "Beuscart, Jean-Baptiste",
-   "Chazard, Emmanuel"
-  ],
-  "annee": 2025,
-  "revue": "Frontiers in pharmacology",
-  "volume": "16",
-  "numero": "",
-  "pages": "1719490",
-  "editeur": "Frontiers Media SA",
-  "doi": "10.3389/fphar.2025.1719490",
-  "titreCrossref": "Correction: Psychiatric adverse events associated with infliximab: a cohort study from the French nationwide discharge abstract database",
-  "score": 1,
-  "openalex": "https://openalex.org/W4415444520",
-  "citations": 0,
-  "revueOpenAlex": "Frontiers in Pharmacology",
-  "accesLibre": true,
-  "urlAccesLibre": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1719490/pdf",
-  "institutions": [
-   {
-    "nom": "Université de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Inserm",
-    "pays": "FR"
-   },
-   {
-    "nom": "Lille Neurosciences & Cognition",
-    "pays": null
-   },
-   {
-    "nom": "Laboratoire Traitement du Signal et de l'Image",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Rennes",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Rennes",
-    "pays": "FR"
-   }
-  ]
- },
- {
   "cle": "deneve2025expressive",
   "type": "article",
   "titre": "Expressive prosody in behavioral variant frontotemporal degeneration and late-onset psychiatric disorders.",
@@ -1194,7 +1126,7 @@
   "revue": "L'encéphale",
   "volume": "51",
   "numero": "4",
-  "pages": "463--465",
+  "pages": "463–465",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2024.11.011",
   "titreCrossref": "First-episode psychosis among people who are incarcerated: What is hidden behind the “prison psychosis” concept?",
@@ -1243,7 +1175,7 @@
   "revue": "EUROPEAN JOURNAL OF HUMAN GENETICS",
   "volume": "33",
   "numero": "",
-  "pages": "289--289",
+  "pages": "289–289",
   "editeur": ""
  },
  {
@@ -1264,7 +1196,7 @@
   "revue": "Journal of psychiatric research",
   "volume": "181",
   "numero": "",
-  "pages": "29--35",
+  "pages": "29–35",
   "editeur": "Pergamon",
   "doi": "10.1016/j.jpsychires.2024.11.031",
   "titreCrossref": "Increased risk of suicide reattempt according to the type of brief contact interventions in the VigilanS program: The critical role of PTSD and anxiety disorders",
@@ -1313,7 +1245,7 @@
   "revue": "2025 IEEE 19th International Conference on Automatic Face and Gesture Recognition (FG)",
   "volume": "",
   "numero": "",
-  "pages": "1--10",
+  "pages": "1–10",
   "editeur": "",
   "doi": "10.1109/fg61629.2025.11099334",
   "titreCrossref": "Measuring Anxiety Levels with Head Motion Patterns in Severe Depression Population",
@@ -1649,7 +1581,7 @@
   "revue": "The Journal of neuropsychiatry and clinical neurosciences",
   "volume": "37",
   "numero": "2",
-  "pages": "160--162",
+  "pages": "160–162",
   "editeur": "American Psychiatric Association Washington, DC",
   "doi": "10.1176/appi.neuropsych.20240072",
   "titreCrossref": "The Population-Based Incidence and Prevalence of Catatonia",
@@ -1726,7 +1658,7 @@
   "revue": "2025 IEEE 19th International Conference on Automatic Face and Gesture Recognition (FG)",
   "volume": "",
   "numero": "",
-  "pages": "1--10",
+  "pages": "1–10",
   "editeur": "",
   "doi": "10.1109/fg61629.2025.11099145",
   "titreCrossref": "Wearable-Derived Behavioral and Physiological Biomarkers for Classifying Unipolar and Bipolar Depression Severity",
@@ -1891,7 +1823,7 @@
   "revue": "Journal of psychiatric research",
   "volume": "172",
   "numero": "",
-  "pages": "300--306",
+  "pages": "300–306",
   "editeur": "Pergamon",
   "doi": "10.1016/j.jpsychires.2024.02.039",
   "titreCrossref": "Clinical and neuroimaging predictors of benzodiazepine response in catatonia: A machine learning approach",
@@ -1941,7 +1873,7 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "182",
   "numero": "2",
-  "pages": "150--153",
+  "pages": "150–153",
   "editeur": "",
   "doi": "10.1016/j.amp.2023.10.004",
   "titreCrossref": "Épidémiologie des troubles psychiatriques en milieu pénitentiaire en France",
@@ -1979,7 +1911,7 @@
   "revue": "Annales Medico-Psychologiques",
   "volume": "182",
   "numero": "2",
-  "pages": "150--153",
+  "pages": "150–153",
   "editeur": ""
  },
  {
@@ -2212,7 +2144,7 @@
   "revue": "2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)",
   "volume": "",
   "numero": "",
-  "pages": "1--10",
+  "pages": "1–10",
   "editeur": "",
   "doi": "10.1109/fg59268.2024.10581962",
   "titreCrossref": "MGRFormer: A Multimodal Transformer Approach for Surgical Gesture Recognition",
@@ -2270,7 +2202,7 @@
   "revue": "The Journal of clinical psychiatry",
   "volume": "85",
   "numero": "4",
-  "pages": "24m15445--24m15445",
+  "pages": "24m15445–24m15445",
   "editeur": "",
   "doi": "10.4088/jcp.24m15445",
   "titreCrossref": "Mixed Features and Nonfatal Suicide Attempt Among Individuals With Major Depressive Episode",
@@ -2479,7 +2411,7 @@
   "revue": "Obesities",
   "volume": "4",
   "numero": "2",
-  "pages": "160--168",
+  "pages": "160–168",
   "editeur": "MDPI",
   "doi": "10.3390/obesities4020015",
   "titreCrossref": "Quality of Life in Patients with Obesity: The Role of Multidisciplinary Rehabilitation Medicine",
@@ -2529,7 +2461,7 @@
   "revue": "European archives of psychiatry and clinical neuroscience",
   "volume": "274",
   "numero": "1",
-  "pages": "83--86",
+  "pages": "83–86",
   "editeur": "Springer Berlin Heidelberg Berlin/Heidelberg",
   "doi": "10.1007/s00406-022-01533-2",
   "titreCrossref": "Right temporoparietal junction transcranial direct current stimulation in the treatment of functional dissociative seizures: a case series",
@@ -2603,7 +2535,7 @@
   "revue": "Schizophrenia research",
   "volume": "263",
   "numero": "",
-  "pages": "214--222",
+  "pages": "214–222",
   "editeur": "Elsevier",
   "doi": "10.1016/j.schres.2023.03.015",
   "titreCrossref": "Seasonality of presentation and birth in catatonia",
@@ -2786,7 +2718,7 @@
   "revue": "L'encéphale",
   "volume": "51",
   "numero": "2",
-  "pages": "216--219",
+  "pages": "216–219",
   "editeur": ""
  },
  {
@@ -2808,7 +2740,7 @@
   "revue": "Social psychiatry and psychiatric epidemiology",
   "volume": "58",
   "numero": "1",
-  "pages": "25--34",
+  "pages": "25–34",
   "editeur": "Springer Berlin Heidelberg Berlin/Heidelberg",
   "doi": "10.1007/s00127-022-02339-2",
   "titreCrossref": "Admission to jail and psychotic symptoms: a study of the psychotic continuum in a sample of recently incarcerated men",
@@ -2906,7 +2838,7 @@
   "revue": "Journal of Neuroradiology",
   "volume": "50",
   "numero": "5",
-  "pages": "464--469",
+  "pages": "464–469",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.neurad.2023.04.001",
   "titreCrossref": "Advanced imaging in first episode psychosis: a systematic review",
@@ -2984,7 +2916,7 @@
   "revue": "Journal of geriatric psychiatry and neurology",
   "volume": "36",
   "numero": "4",
-  "pages": "309--315",
+  "pages": "309–315",
   "editeur": "Sage Publications Sage CA: Los Angeles, CA",
   "doi": "10.1177/08919887221149142",
   "titreCrossref": "Assessment of a Suicide Prevention Gatekeeper Training Program for Nursing Home Staff",
@@ -3038,7 +2970,7 @@
   "revue": "Psychological Medicine",
   "volume": "53",
   "numero": "6",
-  "pages": "2492--2502",
+  "pages": "2492–2502",
   "editeur": "Cambridge University Press",
   "doi": "10.1017/s0033291721004402",
   "titreCrossref": "Catatonia: demographic, clinical and laboratory associations",
@@ -3112,7 +3044,7 @@
   "revue": "L'encéphale",
   "volume": "49",
   "numero": "6",
-  "pages": "654--655",
+  "pages": "654–655",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2023.06.012",
   "titreCrossref": "Deinstitutionalization, community-based care and incarceration of people with severe mental illness: Out of sight, out of mind?",
@@ -3276,7 +3208,7 @@
   "revue": "The Journal of ECT",
   "volume": "39",
   "numero": "3",
-  "pages": "e2--e3",
+  "pages": "e2–e3",
   "editeur": "LWW",
   "doi": "10.1097/yct.0000000000000907",
   "titreCrossref": "Electroconvulsive Therapy Restores Higher-Level Cognition in Catatonia",
@@ -3326,7 +3258,7 @@
   "revue": "Journal of psychiatric research",
   "volume": "157",
   "numero": "",
-  "pages": "1--6",
+  "pages": "1–6",
   "editeur": "Pergamon",
   "doi": "10.1016/j.jpsychires.2022.11.003",
   "titreCrossref": "Feasibility and usefulness of brain imaging in catatonia",
@@ -3423,7 +3355,7 @@
   "revue": "Journal d'imagerie diagnostique et interventionnelle",
   "volume": "6",
   "numero": "6",
-  "pages": "395--400",
+  "pages": "395–400",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.jidi.2023.09.001",
   "titreCrossref": "L’IRM pour la prise en soins des maladies psychiatriques",
@@ -3482,7 +3414,7 @@
   "revue": "2023 31st European Signal Processing Conference (EUSIPCO)",
   "volume": "",
   "numero": "",
-  "pages": "556--560",
+  "pages": "556–560",
   "editeur": "",
   "doi": "10.23919/eusipco58844.2023.10290098",
   "titreCrossref": "MMGT: Multimodal Graph-Based Transformer for Pain Detection",
@@ -3539,7 +3471,7 @@
   "revue": "L'encéphale",
   "volume": "49",
   "numero": "6",
-  "pages": "645--648",
+  "pages": "645–648",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2023.04.008",
   "titreCrossref": "Opening the black box of hospitalizations in French high-secure psychiatric forensic units",
@@ -3606,7 +3538,7 @@
   "revue": "L'encéphale",
   "volume": "49",
   "numero": "3",
-  "pages": "289--295",
+  "pages": "289–295",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2021.12.001",
   "titreCrossref": "Parcours de soins et expertises psychiatriques pré-sentencielles : une étude descriptive au centre pénitentiaire de Château-Thierry",
@@ -3732,7 +3664,7 @@
   "revue": "Psychological Medicine",
   "volume": "53",
   "numero": "2",
-  "pages": "597--599",
+  "pages": "597–599",
   "editeur": "Cambridge University Press",
   "doi": "10.1017/s0033291721000507",
   "titreCrossref": "PTSD in prison settings: the need for direct comparisons with the general population",
@@ -3877,41 +3809,7 @@
   "volume": "71",
   "numero": "",
   "pages": "101537",
-  "editeur": "Elsevier Masson",
-  "doi": "10.1016/j.respe.2023.101537",
-  "titreCrossref": "Saisonnalité de la catatonie en France",
-  "score": 1,
-  "openalex": "https://openalex.org/W4321782253",
-  "citations": 0,
-  "revueOpenAlex": "Revue d Épidémiologie et de Santé Publique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Université de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Unité de Recherche Pluridisciplinaire Sport, Santé, Société",
-    "pays": "FR"
-   },
-   {
-    "nom": "Inserm",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Lille Neurosciences & Cognition",
-    "pays": null
-   },
-   {
-    "nom": "Evaluation des technologies de santé et des pratiques médicales",
-    "pays": null
-   }
-  ]
+  "editeur": "Elsevier Masson"
  },
  {
   "cle": "feghoul2023spatial",
@@ -3928,7 +3826,7 @@
   "revue": "Iberoamerican Congress on Pattern Recognition",
   "volume": "",
   "numero": "",
-  "pages": "287--297",
+  "pages": "287–297",
   "editeur": "",
   "doi": "10.1007/978-3-031-49018-7_21",
   "titreCrossref": "Spatial-Temporal Graph Transformer for Surgical Skill Assessment in Simulation Sessions",
@@ -4139,7 +4037,7 @@
   "revue": "IEEE Transactions on Affective Computing",
   "volume": "15",
   "numero": "1",
-  "pages": "157--172",
+  "pages": "157–172",
   "editeur": "IEEE",
   "doi": "10.1109/taffc.2023.3263907",
   "titreCrossref": "Transformer-Based Self-Supervised Multimodal Representation Learning for Wearable Emotion Recognition",
@@ -4193,7 +4091,7 @@
   "revue": "L'encéphale",
   "volume": "49",
   "numero": "2",
-  "pages": "117--123",
+  "pages": "117–123",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2022.07.004",
   "titreCrossref": "Validation of a data collection set for the psychiatric, addiction, sleep and chronobiological assessments of patients with depression: A Delphi study for the SoPsy-depression French national cohort",
@@ -4304,7 +4202,7 @@
   "revue": "L'encéphale",
   "volume": "49",
   "numero": "3",
-  "pages": "289--295",
+  "pages": "289–295",
   "editeur": ""
  },
  {
@@ -4395,7 +4293,7 @@
   "revue": "The Journal of neuropsychiatry and clinical neurosciences",
   "volume": "34",
   "numero": "4",
-  "pages": "386--392",
+  "pages": "386–392",
   "editeur": "American Psychiatric Association Washington, DC",
   "doi": "10.1176/appi.neuropsych.21070181",
   "titreCrossref": "Clinical Neuroimaging Findings in Catatonia: Neuroradiological Reports of MRI Scans of Psychiatric Inpatients With and Without Catatonia",
@@ -4434,7 +4332,7 @@
   "revue": "L'encéphale",
   "volume": "48",
   "numero": "4",
-  "pages": "361--364",
+  "pages": "361–364",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2021.05.004",
   "titreCrossref": "Effects at 3 months of a large-scale simulation-based training for first year medical residents on the knowledge of suicide",
@@ -4576,7 +4474,7 @@
   "revue": "2022 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
   "volume": "",
   "numero": "",
-  "pages": "2949--2955",
+  "pages": "2949–2955",
   "editeur": "",
   "doi": "10.1109/smc53654.2022.9945260",
   "titreCrossref": "Fusion of Physiological and Behavioural Signals on SPD Manifolds with Application to Stress and Pain Detection",
@@ -4633,7 +4531,7 @@
   "revue": "Archives of Women's Mental Health",
   "volume": "25",
   "numero": "5",
-  "pages": "895--902",
+  "pages": "895–902",
   "editeur": "Springer Vienna Vienna",
   "doi": "10.1007/s00737-022-01253-5",
   "titreCrossref": "Gender-related associations between psychiatric disorders and alcohol use disorder: Findings from the french “Mental health in the general population” survey",
@@ -4751,7 +4649,7 @@
   "revue": "Challenges of Trustable AI and Added-Value on Health: Proceedings of MIE 2022",
   "volume": "",
   "numero": "",
-  "pages": "540--544",
+  "pages": "540–544",
   "editeur": "SAGE Publications 1 Oliver's Yard, 55 City Road, London, EC1Y 1SP",
   "doi": "10.3233/shti220517",
   "titreCrossref": "Goupile: A New Paradigm for the Development and Implementation of Clinical Report Forms",
@@ -4880,7 +4778,7 @@
   "revue": "L'encéphale",
   "volume": "48",
   "numero": "6",
-  "pages": "700--711",
+  "pages": "700–711",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2022.03.013",
   "titreCrossref": "Prise en charge de l’hypersialorrhée iatrogène : revue de la littérature et recommandations pratiques",
@@ -4916,7 +4814,7 @@
  {
   "cle": "fovet2022psychiatric",
   "type": "article",
-  "titre": "Psychiatric hospitalisations for people who are incarcerated, 2009--2019: An 11-year retrospective longitudinal study in France",
+  "titre": "Psychiatric hospitalisations for people who are incarcerated, 2009 – 2019: An 11-year retrospective longitudinal study in France",
   "auteurs": [
    "Fovet, Thomas",
    "Chan-Chee, Christine",
@@ -4980,7 +4878,7 @@
  {
   "cle": "fovet2022psychiatric",
   "type": "article",
-  "titre": "Psychiatric hospitalizations of people found not criminally responsible on account of mental disorder in France: a ten-year retrospective study (2011--2020)",
+  "titre": "Psychiatric hospitalizations of people found not criminally responsible on account of mental disorder in France: a ten-year retrospective study (2011 – 2020)",
   "auteurs": [
    "Fovet, Thomas",
    "Baillet, Maëlle",
@@ -5123,7 +5021,7 @@
   "revue": "Australian & New Zealand Journal of Psychiatry",
   "volume": "56",
   "numero": "1",
-  "pages": "14--15",
+  "pages": "14–15",
   "editeur": "Sage Publications Sage UK: London, England",
   "doi": "10.1177/00048674211011242",
   "titreCrossref": "rTMS for depression: The difficult transition from research to clinical practice",
@@ -5169,7 +5067,7 @@
   "revue": "L'encéphale",
   "volume": "48",
   "numero": "4",
-  "pages": "480--483",
+  "pages": "480–483",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2021.04.012",
   "titreCrossref": "Soins psychiatriques sans consentement pour les personnes détenues : une étude descriptive de 73 mainlevées consécutives en unité hospitalière spécialement aménagée",
@@ -5217,7 +5115,7 @@
   "revue": "Australian & New Zealand Journal of Psychiatry",
   "volume": "56",
   "numero": "6",
-  "pages": "603--616",
+  "pages": "603–616",
   "editeur": "Sage Publications Sage UK: London, England",
   "doi": "10.1177/00048674211043455",
   "titreCrossref": "Suicide mortality after a nonfatal suicide attempt: A systematic review and meta-analysis",
@@ -5285,7 +5183,7 @@
   "revue": "Journal of psychiatric research",
   "volume": "145",
   "numero": "",
-  "pages": "205--212",
+  "pages": "205–212",
   "editeur": "Pergamon",
   "doi": "10.1016/j.jpsychires.2021.12.014",
   "titreCrossref": "Trauma exposure and PTSD among men entering jail: A comparative study with the general population",
@@ -5354,7 +5252,7 @@
   "revue": "L'encéphale",
   "volume": "48",
   "numero": "6",
-  "pages": "700--711",
+  "pages": "700–711",
   "editeur": ""
  },
  {
@@ -5373,7 +5271,7 @@
   "revue": "Journal of psychiatric research",
   "volume": "137",
   "numero": "",
-  "pages": "258--259",
+  "pages": "258–259",
   "editeur": "Pergamon",
   "doi": "10.1016/j.jpsychires.2021.03.001",
   "titreCrossref": "Letter to the editor: A nine-year national descriptive study of inpatient suicides in French psychiatric units for incarcerated people",
@@ -5416,7 +5314,7 @@
   "revue": "Journal of psychiatric research",
   "volume": "138",
   "numero": "",
-  "pages": "256--263",
+  "pages": "256–263",
   "editeur": "Pergamon",
   "doi": "10.1016/j.jpsychires.2021.04.006",
   "titreCrossref": "A pharmacoepidemiological study of the association of suicide reattempt risk with psychotropic drug exposure",
@@ -5518,7 +5416,7 @@
   "revue": "Journal of psychiatric research",
   "volume": "141",
   "numero": "",
-  "pages": "214--222",
+  "pages": "214–222",
   "editeur": "Pergamon",
   "doi": "10.1016/j.jpsychires.2021.07.002",
   "titreCrossref": "Are radicalization and terrorism associated with psychiatric disorders? A systematic review",
@@ -5568,7 +5466,7 @@
   "revue": "Australian and New Zealand Journal of Psychiatry",
   "volume": "55",
   "numero": "6",
-  "pages": "627--628",
+  "pages": "627–628",
   "editeur": "",
   "doi": "10.1177/00048674211009609",
   "titreCrossref": "Cart before the horse: The need to establish rTMS efficacy before positioning it",
@@ -5620,7 +5518,7 @@
   "revue": "Australian and New Zealand Journal of Psychiatry",
   "volume": "55",
   "numero": "12",
-  "pages": "1209--1210",
+  "pages": "1209–1210",
   "editeur": "",
   "doi": "10.1177/0004867421998782",
   "titreCrossref": "Don’t forget about catatonia hidden behind bars",
@@ -5705,7 +5603,7 @@
   "revue": "Journal of neuroradiology= Journal de neuroradiologie",
   "volume": "48",
   "numero": "5",
-  "pages": "346--347",
+  "pages": "346–347",
   "editeur": "",
   "doi": "10.1016/j.neurad.2021.07.001",
   "titreCrossref": "For a joint development of psychiatric imaging",
@@ -5774,7 +5672,7 @@
   "revue": "The Journal of ECT",
   "volume": "37",
   "numero": "3",
-  "pages": "e32--e33",
+  "pages": "e32–e33",
   "editeur": "LWW",
   "doi": "10.1097/yct.0000000000000774",
   "titreCrossref": "High-Fidelity Simulation",
@@ -5804,7 +5702,7 @@
   "revue": "L'encéphale",
   "volume": "47",
   "numero": "5",
-  "pages": "441--444",
+  "pages": "441–444",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2021.02.019",
   "titreCrossref": "Impact d’une vidéo pédagogique sur les croyances et représentations relatives à l’électro-convulsivothérapie chez les psychiatres des Hauts-de-France et d’Occitanie",
@@ -5852,7 +5750,7 @@
   "revue": "L'encéphale",
   "volume": "47",
   "numero": "5",
-  "pages": "441--444",
+  "pages": "441–444",
   "editeur": "",
   "doi": "10.1017/9781911623137.074",
   "titreCrossref": "Electroconvulsive Therapy",
@@ -5880,78 +5778,8 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "179",
   "numero": "4",
-  "pages": "341--344",
-  "editeur": "",
-  "doi": "10.1016/j.amp.2021.02.022",
-  "titreCrossref": "La tachypsychie",
-  "score": 1,
-  "openalex": "https://openalex.org/W4214533778",
-  "citations": 1,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": true,
-  "urlAccesLibre": "https://www.sciencedirect.com/science/article/pii/S0003448721000809",
-  "institutions": [
-   {
-    "nom": "Université Toulouse III - Paul Sabatier",
-    "pays": "FR"
-   },
-   {
-    "nom": "Inserm",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Fédérale de Toulouse Midi-Pyrénées",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Purpan",
-    "pays": "FR"
-   },
-   {
-    "nom": "Toulouse NeuroImaging Center",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 7",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "FHU Neurovasc",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Bichat-Claude-Bernard",
-    "pays": "FR"
-   },
-   {
-    "nom": "NeuroDiderot",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sciences Cognitives et Sciences Affectives",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpitaux Universitaires de Strasbourg",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Strasbourg",
-    "pays": "FR"
-   }
-  ]
+  "pages": "341–344",
+  "editeur": ""
  },
  {
   "cle": "leroy2021mental",
@@ -6132,142 +5960,8 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "179",
   "numero": "4",
-  "pages": "341--344",
+  "pages": "341–344",
   "editeur": ""
- },
- {
-  "cle": "brito2021religiosity",
-  "type": "article",
-  "titre": "Religiosity and prevalence of suicide, psychiatric disorders and psychotic symptoms in the French general population",
-  "auteurs": [
-   "Brito, Maria Alice",
-   "Amad, Ali",
-   "Rolland, Benjamin",
-   "Geoffroy, Pierre A",
-   "Peyre, Hugo",
-   "Roelandt, Jean-Luc",
-   "Benradia, Imane",
-   "Thomas, Pierre",
-   "Vaiva, Guillaume",
-   "Schürhoff, Franck",
-   "others"
-  ],
-  "annee": 2021,
-  "revue": "European archives of psychiatry and clinical neuroscience",
-  "volume": "271",
-  "numero": "8",
-  "pages": "1547--1557",
-  "editeur": "Springer Berlin Heidelberg Berlin/Heidelberg",
-  "doi": "10.1007/s00406-021-01233-3",
-  "titreCrossref": "Religiosity and prevalence of suicide, psychiatric disorders and psychotic symptoms in the French general population",
-  "score": 1,
-  "openalex": "https://openalex.org/W3127616815",
-  "citations": 23,
-  "revueOpenAlex": "European Archives of Psychiatry and Clinical Neuroscience",
-  "accesLibre": true,
-  "urlAccesLibre": "https://hal.science/hal-03148739",
-  "institutions": [
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sorbonne Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Assistance Publique – Hôpitaux de Paris",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpitaux Universitaires Henri-Mondor",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Albert-Chenevier",
-    "pays": "FR"
-   },
-   {
-    "nom": "King's College London",
-    "pays": "GB"
-   },
-   {
-    "nom": "Université de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Agence Régionale de Santé Ile-de-France",
-    "pays": "FR"
-   },
-   {
-    "nom": "Lyon 1 Université",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Inserm",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre de Recherche en Neurosciences de Lyon",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Le Vinatier",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 7",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Robert-Debré",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Oscar Lambret",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Bichat-Claude-Bernard",
-    "pays": "FR"
-   },
-   {
-    "nom": "NeuroDiderot",
-    "pays": "FR"
-   },
-   {
-    "nom": "Evaluation et recherche en services et politiques en santé pour les populations vulnérables",
-    "pays": "FR"
-   },
-   {
-    "nom": "Etablissements de Santé Mentale",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre de Recherche Jean Pierre Aubert",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris-Est Créteil",
-    "pays": "FR"
-   },
-   {
-    "nom": "Fondation FondaMental",
-    "pays": "FR"
-   },
-   {
-    "nom": "Institut Mondor de Recherche Biomédicale",
-    "pays": "FR"
-   }
-  ]
  },
  {
   "cle": "brito2021religiosity",
@@ -6290,7 +5984,7 @@
   "revue": "European archives of psychiatry and clinical neuroscience",
   "volume": "271",
   "numero": "8",
-  "pages": "1559--1559",
+  "pages": "1559–1559",
   "editeur": "SPRINGER HEIDELBERG TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY",
   "doi": "10.1007/s00406-021-01233-3",
   "titreCrossref": "Religiosity and prevalence of suicide, psychiatric disorders and psychotic symptoms in the French general population",
@@ -6417,7 +6111,7 @@
   "revue": "The Journal of clinical psychiatry",
   "volume": "82",
   "numero": "1",
-  "pages": "20m13589--20m13589",
+  "pages": "20m13589–20m13589",
   "editeur": "",
   "doi": "10.4088/jcp.20m13589",
   "titreCrossref": "Risk Factors for Reattempt and Suicide Within 6 Months After an Attempt in the French ALGOS Cohort",
@@ -6552,7 +6246,7 @@
   "revue": "Journal of Neurology, Neurosurgery and Psychiatry",
   "volume": "91",
   "numero": "8",
-  "pages": "e3--e4",
+  "pages": "e3–e4",
   "editeur": "BMJ Publishing Group Ltd",
   "doi": "10.1136/jnnp-2020-bnpa.8",
   "titreCrossref": "8 Catatonia: demographic, clinical and laboratory associations in a large dataset",
@@ -6593,7 +6287,7 @@
   "revue": "The Journal of nervous and mental disease",
   "volume": "208",
   "numero": "9",
-  "pages": "721--728",
+  "pages": "721–728",
   "editeur": "LWW",
   "doi": "10.1097/nmd.0000000000001193",
   "titreCrossref": "A Latent Class Analysis of Manic and Psychotic Symptoms",
@@ -6697,7 +6391,7 @@
   "revue": "Alcohol and Alcoholism",
   "volume": "55",
   "numero": "1",
-  "pages": "112--120",
+  "pages": "112–120",
   "editeur": "Oxford University Press",
   "doi": "10.1093/alcalc/agaa003",
   "titreCrossref": "Alcohol Use Disorder is Differently Associated with Psychotic Symptoms According to Underlying Psychiatric Disorders: A General Population Study",
@@ -6731,7 +6425,7 @@
   "revue": "Psychological Medicine",
   "volume": "50",
   "numero": "10",
-  "pages": "1585--1597",
+  "pages": "1585–1597",
   "editeur": "Cambridge University Press",
   "doi": "10.1017/s0033291720001853",
   "titreCrossref": "Brain imaging in catatonia: systematic review and directions for future research",
@@ -6801,7 +6495,7 @@
   "revue": "Médecine du sommeil",
   "volume": "17",
   "numero": "2",
-  "pages": "113--117",
+  "pages": "113–117",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.msom.2020.04.002",
   "titreCrossref": "Conseils d’experts du sommeil pour bien dormir et garder le rythme chez les adultes et les enfants en cette période de confinement liée au COVID-19",
@@ -6903,7 +6597,7 @@
   "revue": "Journal of affective disorders",
   "volume": "273",
   "numero": "",
-  "pages": "247--251",
+  "pages": "247–251",
   "editeur": "Elsevier",
   "doi": "10.1016/j.jad.2020.04.048",
   "titreCrossref": "Depression with and without a history of psychotic symptoms in the general population: sociodemographic and clinical characteristics",
@@ -7086,7 +6780,7 @@
   "revue": "Bipolar Disord",
   "volume": "22",
   "numero": "4",
-  "pages": "422--4",
+  "pages": "422–4",
   "editeur": "",
   "doi": "10.1111/bdi.12924",
   "titreCrossref": "Efficacy of tDCS for bipolar depression in a patient with spinocerebellar ataxia: A case report",
@@ -7147,7 +6841,7 @@
   "revue": "L'encéphale",
   "volume": "46",
   "numero": "4",
-  "pages": "283--292",
+  "pages": "283–292",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2020.01.002",
   "titreCrossref": "Électroconvulsivothérapie en association avec des traitements pharmacologiques psychotropes et non psychotropes : revue de la littérature et recommandations pratiques",
@@ -7212,7 +6906,7 @@
   "revue": "Journal of affective disorders",
   "volume": "276",
   "numero": "",
-  "pages": "877--882",
+  "pages": "877–882",
   "editeur": "Elsevier",
   "doi": "10.1016/j.jad.2020.07.064",
   "titreCrossref": "Emotional response in depersonalization: A systematic review of electrodermal activity studies",
@@ -7262,7 +6956,7 @@
   "revue": "L'encéphale",
   "volume": "46",
   "numero": "3",
-  "pages": "S40--S42",
+  "pages": "S40–S42",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2020.04.004",
   "titreCrossref": "Évolution de l’activité d’électro-convulsivo-thérapie en France depuis le début de la pandémie COVID-19",
@@ -7363,7 +7057,7 @@
   "revue": "Revue d'Épidémiologie et de Santé Publique",
   "volume": "68",
   "numero": "5",
-  "pages": "273--281",
+  "pages": "273–281",
   "editeur": ""
  },
  {
@@ -7387,7 +7081,7 @@
   "revue": "Journal of Neurology",
   "volume": "267",
   "numero": "11",
-  "pages": "3371--3377",
+  "pages": "3371–3377",
   "editeur": "Springer Berlin Heidelberg Berlin/Heidelberg",
   "doi": "10.1007/s00415-020-10020-4",
   "titreCrossref": "High diagnostic value of plasma Niemann-Pick type C biomarkers in adults with selected neurological and/or psychiatric disorders",
@@ -7525,7 +7219,7 @@
   "revue": "The Journal of clinical psychiatry",
   "volume": "82",
   "numero": "1",
-  "pages": "20m13641--20m13641",
+  "pages": "20m13641–20m13641",
   "editeur": ""
  },
  {
@@ -7543,7 +7237,7 @@
   "revue": "Acta Psychiatrica Scandinavica",
   "volume": "142",
   "numero": "3",
-  "pages": "257--258",
+  "pages": "257–258",
   "editeur": "",
   "doi": "10.1111/acps.13227",
   "titreCrossref": "Language bias in forensic psychiatry research: the tower of Babel problem",
@@ -7678,7 +7372,7 @@
   "revue": "Revue d'Épidémiologie et de Santé Publique",
   "volume": "68",
   "numero": "5",
-  "pages": "273--281",
+  "pages": "273–281",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.respe.2020.06.005",
   "titreCrossref": "Offre de soins et recours aux hospitalisations psychiatriques en milieu pénitentiaire : une étude observationnelle dans le Nord de la France",
@@ -7730,7 +7424,7 @@
   "revue": "The Neuroscientist",
   "volume": "26",
   "numero": "3",
-  "pages": "208--223",
+  "pages": "208–223",
   "editeur": "Sage Publications Sage CA: Los Angeles, CA",
   "doi": "10.1177/1073858419867083",
   "titreCrossref": "Plastic Adaptation to Pathology in Psychiatry: Are Patients with Psychiatric Disorders Pathological Experts?",
@@ -7871,7 +7565,7 @@
   "revue": "Biopsychosocial Science and Medicine",
   "volume": "82",
   "numero": "9",
-  "pages": "838--849",
+  "pages": "838–849",
   "editeur": "LWW",
   "doi": "10.1097/psy.0000000000000863",
   "titreCrossref": "Psychotic, Mood, and Anxiety Disorders and Venous Thromboembolism: A Systematic Review and Meta-Analysis",
@@ -7953,7 +7647,7 @@
   "revue": "L'encéphale",
   "volume": "46",
   "numero": "3",
-  "pages": "S119--S122",
+  "pages": "S119–S122",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2020.05.008",
   "titreCrossref": "Recommandations pour une reprise progressive et contrôlée de l’électroconvulsivothérapie en France en période de levée du confinement et de pandémie COVID-19 liée au SARS-CoV-2",
@@ -8078,7 +7772,7 @@
   "revue": "Psychotherapy and psychosomatics",
   "volume": "89",
   "numero": "2",
-  "pages": "108--108",
+  "pages": "108–108",
   "editeur": "S. Karger AG",
   "doi": "10.1159/000505133",
   "titreCrossref": "Reply to the Letter to the Editor: “Mixing Apples and Oranges in Assessing Outcomes of Repetitive Transcranial Stimulation Meta-Analyses”",
@@ -8152,7 +7846,7 @@
   "revue": "Schizophrenia research",
   "volume": "218",
   "numero": "",
-  "pages": "2--6",
+  "pages": "2–6",
   "editeur": "Elsevier",
   "doi": "10.1016/j.schres.2019.12.041",
   "titreCrossref": "Reward anticipation in schizophrenia: A coordinate-based meta-analysis",
@@ -8266,7 +7960,7 @@
   "revue": "Human brain mapping",
   "volume": "41",
   "numero": "6",
-  "pages": "1557--1572",
+  "pages": "1557–1572",
   "editeur": "John Wiley & Sons, Inc. Hoboken, USA",
   "doi": "10.1002/hbm.24894",
   "titreCrossref": "The heterogeneous functional architecture of the posteromedial cortex is associated with selective functional connectivity differences in Alzheimer's disease",
@@ -8365,7 +8059,7 @@
   "revue": "L'encéphale",
   "volume": "46",
   "numero": "6",
-  "pages": "493--499",
+  "pages": "493–499",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2020.04.017",
   "titreCrossref": "Trouble de stress post-traumatique en milieu pénitentiaire",
@@ -8409,7 +8103,7 @@
   "revue": "Companion Publication of the 2020 International Conference on Multimodal Interaction",
   "volume": "",
   "numero": "",
-  "pages": "165--170",
+  "pages": "165–170",
   "editeur": "",
   "doi": "10.1145/3395035.3425191",
   "titreCrossref": "Unsupervised Learning Method for Exploring Students' Mental Stress in Medical Simulation Training",
@@ -8469,7 +8163,7 @@
   "revue": "Psychiatric Services",
   "volume": "71",
   "numero": "8",
-  "pages": "824--828",
+  "pages": "824–828",
   "editeur": "American Psychiatric Association Washington, DC",
   "doi": "10.1176/appi.ps.201900497",
   "titreCrossref": "Utilization of Hospital-Level Mental Health Care Services for Inmates in France: A Transversal Study",
@@ -8519,7 +8213,7 @@
   "revue": "L'encéphale",
   "volume": "45",
   "numero": "3",
-  "pages": "207--213",
+  "pages": "207–213",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2018.07.008",
   "titreCrossref": "Caractéristiques socio-démographiques et cliniques des adolescents détenus hospitalisés en unité hospitalière spécialement aménagée : résultats d’une étude transversale nationale",
@@ -8577,7 +8271,7 @@
   "revue": "La presse médicale",
   "volume": "48",
   "numero": "11",
-  "pages": "1329--1330",
+  "pages": "1329–1330",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.lpm.2019.09.053",
   "titreCrossref": "CERT’IN© : un logiciel libre d’aide à la rédaction du certificat médical initial pour les mesures de soins psychiatriques sans consentement",
@@ -8621,7 +8315,7 @@
   "revue": "Psychological Medicine",
   "volume": "49",
   "numero": "7",
-  "pages": "1229--1232",
+  "pages": "1229–1232",
   "editeur": "Cambridge University Press",
   "doi": "10.1017/s0033291719000229",
   "titreCrossref": "Environment risk factors have different impact on bipolar and psychotic disorders: an analysis of MHGP survey",
@@ -8750,7 +8444,7 @@
   "revue": "Psychotherapy and psychosomatics",
   "volume": "88",
   "numero": "6",
-  "pages": "363--370",
+  "pages": "363–370",
   "editeur": "S. Karger AG",
   "doi": "10.1159/000502805",
   "titreCrossref": "Excess Significance Bias in Repetitive Transcranial Magnetic Stimulation Literature for Neuropsychiatric Disorders",
@@ -8826,7 +8520,7 @@
   "revue": "Journal of affective disorders",
   "volume": "248",
   "numero": "",
-  "pages": "26--28",
+  "pages": "26–28",
   "editeur": "Elsevier",
   "doi": "10.1016/j.jad.2019.01.025",
   "titreCrossref": "FKBP5 gene variants and borderline personality disorder",
@@ -8903,7 +8597,7 @@
   "revue": "Schizophrenia research",
   "volume": "204",
   "numero": "",
-  "pages": "448--449",
+  "pages": "448–449",
   "editeur": "Elsevier",
   "doi": "10.1016/j.schres.2018.09.019",
   "titreCrossref": "GLP-1 agonists for metabolic disorders in schizophrenia",
@@ -8958,7 +8652,7 @@
   "revue": "Acta Psychiatrica Scandinavica",
   "volume": "139",
   "numero": "2",
-  "pages": "206--207",
+  "pages": "206–207",
   "editeur": "",
   "doi": "10.1111/acps.12985",
   "titreCrossref": "Is prison truly a good place to be cared for?",
@@ -8999,30 +8693,8 @@
   "revue": "Pratique Neurologique-FMC",
   "volume": "10",
   "numero": "3",
-  "pages": "154--161",
-  "editeur": "Elsevier Masson",
-  "doi": "10.1016/j.praneu.2019.07.001",
-  "titreCrossref": "L’électroconvulsivothérapie en psychiatrie et neurologie",
-  "score": 1,
-  "openalex": "https://openalex.org/W2967718083",
-  "citations": 1,
-  "revueOpenAlex": "Pratique Neurologique - FMC",
-  "accesLibre": true,
-  "urlAccesLibre": "https://www.sciencedirect.com/science/article/am/pii/S1878776219300676?via%3Dihub",
-  "institutions": [
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   }
-  ]
+  "pages": "154–161",
+  "editeur": "Elsevier Masson"
  },
  {
   "cle": "d2019enseignement",
@@ -9040,7 +8712,7 @@
   "revue": "L'encéphale",
   "volume": "45",
   "numero": "5",
-  "pages": "391--396",
+  "pages": "391–396",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2019.03.004",
   "titreCrossref": "L’enseignement du syndrome catatonique en France : enquête nationale et état des lieux",
@@ -9096,7 +8768,7 @@
   "revue": "La presse médicale",
   "volume": "48",
   "numero": "1",
-  "pages": "46--54",
+  "pages": "46–54",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.lpm.2018.11.009",
   "titreCrossref": "Le suicide en prison : épidémiologie et dispositifs de prévention",
@@ -9141,7 +8813,7 @@
   "revue": "La Revue du Praticien",
   "volume": "69",
   "numero": "1",
-  "pages": "21--22",
+  "pages": "21–22",
   "editeur": ""
  },
  {
@@ -9160,7 +8832,7 @@
   "revue": "Brain Stimulation",
   "volume": "12",
   "numero": "3",
-  "pages": "794--796",
+  "pages": "794–796",
   "editeur": "Elsevier",
   "doi": "10.1016/j.brs.2019.01.019",
   "titreCrossref": "Psychogenic non-epileptic seizures treated with guided transcranial direct current stimulation: A case report",
@@ -9214,7 +8886,7 @@
   "revue": "Journal of affective disorders",
   "volume": "254",
   "numero": "",
-  "pages": "124--126",
+  "pages": "124–126",
   "editeur": "Elsevier",
   "doi": "10.1016/j.jad.2019.01.006",
   "titreCrossref": "Repetitive transcranial magnetic stimulation for depression: The non-inferiority extrapolation",
@@ -9299,7 +8971,7 @@
   "revue": "Neuroscience & Biobehavioral Reviews",
   "volume": "105",
   "numero": "",
-  "pages": "52--59",
+  "pages": "52–59",
   "editeur": "Pergamon",
   "doi": "10.1016/j.neubiorev.2019.07.018",
   "titreCrossref": "Similarities between borderline personality disorder and post traumatic stress disorder: Evidence from resting-state meta-analysis",
@@ -9361,7 +9033,7 @@
   "revue": "L'encéphale",
   "volume": "45",
   "numero": "2",
-  "pages": "139--146",
+  "pages": "139–146",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2018.06.004",
   "titreCrossref": "Soins médicaux généraux en unité hospitalière spécialement aménagée : une enquête nationale",
@@ -9422,7 +9094,7 @@
   "revue": "L'encéphale",
   "volume": "45",
   "numero": "6",
-  "pages": "522--524",
+  "pages": "522–524",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2018.05.006",
   "titreCrossref": "Soins psychiatriques sans consentement : une enquête auprès des juges des libertés et de la détention",
@@ -9468,7 +9140,7 @@
   "revue": "Australian & New Zealand Journal of Psychiatry",
   "volume": "52",
   "numero": "6",
-  "pages": "573--584",
+  "pages": "573–584",
   "editeur": "Sage Publications Sage UK: London, England",
   "doi": "10.1177/0004867417744255",
   "titreCrossref": "A latent class analysis of psychotic symptoms in the general population",
@@ -9562,7 +9234,7 @@
   "revue": "Journal of affective disorders",
   "volume": "226",
   "numero": "",
-  "pages": "66--71",
+  "pages": "66–71",
   "editeur": "Elsevier",
   "doi": "10.1016/j.jad.2017.08.085",
   "titreCrossref": "A study in the general population about sadness to disentangle the continuum from well-being to depressive disorders",
@@ -9682,7 +9354,7 @@
   "revue": "Schizophrenia research",
   "volume": "193",
   "numero": "",
-  "pages": "447--448",
+  "pages": "447–448",
   "editeur": "",
   "doi": "10.1016/j.schres.2017.06.031",
   "titreCrossref": "Association between familiarity disorders and serious violence among inmates with schizophrenia",
@@ -9801,150 +9473,8 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "176",
   "numero": "8",
-  "pages": "801--802",
-  "editeur": "",
-  "doi": "10.1016/j.amp.2018.08.012",
-  "titreCrossref": "Aux frontières de la sémiologie psychiatrique !",
-  "score": 1,
-  "openalex": "https://openalex.org/W2891703934",
-  "citations": 0,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Délégation Paris 7",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sorbonne Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Assistance Publique – Hôpitaux de Paris",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fernand-Widal",
-    "pays": "FR"
-   },
-   {
-    "nom": "Optimisation Thérapeutique en Neuropsychopharmacologie",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fontmaure",
-    "pays": "FR"
-   },
-   {
-    "nom": "Inserm",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Purpan",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Charles Perrens",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Reims",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Robert-Debré",
-    "pays": "FR"
-   },
-   {
-    "nom": "Cognition, Santé, Société",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Reims Champagne-Ardenne",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Le Vinatier",
-    "pays": "FR"
-   },
-   {
-    "nom": "Institut Mérieux (France)",
-    "pays": "FR"
-   },
-   {
-    "nom": "Lyon 1 Université",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Corentin-Celton",
-    "pays": "FR"
-   },
-   {
-    "nom": "Institut de Psychiatrie et Neurosciences de Paris",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 5",
-    "pays": "FR"
-   },
-   {
-    "nom": "Aix-Marseille Université",
-    "pays": "FR"
-   },
-   {
-    "nom": "Institut de Neurosciences de la Timone",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris-Est Créteil",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpitaux Universitaires Henri-Mondor",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Nîmes",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Pellegrin",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sommeil, Addiction et Neuropsychiatrie",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Nîmes",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Lille Nord de France",
-    "pays": "FR"
-   }
-  ]
+  "pages": "801–802",
+  "editeur": ""
  },
  {
   "cle": "amad2018boite",
@@ -10195,7 +9725,7 @@
   "revue": "L'encéphale",
   "volume": "44",
   "numero": "4",
-  "pages": "372--378",
+  "pages": "372–378",
   "editeur": "",
   "doi": "10.26226/morressier.5d1a037657558b317a14064d",
   "titreCrossref": "ON THE RUN: A REVIEW OF DELUSIONAL MISIDENTIFICATION SYNDROMES",
@@ -10223,7 +9753,7 @@
   "revue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
   "volume": "83",
   "numero": "",
-  "pages": "127--136",
+  "pages": "127–136",
   "editeur": "Elsevier",
   "doi": "10.1016/j.pnpbp.2018.01.012",
   "titreCrossref": "Diazepam fails to alter anxiety-like responses but affects motor function in a white-black test paradigm in larval zebrafish ( Danio rerio )",
@@ -10262,7 +9792,7 @@
   "revue": "Psychiatry Research",
   "volume": "269",
   "numero": "",
-  "pages": "450--454",
+  "pages": "450–454",
   "editeur": "Elsevier",
   "doi": "10.1016/j.psychres.2018.08.083",
   "titreCrossref": "Disordered eating behaviors as a potential obesogenic factor in schizophrenia",
@@ -10331,7 +9861,7 @@
   "revue": "Journal of psychiatric research",
   "volume": "102",
   "numero": "",
-  "pages": "38--43",
+  "pages": "38–43",
   "editeur": "Pergamon",
   "doi": "10.1016/j.jpsychires.2018.03.007",
   "titreCrossref": "Increased prevalence of anxiety disorders in third-generation migrants in comparison to natives and to first-generation migrants",
@@ -10425,7 +9955,7 @@
   "revue": "Drug and alcohol dependence",
   "volume": "187",
   "numero": "",
-  "pages": "40--47",
+  "pages": "40–47",
   "editeur": "Elsevier",
   "doi": "10.1016/j.drugalcdep.2018.02.009",
   "titreCrossref": "Influence of comorbid alcohol use disorders on the clinical patterns of major depressive disorder: A general population-based study",
@@ -10542,7 +10072,7 @@
   "revue": "L'encéphale",
   "volume": "45",
   "numero": "6",
-  "pages": "522--524",
+  "pages": "522–524",
   "editeur": ""
  },
  {
@@ -10561,7 +10091,7 @@
   "revue": "European archives of psychiatry and clinical neuroscience",
   "volume": "268",
   "numero": "7",
-  "pages": "675--687",
+  "pages": "675–687",
   "editeur": "Springer Berlin Heidelberg Berlin/Heidelberg",
   "doi": "10.1007/s00406-017-0819-5",
   "titreCrossref": "Is electroconvulsive therapy an evidence-based treatment for catatonia? A systematic review and meta-analysis",
@@ -10626,7 +10156,7 @@
   "revue": "L'encéphale",
   "volume": "44",
   "numero": "1",
-  "pages": "91--92",
+  "pages": "91–92",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2017.12.001",
   "titreCrossref": "L’application DICOSEMIOPSY ©  : un lexique de sémiologie psychiatrique illustré",
@@ -10714,119 +10244,7 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "176",
   "numero": "9",
-  "pages": "936--940",
-  "editeur": "",
-  "doi": "10.1016/j.amp.2018.09.007",
-  "titreCrossref": "L’examen clinique psychiatrique standardisé pour l’étudiant, c’est possible !",
-  "score": 1,
-  "openalex": "https://openalex.org/W2896901342",
-  "citations": 2,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sciences Cognitives et Sciences Affectives",
-    "pays": "FR"
-   },
-   {
-    "nom": "Inserm",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 7",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sorbonne Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Lariboisière",
-    "pays": "FR"
-   },
-   {
-    "nom": "Optimisation Thérapeutique en Neuropsychopharmacologie",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Pellegrin",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sommeil, Addiction et Neuropsychiatrie",
-    "pays": "FR"
-   },
-   {
-    "nom": "Cognition, Santé, Société",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Reims Champagne-Ardenne",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Robert-Debré",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Toulouse III - Paul Sabatier",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Fédérale de Toulouse Midi-Pyrénées",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Purpan",
-    "pays": "FR"
-   },
-   {
-    "nom": "Toulouse NeuroImaging Center",
-    "pays": "FR"
-   }
-  ]
- },
- {
-  "cle": "amad2018examen",
-  "type": "article",
-  "titre": "L’examen clinique psychiatrique standardisé pour l’étudiant, c’est possible! A standardized psychiatric clinical examination for students is possible!",
-  "auteurs": [
-   "Amad, Ali",
-   "Geoffroy, Pierre A",
-   "Micoulaud-Franchi, Jean-Arthur",
-   "Bensamoun, David",
-   "Benzerouk, Farid",
-   "Peyre, Hugo",
-   "Yrondi, Antoine",
-   "Quilès, Clélia",
-   "Fovet, Thomas"
-  ],
-  "annee": 2018,
-  "revue": "",
-  "volume": "",
-  "numero": "",
-  "pages": "",
+  "pages": "936–940",
   "editeur": "",
   "doi": "10.1016/j.amp.2018.09.007",
   "titreCrossref": "L’examen clinique psychiatrique standardisé pour l’étudiant, c’est possible !",
@@ -10937,7 +10355,7 @@
   "revue": "L'encéphale",
   "volume": "44",
   "numero": "6",
-  "pages": "568--570",
+  "pages": "568–570",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2017.09.004",
   "titreCrossref": "Les soins psychiatriques sans consentement en milieu pénitentiaire sont-ils réservés aux patients « dangereux » ?",
@@ -10978,7 +10396,7 @@
   "revue": "L'encéphale",
   "volume": "44",
   "numero": "4",
-  "pages": "372--378",
+  "pages": "372–378",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2017.12.010",
   "titreCrossref": "Les syndromes délirants d’identification : un facteur associé à la violence ? Revue de littérature à partir d’études de cas",
@@ -11045,7 +10463,7 @@
   "revue": "Social psychiatry and psychiatric epidemiology",
   "volume": "53",
   "numero": "6",
-  "pages": "567--576",
+  "pages": "567–576",
   "editeur": "Springer Berlin Heidelberg Berlin/Heidelberg",
   "doi": "10.1007/s00127-018-1507-0",
   "titreCrossref": "Prevalence and predictors of no lifetime utilization of mental health treatment among people with mental disorders in France: findings from the ‘Mental Health in General Population’ (MHGP) survey",
@@ -11138,7 +10556,7 @@
   "revue": "Schizophrenia research",
   "volume": "193",
   "numero": "",
-  "pages": "336--342",
+  "pages": "336–342",
   "editeur": "Elsevier",
   "doi": "10.1016/j.schres.2017.06.053",
   "titreCrossref": "Sociodemographic and clinical correlates of psychotic symptoms in the general population: Findings from the MHGP survey",
@@ -11228,7 +10646,7 @@
   "revue": "L'encéphale",
   "volume": "45",
   "numero": "1",
-  "pages": "74--81",
+  "pages": "74–81",
   "editeur": ""
  },
  {
@@ -11248,7 +10666,7 @@
   "revue": "Alcoholism: Clinical and Experimental Research",
   "volume": "41",
   "numero": "6",
-  "pages": "1137--1143",
+  "pages": "1137–1143",
   "editeur": "",
   "doi": "10.1111/acer.13387",
   "titreCrossref": "Alcohol Use Disorders and Immigration up to the Third Generation in France: Findings from a 39,617-Subject Survey in the General Population",
@@ -11327,7 +10745,7 @@
   "revue": "EMC-Psychiatrie",
   "volume": "14",
   "numero": "",
-  "pages": "1--8",
+  "pages": "1–8",
   "editeur": ""
  },
  {
@@ -11351,7 +10769,7 @@
   "revue": "Human brain mapping",
   "volume": "38",
   "numero": "10",
-  "pages": "4966--4979",
+  "pages": "4966–4979",
   "editeur": "",
   "doi": "10.1002/hbm.23707",
   "titreCrossref": "fMRI capture of auditory hallucinations: Validation of the two‐steps method",
@@ -11418,7 +10836,7 @@
   "revue": "Revue d'Épidémiologie et de Santé Publique",
   "volume": "65",
   "numero": "4",
-  "pages": "285--294",
+  "pages": "285–294",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.respe.2017.03.129",
   "titreCrossref": "Hospitalisation en unité hospitalière spécialement aménagée : enquête de satisfaction auprès des patients",
@@ -11473,7 +10891,7 @@
   "revue": "Revue d'Épidémiologie et de Santé Publique",
   "volume": "65",
   "numero": "4",
-  "pages": "285--294",
+  "pages": "285–294",
   "editeur": ""
  },
  {
@@ -11496,7 +10914,7 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "175",
   "numero": "5",
-  "pages": "460--461",
+  "pages": "460–461",
   "editeur": "",
   "doi": "10.1016/j.amp.2017.03.003",
   "titreCrossref": "La sémiologie motrice en psychiatrie : une dimension oubliée !",
@@ -11604,59 +11022,7 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "175",
   "numero": "5",
-  "pages": "462--468",
-  "editeur": "",
-  "doi": "10.1016/j.amp.2017.03.004",
-  "titreCrossref": "Les maladies neurologiques à expression psychiatrique : importance de l’examen neurologique",
-  "score": 1,
-  "openalex": "https://openalex.org/W2605387469",
-  "citations": 4,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fontmaure",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fernand-Widal",
-    "pays": "FR"
-   },
-   {
-    "nom": "Inserm",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Roger Salengro",
-    "pays": "FR"
-   }
-  ]
- },
- {
-  "cle": "haroche2017maladies",
-  "type": "article",
-  "titre": "Les maladies neurologiques à expression psychiatrique: importance de l’examen neurologique Neurological diseases with psychiatric expression: Importance of neurological examination",
-  "auteurs": [
-   "Haroche, Alexandre",
-   "Amad, Ali",
-   "Fovet, Thomas",
-   "Geoffroy, Pierre A",
-   "Defebvre, Luc"
-  ],
-  "annee": 2017,
-  "revue": "",
-  "volume": "",
-  "numero": "",
-  "pages": "",
+  "pages": "462–468",
   "editeur": "",
   "doi": "10.1016/j.amp.2017.03.004",
   "titreCrossref": "Les maladies neurologiques à expression psychiatrique : importance de l’examen neurologique",
@@ -11712,7 +11078,7 @@
   "revue": "Cerebral Cortex",
   "volume": "27",
   "numero": "3",
-  "pages": "2010--2021",
+  "pages": "2010–2021",
   "editeur": "Oxford University Press",
   "doi": "10.1093/cercor/bhw048",
   "titreCrossref": "Motor Learning Induces Plasticity in the Resting Brain—Drumming Up a Connection",
@@ -11756,7 +11122,7 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "175",
   "numero": "5",
-  "pages": "462--468",
+  "pages": "462–468",
   "editeur": ""
  },
  {
@@ -11777,7 +11143,7 @@
   "revue": "Journal of affective disorders",
   "volume": "210",
   "numero": "",
-  "pages": "174--180",
+  "pages": "174–180",
   "editeur": "Elsevier",
   "doi": "10.1016/j.jad.2016.12.039",
   "titreCrossref": "Prevalence and clinical severity of mood disorders among first-, second- and third-generation migrants",
@@ -11918,46 +11284,8 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "175",
   "numero": "5",
-  "pages": "486--491",
-  "editeur": "",
-  "doi": "10.1016/j.amp.2017.03.008",
-  "titreCrossref": "Sémiologie du syndrome catatonique",
-  "score": 1,
-  "openalex": "https://openalex.org/W2605418007",
-  "citations": 2,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Centre Hospitalier Charles Perrens",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fontmaure",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Pellegrin",
-    "pays": "FR"
-   }
-  ]
+  "pages": "486–491",
+  "editeur": ""
  },
  {
   "cle": "quiles2017semiologie",
@@ -12030,7 +11358,7 @@
   "revue": "Annales Medico-Psychologiques",
   "volume": "175",
   "numero": "5",
-  "pages": "486--491",
+  "pages": "486–491",
   "editeur": ""
  },
  {
@@ -12048,7 +11376,7 @@
   "revue": "Psychotherapy and psychosomatics",
   "volume": "86",
   "numero": "3",
-  "pages": "187--188",
+  "pages": "187–188",
   "editeur": "S. Karger AG",
   "doi": "10.1159/000460256",
   "titreCrossref": "Serious Games: The Future of Psychotherapy? Proposal of an Integrative Model",
@@ -12110,7 +11438,7 @@
   "revue": "Journal of Diabetes and its Complications",
   "volume": "31",
   "numero": "1",
-  "pages": "108--113",
+  "pages": "108–113",
   "editeur": "Elsevier",
   "doi": "10.1016/j.jdiacomp.2016.10.026",
   "titreCrossref": "Skin autofluorescence (a marker for advanced glycation end products) and erectile dysfunction in diabetes",
@@ -12170,7 +11498,7 @@
   "revue": "Obesity surgery",
   "volume": "27",
   "numero": "7",
-  "pages": "1889--1895",
+  "pages": "1889–1895",
   "editeur": "Springer US New York",
   "doi": "10.1007/s11695-017-2715-5",
   "titreCrossref": "Surgical Management of Obesity Among People with Schizophrenia and Bipolar Disorder: a Systematic Review of Outcomes and Recommendations for Future Research",
@@ -12235,7 +11563,7 @@
   "revue": "Annales Medico-Psychologiques",
   "volume": "175",
   "numero": "5",
-  "pages": "460--461",
+  "pages": "460–461",
   "editeur": ""
  },
  {
@@ -12256,7 +11584,7 @@
   "revue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
   "volume": "78",
   "numero": "",
-  "pages": "123--131",
+  "pages": "123–131",
   "editeur": "Elsevier",
   "doi": "10.1016/j.pnpbp.2017.05.021",
   "titreCrossref": "Transcranial direct-current stimulation (tDCS) for bipolar depression: A systematic review and meta-analysis",
@@ -12346,7 +11674,7 @@
   "revue": "L'information psychiatrique",
   "volume": "92",
   "numero": "4",
-  "pages": "277--284",
+  "pages": "277–284",
   "editeur": "JLE Éditions"
  },
  {
@@ -12410,7 +11738,7 @@
   "revue": "Substance abuse",
   "volume": "37",
   "numero": "1",
-  "pages": "188--189",
+  "pages": "188–189",
   "editeur": "SAGE Publications Sage CA: Los Angeles, CA",
   "doi": "10.1080/08897077.2015.1052869",
   "titreCrossref": "Catatonia and Cannabis Withdrawal: A Case Report",
@@ -12476,7 +11804,7 @@
   "revue": "Aust NZJ Psychiatry",
   "volume": "50",
   "numero": "1",
-  "pages": "100--1",
+  "pages": "100–1",
   "editeur": "",
   "doi": "10.1177/0004867415601730",
   "titreCrossref": "Keep calm: Psychiatric disorders are organic! The power of words in medicine",
@@ -12522,7 +11850,7 @@
   "revue": "L'information psychiatrique",
   "volume": "92",
   "numero": "4",
-  "pages": "277--284",
+  "pages": "277–284",
   "editeur": "JLE Éditions"
  },
  {
@@ -12539,7 +11867,7 @@
   "revue": "L'information psychiatrique",
   "volume": "92",
   "numero": "4",
-  "pages": "295--303",
+  "pages": "295–303",
   "editeur": "JLE Éditions"
  },
  {
@@ -12556,74 +11884,7 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "174",
   "numero": "5",
-  "pages": "402--409",
-  "editeur": "",
-  "doi": "10.1016/j.amp.2016.03.009",
-  "titreCrossref": "Le boucher du Prince Wen-houei. De l’art médical du recueil sémiologique valide en psychiatrie",
-  "score": 1,
-  "openalex": "https://openalex.org/W2329496807",
-  "citations": 4,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sommeil, Addiction et Neuropsychiatrie",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 7",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sorbonne Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Optimisation Thérapeutique en Neuropsychopharmacologie",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Bordeaux",
-    "pays": "FR"
-   }
-  ]
- },
- {
-  "cle": "micoulaud2016boucher",
-  "type": "article",
-  "titre": "Le boucher du Prince Wen-houei. De l’art médical du recueil sémiologique valide en psychiatrie The dexterous butcher of Prince Wen-hui. Some elements on the medical art of valid semiologic psychiatric collection",
-  "auteurs": [
-   "Micoulaud-Franchi, Jean-Arthur",
-   "Geoffroy, Pierre-Alexis",
-   "Amad, Ali",
-   "Quiles, Clélia"
-  ],
-  "annee": 2016,
-  "revue": "",
-  "volume": "",
-  "numero": "",
-  "pages": "",
+  "pages": "402–409",
   "editeur": "",
   "doi": "10.1016/j.amp.2016.03.009",
   "titreCrossref": "Le boucher du Prince Wen-houei. De l’art médical du recueil sémiologique valide en psychiatrie",
@@ -12691,7 +11952,7 @@
   "revue": "Pédagogie Médicale",
   "volume": "17",
   "numero": "4",
-  "pages": "269--272",
+  "pages": "269–272",
   "editeur": "EDP Sciences",
   "doi": "10.1051/pmed/2017009",
   "titreCrossref": "Le concept de syndrome, en tant que construction didactique\npertinente pour l’enseignement et l’apprentissage du savoir biomédical",
@@ -12768,72 +12029,7 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "174",
   "numero": "8",
-  "pages": "703--713",
-  "editeur": "",
-  "doi": "10.1016/j.amp.2016.08.003",
-  "titreCrossref": "Les complaintes du carabin. Modèle pour un raisonnement clinique pratique",
-  "score": 1,
-  "openalex": "https://openalex.org/W2511869878",
-  "citations": 5,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Université de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "European Nuclear Education Network",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 7",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sorbonne Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fernand-Widal",
-    "pays": "FR"
-   },
-   {
-    "nom": "Optimisation Thérapeutique en Neuropsychopharmacologie",
-    "pays": "FR"
-   }
-  ]
- },
- {
-  "cle": "micoulaud2016complaintes",
-  "type": "article",
-  "titre": "Les complaintes du carabin. Modèle pour un raisonnement clinique pratique The laments of the medical student. Model for a practice clinical reasoning",
-  "auteurs": [
-   "Micoulaud-Franchi, Jean-Arthur",
-   "Amad, Ali",
-   "Geoffroy, Pierre A",
-   "Micoulaud-Franchi, Jean-Bastien",
-   "Fovet, Thomas",
-   "Quiles, Clélia"
-  ],
-  "annee": 2016,
-  "revue": "",
-  "volume": "",
-  "numero": "",
-  "pages": "",
+  "pages": "703–713",
   "editeur": "",
   "doi": "10.1016/j.amp.2016.08.003",
   "titreCrossref": "Les complaintes du carabin. Modèle pour un raisonnement clinique pratique",
@@ -12898,7 +12094,7 @@
   "revue": "Soins. Psychiatrie",
   "volume": "",
   "numero": "304",
-  "pages": "39--43",
+  "pages": "39–43",
   "editeur": ""
  },
  {
@@ -12917,7 +12113,7 @@
   "revue": "L'encéphale",
   "volume": "42",
   "numero": "2",
-  "pages": "177--182",
+  "pages": "177–182",
   "editeur": ""
  },
  {
@@ -12933,7 +12129,7 @@
   "revue": "L'encéphale",
   "volume": "42",
   "numero": "3",
-  "pages": "S18--S22",
+  "pages": "S18–S22",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/s0013-7006(16)30218-4",
   "titreCrossref": "Schizophrénie et addictions : les liaisons dangereuses",
@@ -13052,7 +12248,7 @@
   "revue": "L'encéphale",
   "volume": "42",
   "numero": "5",
-  "pages": "463--469",
+  "pages": "463–469",
   "editeur": ""
  },
  {
@@ -13126,7 +12322,7 @@
   "revue": "Annales Medico-Psychologiques",
   "volume": "174",
   "numero": "8",
-  "pages": "703--713",
+  "pages": "703–713",
   "editeur": ""
  },
  {
@@ -13143,7 +12339,7 @@
   "revue": "L'information psychiatrique",
   "volume": "92",
   "numero": "4",
-  "pages": "295--303",
+  "pages": "295–303",
   "editeur": "JLE Éditions",
   "doi": "10.1016/b978-0-12-800454-8.00008-2",
   "titreCrossref": "Transcranial Direct Current Stimulation",
@@ -13157,60 +12353,6 @@
    {
     "nom": "Harvard University",
     "pays": "US"
-   }
-  ]
- },
- {
-  "cle": "kouidrat2015advanced",
-  "type": "article",
-  "titre": "Advanced glycation end products and schizophrenia: A systematic",
-  "auteurs": [
-   "Kouidrat, Youssef",
-   "Amad, Ali",
-   "Arai, Makoto",
-   "Miyashita, Mitsuhiro",
-   "Lalau, Jean-Daniel",
-   "Loas, Gwenole",
-   "Itokawa, Masanari"
-  ],
-  "annee": 2015,
-  "revue": "Journal of psychiatric research",
-  "volume": "30",
-  "numero": "",
-  "pages": "1e6",
-  "editeur": "",
-  "doi": "10.1016/j.jpsychires.2015.04.023",
-  "titreCrossref": "Advanced glycation end products and schizophrenia: A systematic review",
-  "score": 1,
-  "openalex": "https://openalex.org/W1809444946",
-  "citations": 51,
-  "revueOpenAlex": "Journal of Psychiatric Research",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Assistance Publique – Hôpitaux de Paris",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Maritime de Berck",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Picardie Jules Verne",
-    "pays": "FR"
-   },
-   {
-    "nom": "King's College London",
-    "pays": "GB"
-   },
-   {
-    "nom": "Tokyo Metropolitan Institute of Medical Science",
-    "pays": "JP"
-   },
-   {
-    "nom": "Erasmus Hospital",
-    "pays": "BE"
    }
   ]
  },
@@ -13231,7 +12373,7 @@
   "revue": "Journal of psychiatric research",
   "volume": "66",
   "numero": "",
-  "pages": "112--117",
+  "pages": "112–117",
   "editeur": "Pergamon",
   "doi": "10.1016/j.jpsychires.2015.04.023",
   "titreCrossref": "Advanced glycation end products and schizophrenia: A systematic review",
@@ -13281,7 +12423,7 @@
   "revue": "Current Pharmaceutical Design",
   "volume": "21",
   "numero": "23",
-  "pages": "3311--3316",
+  "pages": "3311–3316",
   "editeur": "Bentham Science Publishers",
   "doi": "10.2174/1381612821666150619093019",
   "titreCrossref": "Borderline Personality Disorder and Oxytocin: Review of Clinical Trials and Future Directions",
@@ -13315,7 +12457,7 @@
   "revue": "L'encéphale",
   "volume": "41",
   "numero": "6",
-  "pages": "527--533",
+  "pages": "527–533",
   "editeur": ""
  },
  {
@@ -13335,7 +12477,7 @@
   "revue": "Molecular psychiatry",
   "volume": "20",
   "numero": "9",
-  "pages": "1101--1107",
+  "pages": "1101–1107",
   "editeur": "Nature Publishing Group",
   "doi": "10.1038/mp.2014.140",
   "titreCrossref": "Deviations in cortex sulcation associated with visual hallucinations in schizophrenia",
@@ -13409,7 +12551,7 @@
   "revue": "Current Pharmaceutical Design",
   "volume": "21",
   "numero": "23",
-  "pages": "3317--3324",
+  "pages": "3317–3324",
   "editeur": "Bentham Science Publishers",
   "doi": "10.2174/1381612821666150619093128",
   "titreCrossref": "Emerging Drugs and Indications for Cardio-Metabolic Disorders in People with Severe Mental Illness",
@@ -13438,7 +12580,7 @@
   "revue": "European psychiatry",
   "volume": "30",
   "numero": "8",
-  "pages": "S77--S77",
+  "pages": "S77–S77",
   "editeur": ""
  },
  {
@@ -13648,54 +12790,8 @@
   "revue": "Proposition d'une organiation minimale de la sémiologie psychiatrique pour l'étudiant en médecine. Annales Medico Psychologiques",
   "volume": "173",
   "numero": "",
-  "pages": "460--69",
-  "editeur": "",
-  "doi": "10.1016/j.amp.2015.04.009",
-  "titreCrossref": "Le jardinier et le botaniste. Proposition d’une organisation minimale de la sémiologie psychiatrique pour l’étudiant en médecine",
-  "score": 1,
-  "openalex": "https://openalex.org/W308754079",
-  "citations": 13,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 5",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 7",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fernand-Widal",
-    "pays": "FR"
-   },
-   {
-    "nom": "Optimisation Thérapeutique en Neuropsychopharmacologie",
-    "pays": "FR"
-   },
-   {
-    "nom": "King's College London",
-    "pays": "GB"
-   },
-   {
-    "nom": "Université de Bordeaux",
-    "pays": "FR"
-   }
-  ]
+  "pages": "460–69",
+  "editeur": ""
  },
  {
   "cle": "rolland2015off",
@@ -13820,7 +12916,7 @@
   "revue": "Annales Medico-Psychologiques",
   "volume": "173",
   "numero": "4",
-  "pages": "348--351",
+  "pages": "348–351",
   "editeur": ""
  },
  {
@@ -13836,7 +12932,7 @@
   "revue": "Annales Medico-Psychologiques",
   "volume": "173",
   "numero": "8",
-  "pages": "726--730",
+  "pages": "726–730",
   "editeur": ""
  },
  {
@@ -13877,7 +12973,7 @@
   "revue": "Schizophrenia bulletin",
   "volume": "41",
   "numero": "1",
-  "pages": "291--299",
+  "pages": "291–299",
   "editeur": "Oxford University Press US",
   "doi": "10.1093/schbul/sbu097",
   "titreCrossref": "Resting-State Functional Connectivity of the Nucleus Accumbens in Auditory and Visual Hallucinations in Schizophrenia",
@@ -13940,7 +13036,7 @@
   "revue": "Annales Medico-Psychologiques",
   "volume": "173",
   "numero": "5",
-  "pages": "460--469",
+  "pages": "460–469",
   "editeur": ""
  },
  {
@@ -13955,7 +13051,7 @@
   "revue": "European psychiatry",
   "volume": "30",
   "numero": "8",
-  "pages": "S66--S66",
+  "pages": "S66–S66",
   "editeur": ""
  },
  {
@@ -13970,13 +13066,13 @@
   "revue": "La Lettre du psychiatre (Puteaux)",
   "volume": "10",
   "numero": "3",
-  "pages": "80--83",
+  "pages": "80–83",
   "editeur": ""
  },
  {
   "cle": "geoffroy2014aesp",
   "type": "article",
-  "titre": "AESP--Sémiologie moderne et diagnostics psychiatriques: un couple inséparable!",
+  "titre": "AESP – Sémiologie moderne et diagnostics psychiatriques: un couple inséparable!",
   "auteurs": [
    "Geoffroy, PA",
    "Amad, A"
@@ -13985,7 +13081,7 @@
   "revue": "European psychiatry",
   "volume": "29",
   "numero": "S3",
-  "pages": "582--582",
+  "pages": "582–582",
   "editeur": "Cambridge University Press",
   "doi": "10.1016/j.eurpsy.2014.09.285",
   "titreCrossref": "AESP – Sémiologie moderne et diagnostics psychiatriques : un couple inséparable !",
@@ -14022,7 +13118,7 @@
   "revue": "European psychiatry",
   "volume": "29",
   "numero": "8",
-  "pages": "582--582",
+  "pages": "582–582",
   "editeur": ""
  },
  {
@@ -14040,7 +13136,7 @@
   "revue": "L'information psychiatrique",
   "volume": "90",
   "numero": "5",
-  "pages": "319--322",
+  "pages": "319–322",
   "editeur": ""
  },
  {
@@ -14105,7 +13201,7 @@
   "revue": "L'information psychiatrique",
   "volume": "90",
   "numero": "5",
-  "pages": "319--322",
+  "pages": "319–322",
   "editeur": "JLE Éditions",
   "doi": "10.3917/inpsy.9005.0319",
   "titreCrossref": "État actuel de la formation des médecins généralistes à la psychiatrie et à la santé mentale en France",
@@ -14179,7 +13275,7 @@
   "revue": "Abstracts of the 4th Biennial Schizophrenia International Research Conference/Schizophrenia Research",
   "volume": "153",
   "numero": "1",
-  "pages": "S1--S384",
+  "pages": "S1–S384",
   "editeur": "",
   "doi": "10.1016/s0920-9964(14)70168-9",
   "titreCrossref": "4:45 PM EXPLORING THE SENSORY COMPLEXITY OF HALLUCINATORY EXPERIENCES USING MULTIMODAL CONNECTIVITY ANALYSIS",
@@ -14206,7 +13302,7 @@
   "revue": "Neuroscience & Biobehavioral Reviews",
   "volume": "40",
   "numero": "",
-  "pages": "6--19",
+  "pages": "6–19",
   "editeur": "Pergamon",
   "doi": "10.1016/j.neubiorev.2014.01.003",
   "titreCrossref": "Genetics of borderline personality disorder: Systematic review and proposal of an integrative model",
@@ -14269,7 +13365,7 @@
   "revue": "L'encéphale",
   "volume": "40",
   "numero": "6",
-  "pages": "431--438",
+  "pages": "431–438",
   "editeur": ""
  },
  {
@@ -14286,7 +13382,7 @@
   "revue": "L'encéphale",
   "volume": "40",
   "numero": "6",
-  "pages": "431--438",
+  "pages": "431–438",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.encep.2014.07.002",
   "titreCrossref": "Hallucinations et trouble de personnalité borderline : une revue de littérature",
@@ -14323,7 +13419,7 @@
   "revue": "La Lettre du psychiatre",
   "volume": "10",
   "numero": "6",
-  "pages": "176--177",
+  "pages": "176–177",
   "editeur": ""
  },
  {
@@ -14338,7 +13434,7 @@
   "revue": "European psychiatry",
   "volume": "29",
   "numero": "S3",
-  "pages": "556--556",
+  "pages": "556–556",
   "editeur": "Cambridge University Press",
   "doi": "10.1016/j.eurpsy.2014.09.362",
   "titreCrossref": "New developments in the genetics of borderline personality disorder",
@@ -14454,7 +13550,7 @@
   "revue": "La Lettre du psychiatre",
   "volume": "10",
   "numero": "6",
-  "pages": "172--175",
+  "pages": "172–175",
   "editeur": ""
  },
  {
@@ -14471,7 +13567,7 @@
   "revue": "La presse médicale",
   "volume": "43",
   "numero": "5",
-  "pages": "520--528",
+  "pages": "520–528",
   "editeur": "Elsevier Masson",
   "doi": "10.1016/j.lpm.2013.08.005",
   "titreCrossref": "Psychotropes en milieu pénitentiaire : de la fiole à l’AMM",
@@ -14506,7 +13602,7 @@
   "revue": "L'encéphale",
   "volume": "41",
   "numero": "5",
-  "pages": "394--402",
+  "pages": "394–402",
   "editeur": ""
  },
  {
@@ -14522,42 +13618,8 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "172",
   "numero": "9",
-  "pages": "752--755",
-  "editeur": "",
-  "doi": "10.1016/j.amp.2014.08.019",
-  "titreCrossref": "Sciences et psychiatrie",
-  "score": 1,
-  "openalex": "https://openalex.org/W2048998218",
-  "citations": 3,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Hôpital Fernand-Widal",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Lille Nord de France",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sorbonne Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Sainte-Anne",
-    "pays": "FR"
-   }
-  ]
+  "pages": "752–755",
+  "editeur": ""
  },
  {
   "cle": "geoffroy2014arcuate",
@@ -14568,7 +13630,7 @@
   "revue": "Schizophrenia research",
   "volume": "159",
   "numero": "1",
-  "pages": "234--237",
+  "pages": "234–237",
   "editeur": "Elsevier",
   "doi": "10.1016/j.schres.2014.07.014",
   "titreCrossref": "The arcuate fasciculus in auditory-verbal hallucinations: A meta-analysis of diffusion-tensor-imaging studies",
@@ -14650,7 +13712,7 @@
   "revue": "JAMA psychiatry",
   "volume": "71",
   "numero": "9",
-  "pages": "1077--1077",
+  "pages": "1077–1077",
   "editeur": "",
   "doi": "10.1001/jamapsychiatry.2014.123",
   "titreCrossref": "The Hippocampal Complex at the Crossroad of Dimensional/Categorical Approaches",
@@ -14694,7 +13756,7 @@
   "revue": "Molecular psychiatry",
   "volume": "19",
   "numero": "2",
-  "pages": "184--191",
+  "pages": "184–191",
   "editeur": "Nature Publishing Group",
   "doi": "10.1038/mp.2012.181",
   "titreCrossref": "The multimodal connectivity of the hippocampal complex in auditory and visual hallucinations",
@@ -14766,7 +13828,7 @@
   "revue": "Presse medicale (Paris, France: 1983)",
   "volume": "43",
   "numero": "12 Pt 1",
-  "pages": "1317--1324",
+  "pages": "1317–1324",
   "editeur": ""
  },
  {
@@ -14803,7 +13865,7 @@
   "revue": "Journal of psychiatric research",
   "volume": "47",
   "numero": "8",
-  "pages": "1044--1048",
+  "pages": "1044–1048",
   "editeur": "Pergamon",
   "doi": "10.1016/j.jpsychires.2013.03.016",
   "titreCrossref": "Increased advanced glycation end-products (AGEs) assessed by skin autofluorescence in schizophrenia",
@@ -14856,7 +13918,7 @@
   "revue": "Schizophrenia research",
   "volume": "147",
   "numero": "1",
-  "pages": "193--195",
+  "pages": "193–195",
   "editeur": "Elsevier",
   "doi": "10.1016/j.schres.2013.03.011",
   "titreCrossref": "Increased prevalence of psychotic disorders among third-generation migrants: Results from the French Mental Health in General Population survey",
@@ -14901,7 +13963,7 @@
   "revue": "La Lettre du psychiatre",
   "volume": "9",
   "numero": "1",
-  "pages": "20--23",
+  "pages": "20–23",
   "editeur": "Edimark"
  },
  {
@@ -14920,7 +13982,7 @@
   "revue": "L'information psychiatrique",
   "volume": "89",
   "numero": "7",
-  "pages": "579--585",
+  "pages": "579–585",
   "editeur": "JLE",
   "doi": "10.3917/inpsy.8907.0579",
   "titreCrossref": "Représentation de la santé mentale en population musulmane d'après l'étude « Santé mentale en population générale » (SMPG)",
@@ -14973,7 +14035,7 @@
   "revue": "L'information psychiatrique",
   "volume": "89",
   "numero": "7",
-  "pages": "579--585",
+  "pages": "579–585",
   "editeur": ""
  },
  {
@@ -15015,7 +14077,7 @@
   "revue": "Diabetes & Metabolism",
   "volume": "38",
   "numero": "",
-  "pages": "A81--A81",
+  "pages": "A81–A81",
   "editeur": ""
  },
  {
@@ -15031,7 +14093,7 @@
   "revue": "L'information psychiatrique",
   "volume": "88",
   "numero": "10",
-  "pages": "799--804",
+  "pages": "799–804",
   "editeur": ""
  },
  {
@@ -15047,7 +14109,7 @@
   "revue": "L'information psychiatrique",
   "volume": "88",
   "numero": "10",
-  "pages": "799--804",
+  "pages": "799–804",
   "editeur": "",
   "doi": "10.1684/ipe.2012.0993",
   "titreCrossref": "Génétique des hallucinations : des voix pas sans gène !",
@@ -15082,7 +14144,7 @@
   "revue": "L'encéphale",
   "volume": "39",
   "numero": "5",
-  "pages": "374--382",
+  "pages": "374–382",
   "editeur": ""
  },
  {
@@ -15099,7 +14161,7 @@
   "revue": "Pathologies Schizophréniques",
   "volume": "",
   "numero": "",
-  "pages": "96--110",
+  "pages": "96–110",
   "editeur": "Médecine Sciences"
  },
  {
@@ -15118,7 +14180,7 @@
   "revue": "Biological psychiatry",
   "volume": "71",
   "numero": "6",
-  "pages": "e15--e16",
+  "pages": "e15–e16",
   "editeur": "Elsevier",
   "doi": "10.1016/j.biopsych.2011.10.010",
   "titreCrossref": "What Is the Real Effect of 1-Hz Repetitive Transcranial Magnetic Stimulation on Hallucinations? Controlling for Publication Bias in Neuromodulation Trials",
@@ -15176,32 +14238,8 @@
   "revue": "Presse medicale (Paris, France: 1983)",
   "volume": "41",
   "numero": "5",
-  "pages": "455--465",
+  "pages": "455–465",
   "editeur": ""
- },
- {
-  "cle": "amad2011histoire",
-  "type": "article",
-  "titre": "Histoire de la maladie mentale dans le Moyen-Orient",
-  "auteurs": [
-   "Amad, A",
-   "Thomas, P"
-  ],
-  "annee": 2011,
-  "revue": "",
-  "volume": "",
-  "numero": "",
-  "pages": "",
-  "editeur": "",
-  "doi": "10.1016/j.amp.2010.06.023",
-  "titreCrossref": "Histoire de la maladie mentale dans le Moyen-Orient médiéval",
-  "score": 1,
-  "openalex": "https://openalex.org/W2007744312",
-  "citations": 1,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": true,
-  "urlAccesLibre": "https://hal.science/hal-00771587",
-  "institutions": []
  },
  {
   "cle": "amad2011histoire",
@@ -15215,7 +14253,7 @@
   "revue": "Annales Médico-psychologiques, revue psychiatrique",
   "volume": "169",
   "numero": "6",
-  "pages": "373--376",
+  "pages": "373–376",
   "editeur": "",
   "doi": "10.1016/j.amp.2010.06.023",
   "titreCrossref": "Histoire de la maladie mentale dans le Moyen-Orient médiéval",

@@ -28,7 +28,6 @@
    }
   ]
  },
- "schizophrenie chez l adulte": {},
  "personality and personality disorders in the elderly diagnostic course and management": {},
  "genetique des hallucinations des voix pas sans gene": {
   "doi": "10.1684/ipe.2012.0993",
@@ -107,7 +106,6 @@
   ]
  },
  "etude des hallucinations dans la schizophrenie par imagerie en tenseur de diffusion et tractographie": {},
- "le bipolaire la prison et la loi": {},
  "increased prevalence of psychotic disorders among third generation migrants results from the french mental health in general population survey": {
   "doi": "10.1016/j.schres.2013.03.011",
   "titreCrossref": "Increased prevalence of psychotic disorders among third-generation migrants: Results from the French Mental Health in General Population survey",
@@ -272,7 +270,6 @@
    }
   ]
  },
- "diabete et ramadan": {},
  "psychotropes en milieu penitentiaire de la fiole a l amm": {
   "doi": "10.1016/j.lpm.2013.08.005",
   "titreCrossref": "Psychotropes en milieu pénitentiaire : de la fiole à l’AMM",
@@ -524,42 +521,6 @@
   ]
  },
  "travel and psychotic disorders clinical aspects and practical recommendations": {},
- "sciences et psychiatrie": {
-  "doi": "10.1016/j.amp.2014.08.019",
-  "titreCrossref": "Sciences et psychiatrie",
-  "score": 1,
-  "openalex": "https://openalex.org/W2048998218",
-  "citations": 3,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Hôpital Fernand-Widal",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Lille Nord de France",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sorbonne Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Sainte-Anne",
-    "pays": "FR"
-   }
-  ]
- },
  "deviations in cortex sulcation associated with visual hallucinations in schizophrenia": {
   "doi": "10.1038/mp.2014.140",
   "titreCrossref": "Deviations in cortex sulcation associated with visual hallucinations in schizophrenia",
@@ -766,7 +727,6 @@
  "itineraires de patients souffrant de troubles psychiatriques en prison passe present et devenir apres l incarceration": {},
  "prescrire les psychotropes en milieu penitentiaire": {},
  "society of biological psychiatry 2013 annual meeting": {},
- "rediger un courrier en psychiatrie": {},
  "advanced glycation end products and schizophrenia a systematic review": {
   "doi": "10.1016/j.jpsychires.2015.04.023",
   "titreCrossref": "Advanced glycation end products and schizophrenia: A systematic review",
@@ -1106,7 +1066,6 @@
   ]
  },
  "psychiatry in prison a specific semiology": {},
- "psychiatry in elderly prisoners": {},
  "which therapeutic applications for the serious game in psychiatry": {},
  "for a free and collaborative dissemination of psychiatric education": {},
  "motor learning induces plasticity in the resting brain drumming up a connection": {
@@ -1663,46 +1622,6 @@
    }
   ]
  },
- "semiologie du syndrome catatonique": {
-  "doi": "10.1016/j.amp.2017.03.008",
-  "titreCrossref": "Sémiologie du syndrome catatonique",
-  "score": 1,
-  "openalex": "https://openalex.org/W2605418007",
-  "citations": 2,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Centre Hospitalier Charles Perrens",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fontmaure",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Pellegrin",
-    "pays": "FR"
-   }
-  ]
- },
  "semiologie du syndrome catatonique semiology of catatonic syndrome": {
   "doi": "10.1016/j.amp.2017.03.008",
   "titreCrossref": "Sémiologie du syndrome catatonique",
@@ -2193,7 +2112,6 @@
   ]
  },
  "neurological diseases with psychiatric expression importance of neurological examination": {},
- "semiology of catatonic syndrome": {},
  "fmri capture of auditory hallucinations validation of the two steps method": {
   "doi": "10.1002/hbm.23707",
   "titreCrossref": "fMRI capture of auditory hallucinations: Validation of the two‐steps method",
@@ -2675,54 +2593,6 @@
    {
     "nom": "Erasmus Hospital",
     "pays": "BE"
-   }
-  ]
- },
- "le jardinier et le botaniste": {
-  "doi": "10.1016/j.amp.2015.04.009",
-  "titreCrossref": "Le jardinier et le botaniste. Proposition d’une organisation minimale de la sémiologie psychiatrique pour l’étudiant en médecine",
-  "score": 1,
-  "openalex": "https://openalex.org/W308754079",
-  "citations": 13,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 5",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 7",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fernand-Widal",
-    "pays": "FR"
-   },
-   {
-    "nom": "Optimisation Thérapeutique en Neuropsychopharmacologie",
-    "pays": "FR"
-   },
-   {
-    "nom": "King's College London",
-    "pays": "GB"
-   },
-   {
-    "nom": "Université de Bordeaux",
-    "pays": "FR"
    }
   ]
  },
@@ -3292,150 +3162,6 @@
    }
   ]
  },
- "aux frontieres de la semiologie psychiatrique": {
-  "doi": "10.1016/j.amp.2018.08.012",
-  "titreCrossref": "Aux frontières de la sémiologie psychiatrique !",
-  "score": 1,
-  "openalex": "https://openalex.org/W2891703934",
-  "citations": 0,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Délégation Paris 7",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sorbonne Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "Assistance Publique – Hôpitaux de Paris",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fernand-Widal",
-    "pays": "FR"
-   },
-   {
-    "nom": "Optimisation Thérapeutique en Neuropsychopharmacologie",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Fontmaure",
-    "pays": "FR"
-   },
-   {
-    "nom": "Inserm",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Purpan",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Charles Perrens",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Reims",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Robert-Debré",
-    "pays": "FR"
-   },
-   {
-    "nom": "Cognition, Santé, Société",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Reims Champagne-Ardenne",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Le Vinatier",
-    "pays": "FR"
-   },
-   {
-    "nom": "Institut Mérieux (France)",
-    "pays": "FR"
-   },
-   {
-    "nom": "Lyon 1 Université",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Corentin-Celton",
-    "pays": "FR"
-   },
-   {
-    "nom": "Institut de Psychiatrie et Neurosciences de Paris",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 5",
-    "pays": "FR"
-   },
-   {
-    "nom": "Aix-Marseille Université",
-    "pays": "FR"
-   },
-   {
-    "nom": "Institut de Neurosciences de la Timone",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris-Est Créteil",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpitaux Universitaires Henri-Mondor",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Bordeaux",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Nîmes",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Pellegrin",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sommeil, Addiction et Neuropsychiatrie",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Nîmes",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Lille Nord de France",
-    "pays": "FR"
-   }
-  ]
- },
  "l examen clinique psychiatrique standardise pour l etudiant c est possible": {
   "doi": "10.1016/j.amp.2018.09.007",
   "titreCrossref": "L’examen clinique psychiatrique standardisé pour l’étudiant, c’est possible !",
@@ -3528,7 +3254,6 @@
    }
   ]
  },
- "personnalites obsessionnelles compulsives": {},
  "caracteristiques socio demographiques et cliniques des adolescents detenus hospitalises en unite hospitaliere specialement amenagee resultats d une etude transversale nationale": {
   "doi": "10.1016/j.encep.2018.07.008",
   "titreCrossref": "Caractéristiques socio-démographiques et cliniques des adolescents détenus hospitalisés en unité hospitalière spécialement aménagée : résultats d’une étude transversale nationale",
@@ -4311,30 +4036,6 @@
    {
     "nom": "Monash University",
     "pays": "AU"
-   }
-  ]
- },
- "l electroconvulsivotherapie en psychiatrie et neurologie": {
-  "doi": "10.1016/j.praneu.2019.07.001",
-  "titreCrossref": "L’électroconvulsivothérapie en psychiatrie et neurologie",
-  "score": 1,
-  "openalex": "https://openalex.org/W2967718083",
-  "citations": 1,
-  "revueOpenAlex": "Pratique Neurologique - FMC",
-  "accesLibre": true,
-  "urlAccesLibre": "https://www.sciencedirect.com/science/article/am/pii/S1878776219300676?via%3Dihub",
-  "institutions": [
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
    }
   ]
  },
@@ -5941,78 +5642,6 @@
    }
   ]
  },
- "la tachypsychie": {
-  "doi": "10.1016/j.amp.2021.02.022",
-  "titreCrossref": "La tachypsychie",
-  "score": 1,
-  "openalex": "https://openalex.org/W4214533778",
-  "citations": 1,
-  "revueOpenAlex": "Annales Médico-psychologiques revue psychiatrique",
-  "accesLibre": true,
-  "urlAccesLibre": "https://www.sciencedirect.com/science/article/pii/S0003448721000809",
-  "institutions": [
-   {
-    "nom": "Université Toulouse III - Paul Sabatier",
-    "pays": "FR"
-   },
-   {
-    "nom": "Inserm",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Fédérale de Toulouse Midi-Pyrénées",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Purpan",
-    "pays": "FR"
-   },
-   {
-    "nom": "Toulouse NeuroImaging Center",
-    "pays": "FR"
-   },
-   {
-    "nom": "Délégation Paris 7",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université Paris Cité",
-    "pays": "FR"
-   },
-   {
-    "nom": "FHU Neurovasc",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpital Bichat-Claude-Bernard",
-    "pays": "FR"
-   },
-   {
-    "nom": "NeuroDiderot",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre National de la Recherche Scientifique",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Sciences Cognitives et Sciences Affectives",
-    "pays": "FR"
-   },
-   {
-    "nom": "Hôpitaux Universitaires de Strasbourg",
-    "pays": "FR"
-   },
-   {
-    "nom": "Université de Strasbourg",
-    "pays": "FR"
-   }
-  ]
- },
  "a pharmacoepidemiological study of the association of suicide reattempt risk with psychotropic drug exposure": {
   "doi": "10.1016/j.jpsychires.2021.04.006",
   "titreCrossref": "A pharmacoepidemiological study of the association of suicide reattempt risk with psychotropic drug exposure",
@@ -6137,7 +5766,6 @@
    }
   ]
  },
- "racing and crowded thoughts": {},
  "rtms for depression the difficult transition from research to clinical practice": {
   "doi": "10.1177/00048674211011242",
   "titreCrossref": "rTMS for depression: The difficult transition from research to clinical practice",
@@ -7641,42 +7269,6 @@
    {
     "nom": "Stanford University",
     "pays": "US"
-   }
-  ]
- },
- "saisonnalite de la catatonie en france": {
-  "doi": "10.1016/j.respe.2023.101537",
-  "titreCrossref": "Saisonnalité de la catatonie en France",
-  "score": 1,
-  "openalex": "https://openalex.org/W4321782253",
-  "citations": 0,
-  "revueOpenAlex": "Revue d Épidémiologie et de Santé Publique",
-  "accesLibre": false,
-  "urlAccesLibre": null,
-  "institutions": [
-   {
-    "nom": "Université de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Unité de Recherche Pluridisciplinaire Sport, Santé, Société",
-    "pays": "FR"
-   },
-   {
-    "nom": "Inserm",
-    "pays": "FR"
-   },
-   {
-    "nom": "Centre Hospitalier Universitaire de Lille",
-    "pays": "FR"
-   },
-   {
-    "nom": "Lille Neurosciences & Cognition",
-    "pays": null
-   },
-   {
-    "nom": "Evaluation des technologies de santé et des pratiques médicales",
-    "pays": null
    }
   ]
  },
@@ -9870,17 +9462,6 @@
    }
   ]
  },
- "brain communications": {
-  "doi": "10.1093/braincomms/fcag052",
-  "titreCrossref": "Passing the torch at\n                    <i>Brain Communications</i>",
-  "score": 1,
-  "openalex": "https://openalex.org/W7133345176",
-  "citations": 0,
-  "revueOpenAlex": "Brain Communications",
-  "accesLibre": true,
-  "urlAccesLibre": "https://doi.org/10.1093/braincomms/fcag052",
-  "institutions": []
- },
  "deterioration of psychiatric care in french prisons": {
   "doi": "10.1177/00207640261456762",
   "titreCrossref": "Deterioration of Psychiatric Care in French Prisons",
@@ -10353,5 +9934,21 @@
    }
   ]
  },
- "": {}
+ "schizophrenie chez l adulte": {},
+ "le bipolaire la prison et la loi": {},
+ "diabete et ramadan": {},
+ "sciences et psychiatrie": {},
+ "rediger un courrier en psychiatrie": {},
+ "psychiatry in elderly prisoners": {},
+ "semiologie du syndrome catatonique": {},
+ "semiology of catatonic syndrome": {},
+ "le jardinier et le botaniste": {},
+ "aux frontieres de la semiologie psychiatrique": {},
+ "personnalites obsessionnelles compulsives": {},
+ "l electroconvulsivotherapie en psychiatrie et neurologie": {},
+ "": {},
+ "la tachypsychie": {},
+ "racing and crowded thoughts": {},
+ "saisonnalite de la catatonie en france": {},
+ "brain communications": {}
 }

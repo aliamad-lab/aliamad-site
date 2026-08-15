@@ -34,8 +34,44 @@ const t =
     ? { total: (n: number) => `${n} publications`, libre: 'Open access' }
     : { total: (n: number) => `${n} publications`, libre: 'En accès libre' };
 
+/**
+ * Scholar livre les auteurs sous deux formes mêlées : « Amad, Ali » et
+ * « Pierre A Geoffroy ». Juxtaposées telles quelles et séparées par des
+ * virgules, on ne distingue plus où finit un nom et où commence le suivant.
+ * On les ramène donc tous à la forme « Amad A », usuelle en biomédecine et
+ * sans ambiguïté.
+ */
+function formaterAuteur(brut: string): string {
+  const auteur = brut.trim();
+  if (!auteur) return '';
+
+  // BibTeX signale une liste tronquée par le mot-clé « others ».
+  if (/^others$/i.test(auteur)) return locale === 'en' ? 'et al.' : 'et al.';
+
+  let nom: string;
+  let prenoms: string;
+
+  if (auteur.includes(',')) {
+    const [n, ...reste] = auteur.split(',');
+    nom = n.trim();
+    prenoms = reste.join(' ').trim();
+  } else {
+    const morceaux = auteur.split(/\s+/);
+    nom = morceaux.pop() ?? '';
+    prenoms = morceaux.join(' ');
+  }
+
+  const initiales = prenoms
+    .split(/[\s.-]+/)
+    .filter(Boolean)
+    .map((p) => p[0].toUpperCase())
+    .join('');
+
+  return initiales ? `${nom} ${initiales}` : nom;
+}
+
 /** Met en évidence la signature d'Ali parmi ses co-auteurs. */
-const estAli = (auteur: string) => /(^|[\s,])Amad([\s,]|$)/i.test(auteur) || /^Amad,/i.test(auteur);
+const estAli = (auteur: string) => /^Amad\b/i.test(formaterAuteur(auteur));
 ---
 
 <p class="publications__compte">
@@ -54,10 +90,11 @@ const estAli = (auteur: string) => /(^|[\s,])Amad([\s,]|$)/i.test(auteur) || /^A
               {p.auteurs.map((a, i) => (
                 <>
                   {i > 0 && ', '}
-                  <span class={estAli(a) ? 'publication__moi' : undefined}>{a}</span>
+                  <span class={estAli(a) ? 'publication__moi' : undefined}>{formaterAuteur(a)}</span>
                 </>
               ))}
-              {p.auteurs.length > 0 && '. '}
+              {/* « et al. » porte déjà son point : en ajouter un ferait double. */}
+              {p.auteurs.length > 0 && (/^others$/i.test(p.auteurs.at(-1)?.trim() ?? '') ? ' ' : '. ')}
             </span>
 
             <span class="publication__titre">
