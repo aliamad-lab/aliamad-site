@@ -23,11 +23,20 @@ export type PageId = keyof typeof routes;
 /** Rubriques du menu, dans l'ordre d'affichage. */
 export const navOrder: PageId[] = ['home', 'clinical', 'research', 'teaching', 'publications'];
 
-/** Construit l'URL d'une page dans une langue donnée. */
+/**
+ * Construit l'URL d'une page dans une langue donnée.
+ *
+ * Le préfixe de déploiement est appliqué ici, et nulle part ailleurs : en
+ * recette le site est servi depuis /aliamad-site/, en production depuis la
+ * racine. Toute adresse interne doit passer par cette fonction, sous peine de
+ * fonctionner à une adresse et pas à l'autre.
+ */
 export function urlFor(id: PageId, locale: Locale): string {
   const slug = routes[id][locale];
   const prefix = locale === defaultLocale ? '' : `/${locale}`;
-  return slug ? `${prefix}/${slug}` : prefix || '/';
+  const path = slug ? `${prefix}/${slug}` : prefix;
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  return `${base}${path}` || '/';
 }
 
 export const ui = {

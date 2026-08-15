@@ -15,6 +15,11 @@ const { locale, pageId, title, description } = Astro.props;
 const t = ui[locale];
 const canonical = new URL(urlFor(pageId, locale), Astro.site);
 
+// Le site de recette ne doit surtout pas être indexé : il ferait doublon avec
+// aliamad.com et se mettrait en concurrence avec lui dans les résultats de
+// recherche. Seul le domaine définitif est indexable.
+const indexable = Astro.site?.host === 'www.aliamad.com';
+
 // Le site Google Sites déclarait lang="en" sur des pages françaises. On rétablit
 // ici la langue réelle de chaque page, pour les lecteurs d'écran comme pour le
 // référencement. Les commentaires restent dans le frontmatter : un commentaire
@@ -28,6 +33,7 @@ const canonical = new URL(urlFor(pageId, locale), Astro.site);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    {!indexable && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonical} />
 
     {
