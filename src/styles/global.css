@@ -1,27 +1,33 @@
 /*
- * Charte provisoire — phase 0.
+ * Charte arrêtée en phase 2 — variante A.
  *
- * Les valeurs ci-dessous posent la direction retenue au cahier des charges §9
- * (fond papier, accent bleu de Prusse, serif, pas de cartes à ombres) mais ne
- * sont pas les valeurs définitives : la phase 2 les arrête sur essais visuels.
- * Tout passe par des variables pour qu'un changement de teinte ou de police
- * reste une modification d'une seule ligne.
+ * EB Garamond pour tout le site : Claude Garamond était graveur à Paris au
+ * XVIe siècle, et ce caractère issu de la Renaissance française fait suite aux
+ * planches d'époque qui illustrent les pages. Une seule famille donne à la page
+ * l'unité d'un livre imprimé.
+ *
+ * Le Garamond ayant une petite hauteur d'x, le corps de texte est monté d'un
+ * cran par rapport à ce qu'appellerait un Georgia : à taille nominale égale, il
+ * paraîtrait sensiblement plus petit.
+ *
+ * Tout passe par des variables : changer une teinte ou une police reste la
+ * modification d'une seule ligne.
  */
 
 :root {
   /* Fond papier plutôt qu'écran : légèrement chaud, jamais blanc pur. */
-  --paper: #fbf9f4;
-  --paper-sunk: #f4f0e6;
-  --ink: #1c1c1a;
-  --ink-soft: #4a4843;
-  --rule: #ddd7c8;
+  --paper: #fbf9f3;
+  --paper-sunk: #f3efe4;
+  --ink: #1f1d1a;
+  --ink-soft: #55514a;
+  --rule: #e0d9c9;
 
-  /* Bleu de Prusse — accent unique du site. */
-  --accent: #14395c;
-  --accent-deep: #0d2740;
+  /* Bleu de Prusse historique — accent unique du site. */
+  --accent: #003153;
+  --accent-deep: #00253f;
 
-  --font-display: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
-  --font-text: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  --font-display: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-text: 'EB Garamond', Georgia, 'Times New Roman', serif;
 
   --measure: 34rem; /* largeur de lecture confortable */
   --gutter: clamp(1.25rem, 5vw, 4rem);
@@ -38,8 +44,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-text);
-  font-size: clamp(1.05rem, 0.98rem + 0.3vw, 1.18rem);
-  line-height: 1.65;
+  font-size: clamp(1.18rem, 1.1rem + 0.35vw, 1.32rem);
+  line-height: 1.7;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -159,8 +165,10 @@ a:hover {
 .site-nav a {
   text-decoration: none;
   color: var(--ink-soft);
-  font-size: 0.94rem;
-  letter-spacing: 0.04em;
+  /* Les capitales d'un serif demandent plus d'interlettrage que celles d'un
+     linéale, sans quoi elles se compactent. */
+  font-size: 0.92rem;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   padding-block: 0.2rem;
   border-bottom: 2px solid transparent;
