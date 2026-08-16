@@ -1,21 +1,29 @@
 ---
+import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { navOrder, routes, ui, type PageId } from '../../i18n/config';
+import PageBanner from '../../components/PageBanner.astro';
+import { routes } from '../../i18n/config';
 
-export function getStaticPaths() {
-  return navOrder.map((id) => ({
-    params: { slug: routes[id].en || undefined },
-    props: { pageId: id as PageId },
+export async function getStaticPaths() {
+  const entries = await getCollection('pages', (entry) => entry.data.locale === 'en');
+
+  return entries.map((entry) => ({
+    params: { slug: routes[entry.data.pageId].en || undefined },
+    props: { entry },
   }));
 }
 
-const { pageId } = Astro.props;
-const t = ui.en;
-const heading = t.nav[pageId];
-const title = pageId === 'home' ? `${t.siteTitle} — ${t.tagline}` : `${heading} — ${t.siteTitle}`;
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { pageId, title, heading, description, banner, bannerAlt, bannerFocus, bannerCredit } = entry.data;
 ---
 
-<Base locale="en" pageId={pageId} title={title} description={t.tagline}>
+<Base locale="en" pageId={pageId} title={title} description={description}>
+  {banner && bannerAlt && (
+    <PageBanner image={banner} alt={bannerAlt} focus={bannerFocus} credit={bannerCredit} />
+  )}
   <h1>{heading}</h1>
-  <p>Translation pending.</p>
+  <div class="prose">
+    <Content />
+  </div>
 </Base>
