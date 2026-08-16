@@ -26,14 +26,9 @@ const annees = [...parAnnee.keys()].sort((a, b) => {
   return b - a;
 });
 
-// Un chiffre arrondi vieillit mieux qu'un décompte exact, qui donnerait à
-// croire à une précision que l'export Scholar ne garantit pas.
-const arrondi = Math.floor(affichables.length / 10) * 10;
-
-const t =
-  locale === 'en'
-    ? { total: `More than ${arrondi} publications`, libre: 'Open access', replier: 'Fold or unfold this year' }
-    : { total: `Plus de ${arrondi} publications`, libre: 'En accès libre', replier: 'Plier ou déplier cette année' };
+// Le décompte figure dans le texte d'introduction de la page, pas ici : deux
+// chiffres à deux endroits finiraient par diverger.
+const t = locale === 'en' ? { libre: 'Open access' } : { libre: 'En accès libre' };
 
 /**
  * Scholar livre les auteurs sous deux formes mêlées : « Amad, Ali » et
@@ -74,8 +69,6 @@ function formaterAuteur(brut: string): string {
 /** Met en évidence la signature d'Ali parmi ses co-auteurs. */
 const estAli = (auteur: string) => /^Amad\b/i.test(formaterAuteur(auteur));
 ---
-
-<p class="publications__compte">{t.total}</p>
 
 {
   annees.map((annee, rang) => (

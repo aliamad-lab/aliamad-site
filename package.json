@@ -1,20 +1,28 @@
 {
-  "name": "aliamad-site",
-  "type": "module",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "publications": "node scripts/build-publications.mjs",
-    "favicons": "node scripts/build-favicons.mjs",
-    "thumbnails": "node scripts/fetch-thumbnails.mjs"
-  },
-  "dependencies": {
-    "@astrojs/mdx": "^7.0.5",
-    "@fontsource/eb-garamond": "^5.3.0",
-    "astro": "^7.2.2",
-    "sharp": "^0.35.3"
-  }
+    "name":  "aliamad-site",
+    "type":  "module",
+    "version":  "0.1.0",
+    "private":  true,
+    "scripts":  {
+                    "dev":  "astro dev",
+                    "build":  "astro build",
+                    "preview":  "astro preview",
+                    "publications":  "node scripts/build-publications.mjs",
+                    "favicons":  "node scripts/build-favicons.mjs",
+                    "thumbnails":  "node scripts/fetch-thumbnails.mjs",
+                    "partage":  "node scripts/build-share-image.mjs",
+                    "collaborations":  "node scripts/build-collaborations.mjs",
+                    "visualisations":  "node scripts/build-visualisations.mjs"
+                },
+    "dependencies":  {
+                         "@astrojs/mdx":  "^7.0.5",
+                         "@fontsource/eb-garamond":  "^5.3.0",
+                         "astro":  "^7.2.2",
+                         "sharp":  "^0.35.3"
+                     },
+    "devDependencies":  {
+                            "opentype.js":  "^2.0.0",
+                            "topojson-client":  "^3.1.0",
+                            "world-atlas":  "^2.0.2"
+                        }
 }

@@ -409,6 +409,7 @@ const rapport = [
   `Généré le ${new Date().toLocaleDateString('fr-FR')} depuis \`${SOURCE}\`.`,
   '',
   `- **${publications.length}** publications retenues`,
+  `- l'introduction de la page annonce « plus de ${Math.floor(publications.length / 10) * 10} publications » — à réaccorder si ce seuil a changé`,
   `- **${apparies}** appariées à un DOI (${Math.round((apparies / publications.length) * 100)} %)`,
   `- **${avecInstitutions}** avec des affiliations exploitables pour la carte`,
   `- **${doublons.length}** doublon(s) écarté(s)`,

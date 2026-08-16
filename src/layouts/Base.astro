@@ -87,6 +87,21 @@ const asset = (file: string) => `${import.meta.env.BASE_URL.replace(/\/$/, '')}/
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content={locale === 'fr' ? 'fr_FR' : 'en_GB'} />
+    <meta property="og:site_name" content="Ali Amad" />
+
+    {/* Vignette affichée lorsqu'un lien du site est partagé. */}
+    <meta property="og:image" content={new URL(asset('partage.png'), Astro.site)} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content={
+        locale === 'fr'
+          ? 'Ali Amad, professeur de psychiatrie, Université de Lille et CHU de Lille'
+          : 'Ali Amad, Professor of Psychiatry, University of Lille and Lille University Hospital'
+      }
+    />
+    <meta name="twitter:card" content="summary_large_image" />
   </head>
 
   <body>

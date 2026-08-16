@@ -1,0 +1,403 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="graphe-titre">
+  <title id="graphe-titre">Réseau des co-auteurs : 66 collaborateurs réguliers, reliés par leurs publications communes</title>
+  <g stroke="#003153" fill="none">
+    <line x1="567.8" y1="326.4" x2="559.9" y2="234.1" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="596.7" y1="189.4" x2="559.9" y2="234.1" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="559.9" y2="234.1" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="567.8" y1="326.4" x2="596.7" y2="189.4" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="567.8" y2="326.4" stroke-opacity="0.12" stroke-width="0.71"/>
+    <line x1="567.8" y1="326.4" x2="498.0" y2="453.5" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="451.6" y1="339.4" x2="596.7" y2="189.4" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="498.0" y2="453.5" stroke-opacity="0.11" stroke-width="0.69"/>
+    <line x1="418.4" y1="169.3" x2="436.1" y2="118.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="489.5" y1="140.6" x2="418.4" y2="169.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="418.4" y1="169.3" x2="481.5" y2="195.1" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="418.4" y1="169.3" x2="372.5" y2="138.2" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="418.4" y1="169.3" x2="345.7" y2="183.3" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="451.6" y1="339.4" x2="418.4" y2="169.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="418.4" y1="169.3" x2="432.2" y2="215.5" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="489.5" y1="140.6" x2="436.1" y2="118.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="481.5" y1="195.1" x2="436.1" y2="118.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="372.5" y1="138.2" x2="436.1" y2="118.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="345.7" y1="183.3" x2="436.1" y2="118.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="436.1" y2="118.7" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="432.2" y1="215.5" x2="436.1" y2="118.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="489.5" y1="140.6" x2="481.5" y2="195.1" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="489.5" y1="140.6" x2="372.5" y2="138.2" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="489.5" y1="140.6" x2="345.7" y2="183.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="489.5" y2="140.6" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="489.5" y1="140.6" x2="432.2" y2="215.5" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="481.5" y1="195.1" x2="372.5" y2="138.2" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="481.5" y1="195.1" x2="345.7" y2="183.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="481.5" y2="195.1" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="481.5" y1="195.1" x2="432.2" y2="215.5" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="372.5" y1="138.2" x2="345.7" y2="183.3" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="451.6" y1="339.4" x2="372.5" y2="138.2" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="372.5" y1="138.2" x2="432.2" y2="215.5" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="451.6" y1="339.4" x2="345.7" y2="183.3" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="432.2" y1="215.5" x2="345.7" y2="183.3" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="451.6" y1="339.4" x2="432.2" y2="215.5" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="460.7" y2="560.0" stroke-opacity="0.11" stroke-width="0.66"/>
+    <line x1="460.7" y1="560.0" x2="498.0" y2="453.5" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="451.6" y1="339.4" x2="411.2" y2="365.7" stroke-opacity="0.43" stroke-width="2.50"/>
+    <line x1="498.0" y1="453.5" x2="411.2" y2="365.7" stroke-opacity="0.10" stroke-width="0.64"/>
+    <line x1="411.2" y1="365.7" x2="408.1" y2="329.2" stroke-opacity="0.20" stroke-width="1.19"/>
+    <line x1="451.6" y1="339.4" x2="408.1" y2="329.2" stroke-opacity="0.21" stroke-width="1.22"/>
+    <line x1="498.0" y1="453.5" x2="408.1" y2="329.2" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="411.2" y1="365.7" x2="330.0" y2="242.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="451.6" y1="339.4" x2="330.0" y2="242.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="408.1" y1="329.2" x2="421.9" y2="440.3" stroke-opacity="0.13" stroke-width="0.79"/>
+    <line x1="411.2" y1="365.7" x2="421.9" y2="440.3" stroke-opacity="0.16" stroke-width="0.93"/>
+    <line x1="451.6" y1="339.4" x2="421.9" y2="440.3" stroke-opacity="0.24" stroke-width="1.41"/>
+    <line x1="498.0" y1="453.5" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="349.2" y2="425.6" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="380.5" y1="446.8" x2="408.1" y2="329.2" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="451.6" y1="339.4" x2="380.5" y2="446.8" stroke-opacity="0.12" stroke-width="0.71"/>
+    <line x1="380.5" y1="446.8" x2="493.8" y2="344.1" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="380.5" y1="446.8" x2="411.2" y2="365.7" stroke-opacity="0.12" stroke-width="0.71"/>
+    <line x1="408.1" y1="329.2" x2="493.8" y2="344.1" stroke-opacity="0.11" stroke-width="0.67"/>
+    <line x1="451.6" y1="339.4" x2="493.8" y2="344.1" stroke-opacity="0.13" stroke-width="0.81"/>
+    <line x1="411.2" y1="365.7" x2="493.8" y2="344.1" stroke-opacity="0.13" stroke-width="0.78"/>
+    <line x1="451.6" y1="339.4" x2="378.7" y2="395.1" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="454.2" y1="418.2" x2="378.7" y2="395.1" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="411.2" y1="365.7" x2="372.9" y2="494.8" stroke-opacity="0.12" stroke-width="0.71"/>
+    <line x1="411.2" y1="365.7" x2="454.2" y2="418.2" stroke-opacity="0.16" stroke-width="0.93"/>
+    <line x1="451.6" y1="339.4" x2="372.9" y2="494.8" stroke-opacity="0.13" stroke-width="0.79"/>
+    <line x1="454.2" y1="418.2" x2="372.9" y2="494.8" stroke-opacity="0.11" stroke-width="0.69"/>
+    <line x1="451.6" y1="339.4" x2="454.2" y2="418.2" stroke-opacity="0.24" stroke-width="1.40"/>
+    <line x1="446.0" y1="378.1" x2="276.7" y2="417.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="451.6" y1="339.4" x2="446.0" y2="378.1" stroke-opacity="0.15" stroke-width="0.88"/>
+    <line x1="446.0" y1="378.1" x2="341.8" y2="466.5" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="451.6" y1="339.4" x2="276.7" y2="417.3" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="451.6" y1="339.4" x2="341.8" y2="466.5" stroke-opacity="0.11" stroke-width="0.66"/>
+    <line x1="503.7" y1="494.4" x2="454.2" y2="418.2" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="454.2" y1="418.2" x2="303.3" y2="457.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="503.7" y2="494.4" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="451.6" y1="339.4" x2="303.3" y2="457.3" stroke-opacity="0.10" stroke-width="0.64"/>
+    <line x1="337.6" y1="305.1" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="320.3" y1="394.4" x2="337.6" y2="305.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="451.6" y1="339.4" x2="337.6" y2="305.1" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="410.5" y1="522.0" x2="421.9" y2="440.3" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="451.6" y1="339.4" x2="410.5" y2="522.0" stroke-opacity="0.11" stroke-width="0.66"/>
+    <line x1="320.3" y1="394.4" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="451.6" y1="339.4" x2="320.3" y2="394.4" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="380.5" y1="446.8" x2="417.0" y2="403.5" stroke-opacity="0.10" stroke-width="0.64"/>
+    <line x1="451.6" y1="339.4" x2="417.0" y2="403.5" stroke-opacity="0.36" stroke-width="2.09"/>
+    <line x1="411.2" y1="365.7" x2="417.0" y2="403.5" stroke-opacity="0.25" stroke-width="1.48"/>
+    <line x1="460.7" y1="560.0" x2="421.9" y2="440.3" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="451.6" y1="339.4" x2="463.7" y2="453.9" stroke-opacity="0.12" stroke-width="0.74"/>
+    <line x1="463.7" y1="453.9" x2="567.8" y2="326.4" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="411.2" y1="365.7" x2="290.4" y2="294.9" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="290.4" y2="294.9" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="451.6" y1="339.4" x2="353.1" y2="544.2" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="547.3" y1="453.4" x2="411.2" y2="365.7" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="547.3" y1="453.4" x2="417.0" y2="403.5" stroke-opacity="0.13" stroke-width="0.78"/>
+    <line x1="547.3" y1="453.4" x2="493.8" y2="344.1" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="451.6" y1="339.4" x2="547.3" y2="453.4" stroke-opacity="0.13" stroke-width="0.76"/>
+    <line x1="417.0" y1="403.5" x2="493.8" y2="344.1" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="451.6" y1="339.4" x2="224.9" y2="304.6" stroke-opacity="0.10" stroke-width="0.60"/>
+    <line x1="290.4" y1="294.9" x2="283.5" y2="240.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="290.4" y1="294.9" x2="381.3" y2="213.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="411.2" y1="365.7" x2="283.5" y2="240.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="381.3" y1="213.3" x2="283.5" y2="240.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="451.6" y1="339.4" x2="283.5" y2="240.8" stroke-opacity="0.10" stroke-width="0.60"/>
+    <line x1="451.6" y1="339.4" x2="381.3" y2="213.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="290.4" y1="294.9" x2="371.7" y2="274.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="290.4" y1="294.9" x2="224.9" y2="304.6" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="361.9" y1="350.7" x2="290.4" y2="294.9" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="411.2" y1="365.7" x2="371.7" y2="274.8" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="361.9" y1="350.7" x2="371.7" y2="274.8" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="451.6" y1="339.4" x2="371.7" y2="274.8" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="411.2" y1="365.7" x2="361.9" y2="350.7" stroke-opacity="0.11" stroke-width="0.69"/>
+    <line x1="451.6" y1="339.4" x2="361.9" y2="350.7" stroke-opacity="0.11" stroke-width="0.69"/>
+    <line x1="353.1" y1="544.2" x2="460.7" y2="560.0" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="353.1" y1="544.2" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="567.8" y1="326.4" x2="626.8" y2="237.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="626.8" y2="237.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="468.1" y1="509.1" x2="548.7" y2="413.0" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="468.1" y2="509.1" stroke-opacity="0.10" stroke-width="0.64"/>
+    <line x1="468.1" y1="509.1" x2="511.0" y2="388.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="547.3" y1="453.4" x2="468.1" y2="509.1" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="468.1" y1="509.1" x2="417.0" y2="403.5" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="468.1" y1="509.1" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="454.2" y1="418.2" x2="468.1" y2="509.1" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="451.6" y1="339.4" x2="548.7" y2="413.0" stroke-opacity="0.13" stroke-width="0.81"/>
+    <line x1="548.7" y1="413.0" x2="511.0" y2="388.3" stroke-opacity="0.13" stroke-width="0.78"/>
+    <line x1="547.3" y1="453.4" x2="548.7" y2="413.0" stroke-opacity="0.12" stroke-width="0.71"/>
+    <line x1="548.7" y1="413.0" x2="417.0" y2="403.5" stroke-opacity="0.13" stroke-width="0.76"/>
+    <line x1="548.7" y1="413.0" x2="421.9" y2="440.3" stroke-opacity="0.12" stroke-width="0.72"/>
+    <line x1="454.2" y1="418.2" x2="548.7" y2="413.0" stroke-opacity="0.12" stroke-width="0.72"/>
+    <line x1="451.6" y1="339.4" x2="511.0" y2="388.3" stroke-opacity="0.14" stroke-width="0.83"/>
+    <line x1="547.3" y1="453.4" x2="511.0" y2="388.3" stroke-opacity="0.13" stroke-width="0.78"/>
+    <line x1="511.0" y1="388.3" x2="417.0" y2="403.5" stroke-opacity="0.14" stroke-width="0.86"/>
+    <line x1="511.0" y1="388.3" x2="421.9" y2="440.3" stroke-opacity="0.13" stroke-width="0.78"/>
+    <line x1="454.2" y1="418.2" x2="511.0" y2="388.3" stroke-opacity="0.12" stroke-width="0.74"/>
+    <line x1="547.3" y1="453.4" x2="421.9" y2="440.3" stroke-opacity="0.11" stroke-width="0.69"/>
+    <line x1="547.3" y1="453.4" x2="454.2" y2="418.2" stroke-opacity="0.11" stroke-width="0.67"/>
+    <line x1="417.0" y1="403.5" x2="421.9" y2="440.3" stroke-opacity="0.17" stroke-width="1.03"/>
+    <line x1="454.2" y1="418.2" x2="417.0" y2="403.5" stroke-opacity="0.15" stroke-width="0.90"/>
+    <line x1="454.2" y1="418.2" x2="421.9" y2="440.3" stroke-opacity="0.13" stroke-width="0.78"/>
+    <line x1="613.3" y1="347.8" x2="675.1" y2="343.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="613.3" y2="347.8" stroke-opacity="0.13" stroke-width="0.78"/>
+    <line x1="603.4" y1="286.3" x2="613.3" y2="347.8" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="451.6" y1="339.4" x2="675.1" y2="343.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="603.4" y1="286.3" x2="675.1" y2="343.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="451.6" y1="339.4" x2="603.4" y2="286.3" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="411.2" y1="365.7" x2="548.7" y2="413.0" stroke-opacity="0.10" stroke-width="0.60"/>
+    <line x1="411.2" y1="365.7" x2="511.0" y2="388.3" stroke-opacity="0.10" stroke-width="0.60"/>
+    <line x1="411.2" y1="365.7" x2="446.0" y2="378.1" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="548.7" y1="413.0" x2="493.8" y2="344.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="446.0" y1="378.1" x2="548.7" y2="413.0" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="498.0" y1="453.5" x2="548.7" y2="413.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="511.0" y1="388.3" x2="493.8" y2="344.1" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="446.0" y1="378.1" x2="493.8" y2="344.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="498.0" y1="453.5" x2="493.8" y2="344.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="547.3" y1="453.4" x2="446.0" y2="378.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="547.3" y1="453.4" x2="498.0" y2="453.5" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="446.0" y1="378.1" x2="511.0" y2="388.3" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="498.0" y1="453.5" x2="511.0" y2="388.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="446.0" y1="378.1" x2="417.0" y2="403.5" stroke-opacity="0.13" stroke-width="0.78"/>
+    <line x1="498.0" y1="453.5" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="530.2" y2="179.0" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="530.2" y1="179.0" x2="381.3" y2="213.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="455.1" y2="259.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="371.7" y1="274.8" x2="493.8" y2="344.1" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="455.1" y1="259.7" x2="371.7" y2="274.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="455.1" y1="259.7" x2="411.2" y2="365.7" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="455.1" y1="259.7" x2="493.8" y2="344.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="361.9" y1="350.7" x2="493.8" y2="344.1" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="455.1" y1="259.7" x2="361.9" y2="350.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="408.1" y1="329.2" x2="361.9" y2="350.7" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="361.9" y1="350.7" x2="417.0" y2="403.5" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="463.7" y1="453.9" x2="361.9" y2="350.7" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="408.1" y1="329.2" x2="371.7" y2="274.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="371.7" y1="274.8" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="463.7" y1="453.9" x2="493.8" y2="344.1" stroke-opacity="0.10" stroke-width="0.62"/>
+    <line x1="408.1" y1="329.2" x2="417.0" y2="403.5" stroke-opacity="0.16" stroke-width="0.98"/>
+    <line x1="463.7" y1="453.9" x2="408.1" y2="329.2" stroke-opacity="0.11" stroke-width="0.66"/>
+    <line x1="463.7" y1="453.9" x2="417.0" y2="403.5" stroke-opacity="0.11" stroke-width="0.66"/>
+    <line x1="463.7" y1="453.9" x2="411.2" y2="365.7" stroke-opacity="0.12" stroke-width="0.71"/>
+    <line x1="274.5" y1="361.8" x2="224.9" y2="304.6" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="274.5" y1="361.8" x2="283.5" y2="240.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="224.9" y1="304.6" x2="283.5" y2="240.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="498.0" y1="453.5" x2="361.9" y2="350.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="380.5" y1="446.8" x2="361.9" y2="350.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="421.9" y1="440.3" x2="493.8" y2="344.1" stroke-opacity="0.10" stroke-width="0.60"/>
+    <line x1="408.1" y1="329.2" x2="511.0" y2="388.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="463.7" y1="453.9" x2="511.0" y2="388.3" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="463.7" y1="453.9" x2="421.9" y2="440.3" stroke-opacity="0.10" stroke-width="0.64"/>
+    <line x1="451.6" y1="339.4" x2="537.0" y2="287.6" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="411.2" y1="365.7" x2="537.0" y2="287.6" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="451.6" y1="339.4" x2="274.5" y2="361.8" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="548.7" y1="413.0" x2="432.4" y2="483.0" stroke-opacity="0.11" stroke-width="0.67"/>
+    <line x1="432.4" y1="483.0" x2="421.9" y2="440.3" stroke-opacity="0.11" stroke-width="0.66"/>
+    <line x1="432.4" y1="483.0" x2="417.0" y2="403.5" stroke-opacity="0.13" stroke-width="0.76"/>
+    <line x1="511.0" y1="388.3" x2="432.4" y2="483.0" stroke-opacity="0.11" stroke-width="0.69"/>
+    <line x1="547.3" y1="453.4" x2="432.4" y2="483.0" stroke-opacity="0.11" stroke-width="0.66"/>
+    <line x1="451.6" y1="339.4" x2="432.4" y2="483.0" stroke-opacity="0.13" stroke-width="0.78"/>
+    <line x1="454.2" y1="418.2" x2="432.4" y2="483.0" stroke-opacity="0.12" stroke-width="0.74"/>
+    <line x1="451.6" y1="339.4" x2="546.3" y2="501.0" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="548.7" y1="413.0" x2="546.3" y2="501.0" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="337.6" y1="305.1" x2="411.2" y2="365.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="320.3" y1="394.4" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="463.7" y1="453.9" x2="548.7" y2="413.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="463.7" y1="453.9" x2="446.0" y2="378.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="547.3" y1="453.4" x2="463.7" y2="453.9" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="454.2" y1="418.2" x2="349.2" y2="425.6" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="411.2" y1="365.7" x2="410.5" y2="522.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="463.7" y1="453.9" x2="410.5" y2="522.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="468.1" y1="509.1" x2="432.4" y2="483.0" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="432.4" y1="483.0" x2="546.3" y2="501.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="454.2" y1="418.2" x2="546.3" y2="501.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="468.1" y1="509.1" x2="546.3" y2="501.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="511.0" y1="388.3" x2="546.3" y2="501.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="546.3" y1="501.0" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="546.3" y1="501.0" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="454.2" y1="418.2" x2="497.4" y2="420.7" stroke-opacity="0.12" stroke-width="0.71"/>
+    <line x1="541.9" y1="366.6" x2="454.2" y2="418.2" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="503.7" y1="494.4" x2="497.4" y2="420.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="503.7" y1="494.4" x2="541.9" y2="366.6" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="503.7" y1="494.4" x2="378.7" y2="395.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="451.6" y1="339.4" x2="497.4" y2="420.7" stroke-opacity="0.13" stroke-width="0.81"/>
+    <line x1="451.6" y1="339.4" x2="541.9" y2="366.6" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="541.9" y1="366.6" x2="497.4" y2="420.7" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="378.7" y1="395.1" x2="497.4" y2="420.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="541.9" y1="366.6" x2="378.7" y2="395.1" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="276.7" y1="417.3" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="503.7" y1="494.4" x2="548.7" y2="413.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="503.7" y1="494.4" x2="547.3" y2="453.4" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="503.7" y1="494.4" x2="511.0" y2="388.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="503.7" y1="494.4" x2="432.4" y2="483.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="503.7" y1="494.4" x2="411.2" y2="365.7" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="503.7" y1="494.4" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="503.7" y1="494.4" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="411.2" y1="365.7" x2="432.4" y2="483.0" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="372.9" y1="494.8" x2="417.0" y2="403.5" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="372.9" y1="494.8" x2="349.2" y2="425.6" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="276.7" y1="417.3" x2="372.9" y2="494.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="276.7" y1="417.3" x2="349.2" y2="425.6" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="380.5" y1="446.8" x2="312.0" y2="344.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="408.1" y1="329.2" x2="312.0" y2="344.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="451.6" y1="339.4" x2="312.0" y2="344.7" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="312.0" y1="344.7" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="411.2" y1="365.7" x2="312.0" y2="344.7" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="446.0" y1="378.1" x2="537.0" y2="287.6" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="410.5" y1="522.0" x2="341.8" y2="466.5" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="410.5" y1="522.0" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="446.0" y1="378.1" x2="410.5" y2="522.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="463.7" y1="453.9" x2="341.8" y2="466.5" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="341.8" y1="466.5" x2="417.0" y2="403.5" stroke-opacity="0.10" stroke-width="0.64"/>
+    <line x1="502.7" y1="250.2" x2="410.9" y2="263.3" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="451.6" y1="339.4" x2="410.9" y2="263.3" stroke-opacity="0.10" stroke-width="0.60"/>
+    <line x1="451.6" y1="339.4" x2="502.7" y2="250.2" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="502.7" y1="250.2" x2="446.0" y2="378.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="303.3" y1="457.3" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="410.9" y1="263.3" x2="408.1" y2="329.2" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="410.9" y1="263.3" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="411.2" y1="365.7" x2="410.9" y2="263.3" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="454.2" y1="418.2" x2="446.0" y2="378.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="446.0" y1="378.1" x2="432.4" y2="483.0" stroke-opacity="0.10" stroke-width="0.60"/>
+    <line x1="446.0" y1="378.1" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="541.9" y1="366.6" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="541.9" y1="366.6" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="408.1" y1="329.2" x2="341.8" y2="466.5" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="411.2" y1="365.7" x2="341.8" y2="466.5" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="374.8" y1="64.3" x2="487.1" y2="60.0" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="341.8" y1="466.5" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="613.3" y1="347.8" x2="624.8" y2="460.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="613.3" y1="347.8" x2="664.5" y2="399.9" stroke-opacity="0.12" stroke-width="0.71"/>
+    <line x1="613.3" y1="347.8" x2="606.2" y2="397.7" stroke-opacity="0.11" stroke-width="0.67"/>
+    <line x1="451.6" y1="339.4" x2="624.8" y2="460.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="664.5" y2="399.9" stroke-opacity="0.12" stroke-width="0.71"/>
+    <line x1="451.6" y1="339.4" x2="606.2" y2="397.7" stroke-opacity="0.11" stroke-width="0.67"/>
+    <line x1="675.1" y1="343.7" x2="624.8" y2="460.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="664.5" y1="399.9" x2="675.1" y2="343.7" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="606.2" y1="397.7" x2="675.1" y2="343.7" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="664.5" y1="399.9" x2="624.8" y2="460.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="606.2" y1="397.7" x2="624.8" y2="460.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="603.4" y1="286.3" x2="664.5" y2="399.9" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="603.4" y1="286.3" x2="606.2" y2="397.7" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="664.5" y1="399.9" x2="606.2" y2="397.7" stroke-opacity="0.11" stroke-width="0.67"/>
+    <line x1="411.2" y1="365.7" x2="497.4" y2="420.7" stroke-opacity="0.12" stroke-width="0.72"/>
+    <line x1="497.4" y1="420.7" x2="372.9" y2="494.8" stroke-opacity="0.11" stroke-width="0.69"/>
+    <line x1="497.4" y1="420.7" x2="417.0" y2="403.5" stroke-opacity="0.10" stroke-width="0.60"/>
+    <line x1="497.4" y1="420.7" x2="468.1" y2="509.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="497.4" y1="420.7" x2="349.2" y2="425.6" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="468.1" y1="509.1" x2="349.2" y2="425.6" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="468.1" y1="509.1" x2="372.9" y2="494.8" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="411.2" y1="365.7" x2="468.1" y2="509.1" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="411.2" y1="365.7" x2="349.2" y2="425.6" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="372.9" y1="494.8" x2="432.4" y2="483.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="432.4" y1="483.0" x2="349.2" y2="425.6" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="411.2" y1="365.7" x2="274.5" y2="361.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="454.2" y1="418.2" x2="274.5" y2="361.8" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="446.0" y1="378.1" x2="497.4" y2="420.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="664.5" y1="292.7" x2="613.3" y2="347.8" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="451.6" y1="339.4" x2="664.5" y2="292.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="664.5" y1="292.7" x2="603.4" y2="286.3" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="664.5" y1="292.7" x2="606.2" y2="397.7" stroke-opacity="0.09" stroke-width="0.55"/>
+    <line x1="664.5" y1="292.7" x2="664.5" y2="399.9" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="502.7" y1="250.2" x2="411.2" y2="365.7" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="486.9" y1="301.3" x2="411.2" y2="365.7" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="486.9" y1="301.3" x2="454.2" y2="418.2" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="486.9" y1="301.3" x2="421.9" y2="440.3" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="486.9" y1="301.3" x2="417.0" y2="403.5" stroke-opacity="0.09" stroke-width="0.57"/>
+    <line x1="486.9" y1="301.3" x2="451.6" y2="339.4" stroke-opacity="0.10" stroke-width="0.59"/>
+    <line x1="320.3" y1="394.4" x2="432.4" y2="483.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="320.3" y1="394.4" x2="446.0" y2="378.1" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="341.8" y1="466.5" x2="432.4" y2="483.0" stroke-opacity="0.09" stroke-width="0.53"/>
+    <line x1="303.3" y1="457.3" x2="446.0" y2="378.1" stroke-opacity="0.09" stroke-width="0.53"/>
+  </g>
+  <g>
+    <circle cx="451.6" cy="339.4" r="13.0" fill="#003153" stroke="#003153" stroke-width="0"><title>Amad A — 248 publications communes (2011–2026)</title></circle>
+    <circle cx="411.2" cy="365.7" r="13.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Fovet T — 118 publications communes (2014–2026)</title></circle>
+    <circle cx="417.0" cy="403.5" r="13.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Thomas P — 95 publications communes (2011–2025)</title></circle>
+    <circle cx="454.2" cy="418.2" r="13.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Geoffroy P — 56 publications communes (2011–2026)</title></circle>
+    <circle cx="421.9" cy="440.3" r="13.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Vaiva G — 55 publications communes (2012–2026)</title></circle>
+    <circle cx="408.1" cy="329.2" r="13.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Horn M — 42 publications communes (2018–2026)</title></circle>
+    <circle cx="446.0" cy="378.1" r="11.2" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Jardri R — 23 publications communes (2012–2026)</title></circle>
+    <circle cx="511.0" cy="388.3" r="11.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Roelandt J — 22 publications communes (2013–2024)</title></circle>
+    <circle cx="548.7" cy="413.0" r="10.9" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Pignon B — 21 publications communes (2017–2024)</title></circle>
+    <circle cx="497.4" cy="420.7" r="10.7" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Micoulaud-Franchi J — 20 publications communes (2015–2020)</title></circle>
+    <circle cx="432.4" cy="483.0" r="10.5" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Rolland B — 19 publications communes (2014–2022)</title></circle>
+    <circle cx="493.8" cy="344.1" r="10.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Wathelet M — 18 publications communes (2020–2026)</title></circle>
+    <circle cx="372.9" cy="494.8" r="10.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Quiles C — 18 publications communes (2015–2026)</title></circle>
+    <circle cx="547.3" cy="453.4" r="10.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Benradia I — 18 publications communes (2013–2025)</title></circle>
+    <circle cx="613.3" cy="347.8" r="10.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Kouidrat Y — 16 publications communes (2012–2024)</title></circle>
+    <circle cx="463.7" cy="453.9" r="9.8" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>D'Hondt F — 15 publications communes (2018–2025)</title></circle>
+    <circle cx="567.8" cy="326.4" r="9.2" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Daoudi M — 12 publications communes (2020–2026)</title></circle>
+    <circle cx="498.0" cy="453.5" r="9.2" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>D’Hondt F — 12 publications communes (2019–2026)</title></circle>
+    <circle cx="380.5" cy="446.8" r="9.2" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Eck M — 12 publications communes (2019–2026)</title></circle>
+    <circle cx="664.5" cy="399.9" r="9.2" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Lalau J — 12 publications communes (2012–2018)</title></circle>
+    <circle cx="361.9" cy="350.7" r="9.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Lamer A — 11 publications communes (2021–2024)</title></circle>
+    <circle cx="606.2" cy="397.7" r="8.7" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Loas G — 10 publications communes (2012–2018)</title></circle>
+    <circle cx="460.7" cy="560.0" r="8.5" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Demesmaeker A — 9 publications communes (2021–2026)</title></circle>
+    <circle cx="341.8" cy="466.5" r="8.5" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Pins D — 9 publications communes (2012–2026)</title></circle>
+    <circle cx="410.5" cy="522.0" r="8.5" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Leroy A — 9 publications communes (2017–2025)</title></circle>
+    <circle cx="224.9" cy="304.6" r="8.5" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Rogers J — 9 publications communes (2020–2025)</title></circle>
+    <circle cx="468.1" cy="509.1" r="8.5" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Peyre H — 9 publications communes (2017–2024)</title></circle>
+    <circle cx="349.2" cy="425.6" r="8.2" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Yrondi A — 8 publications communes (2017–2026)</title></circle>
+    <circle cx="303.3" cy="457.3" r="8.2" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Gorwood P — 8 publications communes (2012–2025)</title></circle>
+    <circle cx="503.7" cy="494.4" r="8.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Benard V — 7 publications communes (2017–2025)</title></circle>
+    <circle cx="353.1" cy="544.2" r="8.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Chazard E — 7 publications communes (2020–2025)</title></circle>
+    <circle cx="283.5" cy="240.8" r="8.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Williams S — 7 publications communes (2017–2024)</title></circle>
+    <circle cx="374.8" cy="64.3" r="8.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Amad — 7 publications communes (2011–2023)</title></circle>
+    <circle cx="345.7" cy="183.3" r="7.7" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Lopes R — 6 publications communes (2024–2026)</title></circle>
+    <circle cx="276.7" cy="417.3" r="7.7" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Plaze M — 6 publications communes (2015–2026)</title></circle>
+    <circle cx="290.4" cy="294.9" r="7.7" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Mastellari T — 6 publications communes (2023–2025)</title></circle>
+    <circle cx="410.9" cy="263.3" r="7.7" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Gharib A — 6 publications communes (2016–2019)</title></circle>
+    <circle cx="418.4" cy="169.3" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Denève A — 5 publications communes (2024–2026)</title></circle>
+    <circle cx="372.5" cy="138.2" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Kuchcinski G — 5 publications communes (2024–2026)</title></circle>
+    <circle cx="330.0" cy="242.3" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Magnat M — 5 publications communes (2020–2026)</title></circle>
+    <circle cx="378.7" cy="395.1" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Maruani J — 5 publications communes (2018–2026)</title></circle>
+    <circle cx="320.3" cy="394.4" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Cottencin O — 5 publications communes (2014–2025)</title></circle>
+    <circle cx="381.3" cy="213.3" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Pruvo J — 5 publications communes (2021–2024)</title></circle>
+    <circle cx="371.7" cy="274.8" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Saint-Dizier C — 5 publications communes (2023–2024)</title></circle>
+    <circle cx="603.4" cy="286.3" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Diouf M — 5 publications communes (2013–2024)</title></circle>
+    <circle cx="274.5" cy="361.8" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Haroche A — 5 publications communes (2017–2023)</title></circle>
+    <circle cx="537.0" cy="287.6" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Naudet F — 5 publications communes (2018–2023)</title></circle>
+    <circle cx="541.9" cy="366.6" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Etain B — 5 publications communes (2015–2020)</title></circle>
+    <circle cx="312.0" cy="344.7" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Plancke L — 5 publications communes (2017–2020)</title></circle>
+    <circle cx="486.9" cy="301.3" r="7.4" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Adins C — 5 publications communes (2013–2016)</title></circle>
+    <circle cx="559.9" cy="234.1" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Pierson E — 4 publications communes (2025–2026)</title></circle>
+    <circle cx="596.7" cy="189.4" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Nineuil C — 4 publications communes (2025–2026)</title></circle>
+    <circle cx="436.1" cy="118.7" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Renard A — 4 publications communes (2025–2026)</title></circle>
+    <circle cx="489.5" cy="140.6" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Carpentier C — 4 publications communes (2025–2026)</title></circle>
+    <circle cx="481.5" cy="195.1" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Forestier N — 4 publications communes (2025–2026)</title></circle>
+    <circle cx="432.2" cy="215.5" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Lebouvier T — 4 publications communes (2024–2026)</title></circle>
+    <circle cx="337.6" cy="305.1" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Cuvelier E — 4 publications communes (2022–2025)</title></circle>
+    <circle cx="626.8" cy="237.3" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Feghoul K — 4 publications communes (2023–2024)</title></circle>
+    <circle cx="675.1" cy="343.7" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Louhou R — 4 publications communes (2014–2024)</title></circle>
+    <circle cx="530.2" cy="179.0" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Krystal S — 4 publications communes (2021–2023)</title></circle>
+    <circle cx="455.1" cy="259.7" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Amariei A — 4 publications communes (2020–2023)</title></circle>
+    <circle cx="546.3" cy="501.0" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Schürhoff F — 4 publications communes (2018–2022)</title></circle>
+    <circle cx="502.7" cy="250.2" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Brunelin J — 4 publications communes (2015–2019)</title></circle>
+    <circle cx="487.1" cy="60.0" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>A — 4 publications communes (2014–2018)</title></circle>
+    <circle cx="624.8" cy="460.7" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Renard N — 4 publications communes (2014–2018)</title></circle>
+    <circle cx="664.5" cy="292.7" r="7.0" fill="#fbf9f3" stroke="#003153" stroke-width="1.2"><title>Desailloud R — 4 publications communes (2012–2017)</title></circle>
+  </g>
+  <g font-family="EB Garamond, Georgia, serif" fill="#55514a">
+    <text x="451.6" y="321.4" text-anchor="middle" font-size="17" font-weight="600" fill="#003153">Amad A</text>
+    <text x="411.2" y="347.7" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Fovet T</text>
+    <text x="417.0" y="385.5" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Thomas P</text>
+    <text x="454.2" y="400.2" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Geoffroy P</text>
+    <text x="421.9" y="422.3" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Vaiva G</text>
+    <text x="408.1" y="311.2" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Horn M</text>
+    <text x="446.0" y="361.9" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Jardri R</text>
+    <text x="511.0" y="372.3" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Roelandt J</text>
+    <text x="548.7" y="397.1" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Pignon B</text>
+    <text x="497.4" y="405.0" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Micoulaud-Franchi J</text>
+    <text x="432.4" y="467.4" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Rolland B</text>
+    <text x="493.8" y="328.8" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Wathelet M</text>
+    <text x="372.9" y="479.4" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Quiles C</text>
+    <text x="547.3" y="438.0" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Benradia I</text>
+    <text x="613.3" y="332.8" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Kouidrat Y</text>
+    <text x="463.7" y="439.1" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">D'Hondt F</text>
+    <text x="567.8" y="312.2" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Daoudi M</text>
+    <text x="498.0" y="439.3" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">D’Hondt F</text>
+    <text x="380.5" y="432.6" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Eck M</text>
+    <text x="664.5" y="385.7" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Lalau J</text>
+    <text x="361.9" y="336.7" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Lamer A</text>
+    <text x="606.2" y="384.0" text-anchor="middle" font-size="12.5" font-weight="400" fill="#55514a">Loas G</text>
+  </g>
+</svg>

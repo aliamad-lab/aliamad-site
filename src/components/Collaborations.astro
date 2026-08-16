@@ -1,0 +1,118 @@
+---
+import graphe from '../data/graphe.svg?raw';
+import carte from '../data/carte.svg?raw';
+import donnees from '../data/collaborations.json';
+
+const locale = Astro.currentLocale ?? 'fr';
+
+const nbPays = donnees.geographie.pays.length;
+const nbCoAuteurs = donnees.graphe.noeuds.length;
+const seuil = donnees.graphe.seuil;
+
+const t =
+  locale === 'en'
+    ? {
+        titreGraphe: 'Co-author network',
+        legendeGraphe: `The ${nbCoAuteurs} most regular collaborators — those with at least ${seuil} joint publications. Disc size reflects the number of shared papers, line thickness how often the pair publishes together.`,
+        titreCarte: 'Where the work is done',
+        legendeCarte: `Institutions appearing on the publications, across ${nbPays} countries.`,
+        paliers: ['1 to 4', '5 to 19', '20 to 99', '100 and above'],
+        source: 'Built from the same yearly dataset as the publication list, enriched with OpenAlex affiliations.',
+      }
+    : {
+        titreGraphe: 'Réseau des co-auteurs',
+        legendeGraphe: `Les ${nbCoAuteurs} collaborateurs les plus réguliers, à partir de ${seuil} publications communes. La taille des disques indique le nombre de travaux partagés, l'épaisseur des traits la fréquence des collaborations.`,
+        titreCarte: 'Géographie des collaborations',
+        legendeCarte: `Les institutions figurant sur les publications, réparties dans ${nbPays} pays.`,
+        paliers: ['1 à 4', '5 à 19', '20 à 99', '100 et plus'],
+        source: `Établies à partir des mêmes données annuelles que la liste des publications, enrichies des affiliations OpenAlex.`,
+      };
+
+const opacites = [0.2, 0.38, 0.6, 0.85];
+---
+
+<section class="collaborations">
+  <h3>{t.titreGraphe}</h3>
+  <figure class="visualisation">
+    <div class="visualisation__cadre" set:html={graphe} />
+    <figcaption>{t.legendeGraphe}</figcaption>
+  </figure>
+
+  <h3>{t.titreCarte}</h3>
+  <figure class="visualisation">
+    <div class="visualisation__cadre" set:html={carte} />
+    <figcaption>
+      {t.legendeCarte}
+      <span class="legende">
+        {
+          t.paliers.map((palier, i) => (
+            <span class="legende__palier">
+              <span class="legende__pastille" style={`opacity:${opacites[i]}`} />
+              {palier}
+            </span>
+          ))
+        }
+      </span>
+    </figcaption>
+  </figure>
+
+  <p class="collaborations__source">{t.source}</p>
+</section>
+
+<style>
+  /* Les visualisations débordent la colonne de texte : elles se lisent d'un
+     coup d'œil d'ensemble, ce qu'une largeur de paragraphe interdirait. */
+  .collaborations {
+    width: min(var(--measure-large), calc(100vw - 2 * var(--gutter)));
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .visualisation {
+    margin: 0 0 2rem;
+  }
+
+  .visualisation__cadre :global(svg) {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  figcaption {
+    margin-top: 0.7rem;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: var(--ink-soft);
+    text-align: left;
+    hyphens: manual;
+  }
+
+  .legende {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.1rem;
+    margin-top: 0.6rem;
+    font-size: 0.82rem;
+  }
+
+  .legende__palier {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .legende__pastille {
+    width: 0.85rem;
+    height: 0.85rem;
+    background: var(--accent);
+    display: inline-block;
+  }
+
+  .collaborations__source {
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    font-style: italic;
+    text-align: left;
+    hyphens: manual;
+  }
+</style>

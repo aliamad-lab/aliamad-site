@@ -1,0 +1,2378 @@
+{
+ "genere": "2026-08-16",
+ "graphe": {
+  "seuil": 4,
+  "noeuds": [
+   {
+    "id": "amad|A",
+    "nom": "Amad A",
+    "publications": 248,
+    "premiere": 2011,
+    "derniere": 2026,
+    "moi": true
+   },
+   {
+    "id": "fovet|T",
+    "nom": "Fovet T",
+    "publications": 118,
+    "premiere": 2014,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "thomas|P",
+    "nom": "Thomas P",
+    "publications": 95,
+    "premiere": 2011,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "geoffroy|P",
+    "nom": "Geoffroy P",
+    "publications": 56,
+    "premiere": 2011,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "vaiva|G",
+    "nom": "Vaiva G",
+    "publications": 55,
+    "premiere": 2012,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "horn|M",
+    "nom": "Horn M",
+    "publications": 42,
+    "premiere": 2018,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "jardri|R",
+    "nom": "Jardri R",
+    "publications": 23,
+    "premiere": 2012,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "roelandt|J",
+    "nom": "Roelandt J",
+    "publications": 22,
+    "premiere": 2013,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "pignon|B",
+    "nom": "Pignon B",
+    "publications": 21,
+    "premiere": 2017,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "micoulaud-franchi|J",
+    "nom": "Micoulaud-Franchi J",
+    "publications": 20,
+    "premiere": 2015,
+    "derniere": 2020,
+    "moi": false
+   },
+   {
+    "id": "rolland|B",
+    "nom": "Rolland B",
+    "publications": 19,
+    "premiere": 2014,
+    "derniere": 2022,
+    "moi": false
+   },
+   {
+    "id": "wathelet|M",
+    "nom": "Wathelet M",
+    "publications": 18,
+    "premiere": 2020,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "quiles|C",
+    "nom": "Quiles C",
+    "publications": 18,
+    "premiere": 2015,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "benradia|I",
+    "nom": "Benradia I",
+    "publications": 18,
+    "premiere": 2013,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "kouidrat|Y",
+    "nom": "Kouidrat Y",
+    "publications": 16,
+    "premiere": 2012,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "d'hondt|F",
+    "nom": "D'Hondt F",
+    "publications": 15,
+    "premiere": 2018,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "daoudi|M",
+    "nom": "Daoudi M",
+    "publications": 12,
+    "premiere": 2020,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "d’hondt|F",
+    "nom": "D’Hondt F",
+    "publications": 12,
+    "premiere": 2019,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "eck|M",
+    "nom": "Eck M",
+    "publications": 12,
+    "premiere": 2019,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "lalau|J",
+    "nom": "Lalau J",
+    "publications": 12,
+    "premiere": 2012,
+    "derniere": 2018,
+    "moi": false
+   },
+   {
+    "id": "lamer|A",
+    "nom": "Lamer A",
+    "publications": 11,
+    "premiere": 2021,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "loas|G",
+    "nom": "Loas G",
+    "publications": 10,
+    "premiere": 2012,
+    "derniere": 2018,
+    "moi": false
+   },
+   {
+    "id": "demesmaeker|A",
+    "nom": "Demesmaeker A",
+    "publications": 9,
+    "premiere": 2021,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "pins|D",
+    "nom": "Pins D",
+    "publications": 9,
+    "premiere": 2012,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "leroy|A",
+    "nom": "Leroy A",
+    "publications": 9,
+    "premiere": 2017,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "rogers|J",
+    "nom": "Rogers J",
+    "publications": 9,
+    "premiere": 2020,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "peyre|H",
+    "nom": "Peyre H",
+    "publications": 9,
+    "premiere": 2017,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "yrondi|A",
+    "nom": "Yrondi A",
+    "publications": 8,
+    "premiere": 2017,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "gorwood|P",
+    "nom": "Gorwood P",
+    "publications": 8,
+    "premiere": 2012,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "benard|V",
+    "nom": "Benard V",
+    "publications": 7,
+    "premiere": 2017,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "chazard|E",
+    "nom": "Chazard E",
+    "publications": 7,
+    "premiere": 2020,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "williams|S",
+    "nom": "Williams S",
+    "publications": 7,
+    "premiere": 2017,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "amad|",
+    "nom": "Amad",
+    "publications": 7,
+    "premiere": 2011,
+    "derniere": 2023,
+    "moi": false
+   },
+   {
+    "id": "lopes|R",
+    "nom": "Lopes R",
+    "publications": 6,
+    "premiere": 2024,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "plaze|M",
+    "nom": "Plaze M",
+    "publications": 6,
+    "premiere": 2015,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "mastellari|T",
+    "nom": "Mastellari T",
+    "publications": 6,
+    "premiere": 2023,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "gharib|A",
+    "nom": "Gharib A",
+    "publications": 6,
+    "premiere": 2016,
+    "derniere": 2019,
+    "moi": false
+   },
+   {
+    "id": "deneve|A",
+    "nom": "Denève A",
+    "publications": 5,
+    "premiere": 2024,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "kuchcinski|G",
+    "nom": "Kuchcinski G",
+    "publications": 5,
+    "premiere": 2024,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "magnat|M",
+    "nom": "Magnat M",
+    "publications": 5,
+    "premiere": 2020,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "maruani|J",
+    "nom": "Maruani J",
+    "publications": 5,
+    "premiere": 2018,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "cottencin|O",
+    "nom": "Cottencin O",
+    "publications": 5,
+    "premiere": 2014,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "pruvo|J",
+    "nom": "Pruvo J",
+    "publications": 5,
+    "premiere": 2021,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "saint-dizier|C",
+    "nom": "Saint-Dizier C",
+    "publications": 5,
+    "premiere": 2023,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "diouf|M",
+    "nom": "Diouf M",
+    "publications": 5,
+    "premiere": 2013,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "haroche|A",
+    "nom": "Haroche A",
+    "publications": 5,
+    "premiere": 2017,
+    "derniere": 2023,
+    "moi": false
+   },
+   {
+    "id": "naudet|F",
+    "nom": "Naudet F",
+    "publications": 5,
+    "premiere": 2018,
+    "derniere": 2023,
+    "moi": false
+   },
+   {
+    "id": "etain|B",
+    "nom": "Etain B",
+    "publications": 5,
+    "premiere": 2015,
+    "derniere": 2020,
+    "moi": false
+   },
+   {
+    "id": "plancke|L",
+    "nom": "Plancke L",
+    "publications": 5,
+    "premiere": 2017,
+    "derniere": 2020,
+    "moi": false
+   },
+   {
+    "id": "adins|C",
+    "nom": "Adins C",
+    "publications": 5,
+    "premiere": 2013,
+    "derniere": 2016,
+    "moi": false
+   },
+   {
+    "id": "pierson|E",
+    "nom": "Pierson E",
+    "publications": 4,
+    "premiere": 2025,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "nineuil|C",
+    "nom": "Nineuil C",
+    "publications": 4,
+    "premiere": 2025,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "renard|A",
+    "nom": "Renard A",
+    "publications": 4,
+    "premiere": 2025,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "carpentier|C",
+    "nom": "Carpentier C",
+    "publications": 4,
+    "premiere": 2025,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "forestier|N",
+    "nom": "Forestier N",
+    "publications": 4,
+    "premiere": 2025,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "lebouvier|T",
+    "nom": "Lebouvier T",
+    "publications": 4,
+    "premiere": 2024,
+    "derniere": 2026,
+    "moi": false
+   },
+   {
+    "id": "cuvelier|E",
+    "nom": "Cuvelier E",
+    "publications": 4,
+    "premiere": 2022,
+    "derniere": 2025,
+    "moi": false
+   },
+   {
+    "id": "feghoul|K",
+    "nom": "Feghoul K",
+    "publications": 4,
+    "premiere": 2023,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "louhou|R",
+    "nom": "Louhou R",
+    "publications": 4,
+    "premiere": 2014,
+    "derniere": 2024,
+    "moi": false
+   },
+   {
+    "id": "krystal|S",
+    "nom": "Krystal S",
+    "publications": 4,
+    "premiere": 2021,
+    "derniere": 2023,
+    "moi": false
+   },
+   {
+    "id": "amariei|A",
+    "nom": "Amariei A",
+    "publications": 4,
+    "premiere": 2020,
+    "derniere": 2023,
+    "moi": false
+   },
+   {
+    "id": "schurhoff|F",
+    "nom": "Schürhoff F",
+    "publications": 4,
+    "premiere": 2018,
+    "derniere": 2022,
+    "moi": false
+   },
+   {
+    "id": "brunelin|J",
+    "nom": "Brunelin J",
+    "publications": 4,
+    "premiere": 2015,
+    "derniere": 2019,
+    "moi": false
+   },
+   {
+    "id": "a|",
+    "nom": "A",
+    "publications": 4,
+    "premiere": 2014,
+    "derniere": 2018,
+    "moi": false
+   },
+   {
+    "id": "renard|N",
+    "nom": "Renard N",
+    "publications": 4,
+    "premiere": 2014,
+    "derniere": 2018,
+    "moi": false
+   },
+   {
+    "id": "desailloud|R",
+    "nom": "Desailloud R",
+    "publications": 4,
+    "premiere": 2012,
+    "derniere": 2017,
+    "moi": false
+   }
+  ],
+  "aretes": [
+   {
+    "a": "daoudi|M",
+    "b": "pierson|E",
+    "poids": 4
+   },
+   {
+    "a": "nineuil|C",
+    "b": "pierson|E",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "pierson|E",
+    "poids": 4
+   },
+   {
+    "a": "daoudi|M",
+    "b": "nineuil|C",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "daoudi|M",
+    "poids": 12
+   },
+   {
+    "a": "daoudi|M",
+    "b": "d’hondt|F",
+    "poids": 3
+   },
+   {
+    "a": "amad|A",
+    "b": "nineuil|C",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "d’hondt|F",
+    "poids": 11
+   },
+   {
+    "a": "deneve|A",
+    "b": "renard|A",
+    "poids": 4
+   },
+   {
+    "a": "carpentier|C",
+    "b": "deneve|A",
+    "poids": 4
+   },
+   {
+    "a": "deneve|A",
+    "b": "forestier|N",
+    "poids": 4
+   },
+   {
+    "a": "deneve|A",
+    "b": "kuchcinski|G",
+    "poids": 5
+   },
+   {
+    "a": "deneve|A",
+    "b": "lopes|R",
+    "poids": 5
+   },
+   {
+    "a": "amad|A",
+    "b": "deneve|A",
+    "poids": 4
+   },
+   {
+    "a": "deneve|A",
+    "b": "lebouvier|T",
+    "poids": 3
+   },
+   {
+    "a": "carpentier|C",
+    "b": "renard|A",
+    "poids": 4
+   },
+   {
+    "a": "forestier|N",
+    "b": "renard|A",
+    "poids": 4
+   },
+   {
+    "a": "kuchcinski|G",
+    "b": "renard|A",
+    "poids": 4
+   },
+   {
+    "a": "lopes|R",
+    "b": "renard|A",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "renard|A",
+    "poids": 3
+   },
+   {
+    "a": "lebouvier|T",
+    "b": "renard|A",
+    "poids": 2
+   },
+   {
+    "a": "carpentier|C",
+    "b": "forestier|N",
+    "poids": 4
+   },
+   {
+    "a": "carpentier|C",
+    "b": "kuchcinski|G",
+    "poids": 4
+   },
+   {
+    "a": "carpentier|C",
+    "b": "lopes|R",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "carpentier|C",
+    "poids": 3
+   },
+   {
+    "a": "carpentier|C",
+    "b": "lebouvier|T",
+    "poids": 2
+   },
+   {
+    "a": "forestier|N",
+    "b": "kuchcinski|G",
+    "poids": 4
+   },
+   {
+    "a": "forestier|N",
+    "b": "lopes|R",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "forestier|N",
+    "poids": 3
+   },
+   {
+    "a": "forestier|N",
+    "b": "lebouvier|T",
+    "poids": 2
+   },
+   {
+    "a": "kuchcinski|G",
+    "b": "lopes|R",
+    "poids": 5
+   },
+   {
+    "a": "amad|A",
+    "b": "kuchcinski|G",
+    "poids": 4
+   },
+   {
+    "a": "kuchcinski|G",
+    "b": "lebouvier|T",
+    "poids": 3
+   },
+   {
+    "a": "amad|A",
+    "b": "lopes|R",
+    "poids": 5
+   },
+   {
+    "a": "lebouvier|T",
+    "b": "lopes|R",
+    "poids": 3
+   },
+   {
+    "a": "amad|A",
+    "b": "lebouvier|T",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "demesmaeker|A",
+    "poids": 9
+   },
+   {
+    "a": "demesmaeker|A",
+    "b": "d’hondt|F",
+    "poids": 3
+   },
+   {
+    "a": "amad|A",
+    "b": "fovet|T",
+    "poids": 116
+   },
+   {
+    "a": "d’hondt|F",
+    "b": "fovet|T",
+    "poids": 8
+   },
+   {
+    "a": "fovet|T",
+    "b": "horn|M",
+    "poids": 40
+   },
+   {
+    "a": "amad|A",
+    "b": "horn|M",
+    "poids": 42
+   },
+   {
+    "a": "d’hondt|F",
+    "b": "horn|M",
+    "poids": 4
+   },
+   {
+    "a": "fovet|T",
+    "b": "magnat|M",
+    "poids": 2
+   },
+   {
+    "a": "amad|A",
+    "b": "magnat|M",
+    "poids": 4
+   },
+   {
+    "a": "horn|M",
+    "b": "vaiva|G",
+    "poids": 17
+   },
+   {
+    "a": "fovet|T",
+    "b": "vaiva|G",
+    "poids": 25
+   },
+   {
+    "a": "amad|A",
+    "b": "vaiva|G",
+    "poids": 53
+   },
+   {
+    "a": "d’hondt|F",
+    "b": "vaiva|G",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "yrondi|A",
+    "poids": 7
+   },
+   {
+    "a": "eck|M",
+    "b": "horn|M",
+    "poids": 7
+   },
+   {
+    "a": "amad|A",
+    "b": "eck|M",
+    "poids": 12
+   },
+   {
+    "a": "eck|M",
+    "b": "wathelet|M",
+    "poids": 3
+   },
+   {
+    "a": "eck|M",
+    "b": "fovet|T",
+    "poids": 12
+   },
+   {
+    "a": "horn|M",
+    "b": "wathelet|M",
+    "poids": 10
+   },
+   {
+    "a": "amad|A",
+    "b": "wathelet|M",
+    "poids": 18
+   },
+   {
+    "a": "fovet|T",
+    "b": "wathelet|M",
+    "poids": 16
+   },
+   {
+    "a": "amad|A",
+    "b": "maruani|J",
+    "poids": 4
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "maruani|J",
+    "poids": 5
+   },
+   {
+    "a": "fovet|T",
+    "b": "quiles|C",
+    "poids": 12
+   },
+   {
+    "a": "fovet|T",
+    "b": "geoffroy|P",
+    "poids": 25
+   },
+   {
+    "a": "amad|A",
+    "b": "quiles|C",
+    "poids": 17
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "quiles|C",
+    "poids": 11
+   },
+   {
+    "a": "amad|A",
+    "b": "geoffroy|P",
+    "poids": 52
+   },
+   {
+    "a": "jardri|R",
+    "b": "plaze|M",
+    "poids": 2
+   },
+   {
+    "a": "amad|A",
+    "b": "jardri|R",
+    "poids": 22
+   },
+   {
+    "a": "jardri|R",
+    "b": "pins|D",
+    "poids": 5
+   },
+   {
+    "a": "amad|A",
+    "b": "plaze|M",
+    "poids": 5
+   },
+   {
+    "a": "amad|A",
+    "b": "pins|D",
+    "poids": 9
+   },
+   {
+    "a": "benard|V",
+    "b": "geoffroy|P",
+    "poids": 7
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "gorwood|P",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "benard|V",
+    "poids": 5
+   },
+   {
+    "a": "amad|A",
+    "b": "gorwood|P",
+    "poids": 8
+   },
+   {
+    "a": "cuvelier|E",
+    "b": "vaiva|G",
+    "poids": 2
+   },
+   {
+    "a": "cottencin|O",
+    "b": "cuvelier|E",
+    "poids": 2
+   },
+   {
+    "a": "amad|A",
+    "b": "cuvelier|E",
+    "poids": 4
+   },
+   {
+    "a": "leroy|A",
+    "b": "vaiva|G",
+    "poids": 7
+   },
+   {
+    "a": "amad|A",
+    "b": "leroy|A",
+    "poids": 9
+   },
+   {
+    "a": "cottencin|O",
+    "b": "vaiva|G",
+    "poids": 3
+   },
+   {
+    "a": "amad|A",
+    "b": "cottencin|O",
+    "poids": 5
+   },
+   {
+    "a": "eck|M",
+    "b": "thomas|P",
+    "poids": 8
+   },
+   {
+    "a": "amad|A",
+    "b": "thomas|P",
+    "poids": 92
+   },
+   {
+    "a": "fovet|T",
+    "b": "thomas|P",
+    "poids": 57
+   },
+   {
+    "a": "demesmaeker|A",
+    "b": "vaiva|G",
+    "poids": 7
+   },
+   {
+    "a": "amad|A",
+    "b": "d'hondt|F",
+    "poids": 14
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "daoudi|M",
+    "poids": 2
+   },
+   {
+    "a": "fovet|T",
+    "b": "mastellari|T",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "mastellari|T",
+    "poids": 5
+   },
+   {
+    "a": "amad|A",
+    "b": "chazard|E",
+    "poids": 7
+   },
+   {
+    "a": "benradia|I",
+    "b": "fovet|T",
+    "poids": 7
+   },
+   {
+    "a": "benradia|I",
+    "b": "thomas|P",
+    "poids": 16
+   },
+   {
+    "a": "benradia|I",
+    "b": "wathelet|M",
+    "poids": 3
+   },
+   {
+    "a": "amad|A",
+    "b": "benradia|I",
+    "poids": 15
+   },
+   {
+    "a": "thomas|P",
+    "b": "wathelet|M",
+    "poids": 7
+   },
+   {
+    "a": "amad|A",
+    "b": "rogers|J",
+    "poids": 6
+   },
+   {
+    "a": "mastellari|T",
+    "b": "williams|S",
+    "poids": 2
+   },
+   {
+    "a": "mastellari|T",
+    "b": "pruvo|J",
+    "poids": 2
+   },
+   {
+    "a": "fovet|T",
+    "b": "williams|S",
+    "poids": 2
+   },
+   {
+    "a": "pruvo|J",
+    "b": "williams|S",
+    "poids": 2
+   },
+   {
+    "a": "amad|A",
+    "b": "williams|S",
+    "poids": 6
+   },
+   {
+    "a": "amad|A",
+    "b": "pruvo|J",
+    "poids": 4
+   },
+   {
+    "a": "mastellari|T",
+    "b": "saint-dizier|C",
+    "poids": 2
+   },
+   {
+    "a": "mastellari|T",
+    "b": "rogers|J",
+    "poids": 3
+   },
+   {
+    "a": "lamer|A",
+    "b": "mastellari|T",
+    "poids": 2
+   },
+   {
+    "a": "fovet|T",
+    "b": "saint-dizier|C",
+    "poids": 5
+   },
+   {
+    "a": "lamer|A",
+    "b": "saint-dizier|C",
+    "poids": 5
+   },
+   {
+    "a": "amad|A",
+    "b": "saint-dizier|C",
+    "poids": 5
+   },
+   {
+    "a": "fovet|T",
+    "b": "lamer|A",
+    "poids": 11
+   },
+   {
+    "a": "amad|A",
+    "b": "lamer|A",
+    "poids": 11
+   },
+   {
+    "a": "chazard|E",
+    "b": "demesmaeker|A",
+    "poids": 5
+   },
+   {
+    "a": "chazard|E",
+    "b": "vaiva|G",
+    "poids": 4
+   },
+   {
+    "a": "daoudi|M",
+    "b": "feghoul|K",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "feghoul|K",
+    "poids": 4
+   },
+   {
+    "a": "peyre|H",
+    "b": "pignon|B",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "peyre|H",
+    "poids": 8
+   },
+   {
+    "a": "peyre|H",
+    "b": "roelandt|J",
+    "poids": 4
+   },
+   {
+    "a": "benradia|I",
+    "b": "peyre|H",
+    "poids": 4
+   },
+   {
+    "a": "peyre|H",
+    "b": "thomas|P",
+    "poids": 5
+   },
+   {
+    "a": "peyre|H",
+    "b": "vaiva|G",
+    "poids": 4
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "peyre|H",
+    "poids": 7
+   },
+   {
+    "a": "amad|A",
+    "b": "pignon|B",
+    "poids": 18
+   },
+   {
+    "a": "pignon|B",
+    "b": "roelandt|J",
+    "poids": 16
+   },
+   {
+    "a": "benradia|I",
+    "b": "pignon|B",
+    "poids": 12
+   },
+   {
+    "a": "pignon|B",
+    "b": "thomas|P",
+    "poids": 15
+   },
+   {
+    "a": "pignon|B",
+    "b": "vaiva|G",
+    "poids": 13
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "pignon|B",
+    "poids": 13
+   },
+   {
+    "a": "amad|A",
+    "b": "roelandt|J",
+    "poids": 19
+   },
+   {
+    "a": "benradia|I",
+    "b": "roelandt|J",
+    "poids": 16
+   },
+   {
+    "a": "roelandt|J",
+    "b": "thomas|P",
+    "poids": 21
+   },
+   {
+    "a": "roelandt|J",
+    "b": "vaiva|G",
+    "poids": 16
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "roelandt|J",
+    "poids": 14
+   },
+   {
+    "a": "benradia|I",
+    "b": "vaiva|G",
+    "poids": 11
+   },
+   {
+    "a": "benradia|I",
+    "b": "geoffroy|P",
+    "poids": 10
+   },
+   {
+    "a": "thomas|P",
+    "b": "vaiva|G",
+    "poids": 31
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "thomas|P",
+    "poids": 23
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "vaiva|G",
+    "poids": 16
+   },
+   {
+    "a": "kouidrat|Y",
+    "b": "louhou|R",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "kouidrat|Y",
+    "poids": 16
+   },
+   {
+    "a": "diouf|M",
+    "b": "kouidrat|Y",
+    "poids": 5
+   },
+   {
+    "a": "amad|A",
+    "b": "louhou|R",
+    "poids": 4
+   },
+   {
+    "a": "diouf|M",
+    "b": "louhou|R",
+    "poids": 2
+   },
+   {
+    "a": "amad|A",
+    "b": "diouf|M",
+    "poids": 5
+   },
+   {
+    "a": "fovet|T",
+    "b": "pignon|B",
+    "poids": 6
+   },
+   {
+    "a": "fovet|T",
+    "b": "roelandt|J",
+    "poids": 6
+   },
+   {
+    "a": "fovet|T",
+    "b": "jardri|R",
+    "poids": 5
+   },
+   {
+    "a": "pignon|B",
+    "b": "wathelet|M",
+    "poids": 2
+   },
+   {
+    "a": "jardri|R",
+    "b": "pignon|B",
+    "poids": 5
+   },
+   {
+    "a": "d’hondt|F",
+    "b": "pignon|B",
+    "poids": 2
+   },
+   {
+    "a": "roelandt|J",
+    "b": "wathelet|M",
+    "poids": 3
+   },
+   {
+    "a": "jardri|R",
+    "b": "wathelet|M",
+    "poids": 2
+   },
+   {
+    "a": "d’hondt|F",
+    "b": "wathelet|M",
+    "poids": 2
+   },
+   {
+    "a": "benradia|I",
+    "b": "jardri|R",
+    "poids": 2
+   },
+   {
+    "a": "benradia|I",
+    "b": "d’hondt|F",
+    "poids": 2
+   },
+   {
+    "a": "jardri|R",
+    "b": "roelandt|J",
+    "poids": 3
+   },
+   {
+    "a": "d’hondt|F",
+    "b": "roelandt|J",
+    "poids": 2
+   },
+   {
+    "a": "jardri|R",
+    "b": "thomas|P",
+    "poids": 16
+   },
+   {
+    "a": "d’hondt|F",
+    "b": "thomas|P",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "krystal|S",
+    "poids": 3
+   },
+   {
+    "a": "krystal|S",
+    "b": "pruvo|J",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "amariei|A",
+    "poids": 4
+   },
+   {
+    "a": "saint-dizier|C",
+    "b": "wathelet|M",
+    "poids": 4
+   },
+   {
+    "a": "amariei|A",
+    "b": "saint-dizier|C",
+    "poids": 2
+   },
+   {
+    "a": "amariei|A",
+    "b": "fovet|T",
+    "poids": 3
+   },
+   {
+    "a": "amariei|A",
+    "b": "wathelet|M",
+    "poids": 2
+   },
+   {
+    "a": "lamer|A",
+    "b": "wathelet|M",
+    "poids": 5
+   },
+   {
+    "a": "amariei|A",
+    "b": "lamer|A",
+    "poids": 2
+   },
+   {
+    "a": "horn|M",
+    "b": "lamer|A",
+    "poids": 7
+   },
+   {
+    "a": "lamer|A",
+    "b": "thomas|P",
+    "poids": 7
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "lamer|A",
+    "poids": 3
+   },
+   {
+    "a": "horn|M",
+    "b": "saint-dizier|C",
+    "poids": 2
+   },
+   {
+    "a": "saint-dizier|C",
+    "b": "thomas|P",
+    "poids": 2
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "wathelet|M",
+    "poids": 7
+   },
+   {
+    "a": "horn|M",
+    "b": "thomas|P",
+    "poids": 28
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "horn|M",
+    "poids": 9
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "thomas|P",
+    "poids": 9
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "fovet|T",
+    "poids": 12
+   },
+   {
+    "a": "haroche|A",
+    "b": "rogers|J",
+    "poids": 3
+   },
+   {
+    "a": "haroche|A",
+    "b": "williams|S",
+    "poids": 2
+   },
+   {
+    "a": "rogers|J",
+    "b": "williams|S",
+    "poids": 2
+   },
+   {
+    "a": "d’hondt|F",
+    "b": "lamer|A",
+    "poids": 2
+   },
+   {
+    "a": "eck|M",
+    "b": "lamer|A",
+    "poids": 2
+   },
+   {
+    "a": "vaiva|G",
+    "b": "wathelet|M",
+    "poids": 6
+   },
+   {
+    "a": "horn|M",
+    "b": "roelandt|J",
+    "poids": 2
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "roelandt|J",
+    "poids": 3
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "vaiva|G",
+    "poids": 8
+   },
+   {
+    "a": "amad|A",
+    "b": "naudet|F",
+    "poids": 5
+   },
+   {
+    "a": "fovet|T",
+    "b": "naudet|F",
+    "poids": 2
+   },
+   {
+    "a": "amad|A",
+    "b": "haroche|A",
+    "poids": 4
+   },
+   {
+    "a": "pignon|B",
+    "b": "rolland|B",
+    "poids": 10
+   },
+   {
+    "a": "rolland|B",
+    "b": "vaiva|G",
+    "poids": 9
+   },
+   {
+    "a": "rolland|B",
+    "b": "thomas|P",
+    "poids": 15
+   },
+   {
+    "a": "roelandt|J",
+    "b": "rolland|B",
+    "poids": 11
+   },
+   {
+    "a": "benradia|I",
+    "b": "rolland|B",
+    "poids": 9
+   },
+   {
+    "a": "amad|A",
+    "b": "rolland|B",
+    "poids": 16
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "rolland|B",
+    "poids": 14
+   },
+   {
+    "a": "amad|A",
+    "b": "schurhoff|F",
+    "poids": 4
+   },
+   {
+    "a": "pignon|B",
+    "b": "schurhoff|F",
+    "poids": 3
+   },
+   {
+    "a": "cuvelier|E",
+    "b": "fovet|T",
+    "poids": 2
+   },
+   {
+    "a": "cottencin|O",
+    "b": "thomas|P",
+    "poids": 3
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "pignon|B",
+    "poids": 2
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "jardri|R",
+    "poids": 2
+   },
+   {
+    "a": "benradia|I",
+    "b": "d'hondt|F",
+    "poids": 2
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "yrondi|A",
+    "poids": 5
+   },
+   {
+    "a": "fovet|T",
+    "b": "leroy|A",
+    "poids": 2
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "leroy|A",
+    "poids": 2
+   },
+   {
+    "a": "peyre|H",
+    "b": "rolland|B",
+    "poids": 5
+   },
+   {
+    "a": "rolland|B",
+    "b": "schurhoff|F",
+    "poids": 2
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "schurhoff|F",
+    "poids": 2
+   },
+   {
+    "a": "peyre|H",
+    "b": "schurhoff|F",
+    "poids": 2
+   },
+   {
+    "a": "roelandt|J",
+    "b": "schurhoff|F",
+    "poids": 2
+   },
+   {
+    "a": "schurhoff|F",
+    "b": "thomas|P",
+    "poids": 2
+   },
+   {
+    "a": "schurhoff|F",
+    "b": "vaiva|G",
+    "poids": 2
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "micoulaud-franchi|J",
+    "poids": 12
+   },
+   {
+    "a": "etain|B",
+    "b": "geoffroy|P",
+    "poids": 4
+   },
+   {
+    "a": "benard|V",
+    "b": "micoulaud-franchi|J",
+    "poids": 2
+   },
+   {
+    "a": "benard|V",
+    "b": "etain|B",
+    "poids": 2
+   },
+   {
+    "a": "benard|V",
+    "b": "maruani|J",
+    "poids": 2
+   },
+   {
+    "a": "amad|A",
+    "b": "micoulaud-franchi|J",
+    "poids": 18
+   },
+   {
+    "a": "amad|A",
+    "b": "etain|B",
+    "poids": 5
+   },
+   {
+    "a": "etain|B",
+    "b": "micoulaud-franchi|J",
+    "poids": 3
+   },
+   {
+    "a": "maruani|J",
+    "b": "micoulaud-franchi|J",
+    "poids": 2
+   },
+   {
+    "a": "etain|B",
+    "b": "maruani|J",
+    "poids": 3
+   },
+   {
+    "a": "plaze|M",
+    "b": "thomas|P",
+    "poids": 2
+   },
+   {
+    "a": "benard|V",
+    "b": "pignon|B",
+    "poids": 2
+   },
+   {
+    "a": "benard|V",
+    "b": "benradia|I",
+    "poids": 2
+   },
+   {
+    "a": "benard|V",
+    "b": "roelandt|J",
+    "poids": 2
+   },
+   {
+    "a": "benard|V",
+    "b": "rolland|B",
+    "poids": 2
+   },
+   {
+    "a": "benard|V",
+    "b": "fovet|T",
+    "poids": 3
+   },
+   {
+    "a": "benard|V",
+    "b": "thomas|P",
+    "poids": 2
+   },
+   {
+    "a": "benard|V",
+    "b": "vaiva|G",
+    "poids": 2
+   },
+   {
+    "a": "fovet|T",
+    "b": "rolland|B",
+    "poids": 5
+   },
+   {
+    "a": "quiles|C",
+    "b": "thomas|P",
+    "poids": 5
+   },
+   {
+    "a": "quiles|C",
+    "b": "yrondi|A",
+    "poids": 5
+   },
+   {
+    "a": "plaze|M",
+    "b": "quiles|C",
+    "poids": 2
+   },
+   {
+    "a": "plaze|M",
+    "b": "yrondi|A",
+    "poids": 2
+   },
+   {
+    "a": "eck|M",
+    "b": "plancke|L",
+    "poids": 2
+   },
+   {
+    "a": "horn|M",
+    "b": "plancke|L",
+    "poids": 2
+   },
+   {
+    "a": "amad|A",
+    "b": "plancke|L",
+    "poids": 5
+   },
+   {
+    "a": "plancke|L",
+    "b": "thomas|P",
+    "poids": 4
+   },
+   {
+    "a": "fovet|T",
+    "b": "plancke|L",
+    "poids": 5
+   },
+   {
+    "a": "jardri|R",
+    "b": "naudet|F",
+    "poids": 2
+   },
+   {
+    "a": "leroy|A",
+    "b": "pins|D",
+    "poids": 2
+   },
+   {
+    "a": "leroy|A",
+    "b": "thomas|P",
+    "poids": 3
+   },
+   {
+    "a": "jardri|R",
+    "b": "leroy|A",
+    "poids": 2
+   },
+   {
+    "a": "d'hondt|F",
+    "b": "pins|D",
+    "poids": 2
+   },
+   {
+    "a": "pins|D",
+    "b": "thomas|P",
+    "poids": 8
+   },
+   {
+    "a": "brunelin|J",
+    "b": "gharib|A",
+    "poids": 3
+   },
+   {
+    "a": "amad|A",
+    "b": "gharib|A",
+    "poids": 6
+   },
+   {
+    "a": "amad|A",
+    "b": "brunelin|J",
+    "poids": 4
+   },
+   {
+    "a": "brunelin|J",
+    "b": "jardri|R",
+    "poids": 2
+   },
+   {
+    "a": "gorwood|P",
+    "b": "thomas|P",
+    "poids": 4
+   },
+   {
+    "a": "gharib|A",
+    "b": "horn|M",
+    "poids": 2
+   },
+   {
+    "a": "gharib|A",
+    "b": "thomas|P",
+    "poids": 3
+   },
+   {
+    "a": "fovet|T",
+    "b": "gharib|A",
+    "poids": 5
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "jardri|R",
+    "poids": 2
+   },
+   {
+    "a": "jardri|R",
+    "b": "rolland|B",
+    "poids": 6
+   },
+   {
+    "a": "jardri|R",
+    "b": "vaiva|G",
+    "poids": 4
+   },
+   {
+    "a": "etain|B",
+    "b": "thomas|P",
+    "poids": 2
+   },
+   {
+    "a": "etain|B",
+    "b": "vaiva|G",
+    "poids": 2
+   },
+   {
+    "a": "horn|M",
+    "b": "pins|D",
+    "poids": 3
+   },
+   {
+    "a": "fovet|T",
+    "b": "pins|D",
+    "poids": 4
+   },
+   {
+    "a": "amad|",
+    "b": "a|",
+    "poids": 4
+   },
+   {
+    "a": "pins|D",
+    "b": "vaiva|G",
+    "poids": 2
+   },
+   {
+    "a": "kouidrat|Y",
+    "b": "renard|N",
+    "poids": 4
+   },
+   {
+    "a": "kouidrat|Y",
+    "b": "lalau|J",
+    "poids": 12
+   },
+   {
+    "a": "kouidrat|Y",
+    "b": "loas|G",
+    "poids": 10
+   },
+   {
+    "a": "amad|A",
+    "b": "renard|N",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "lalau|J",
+    "poids": 12
+   },
+   {
+    "a": "amad|A",
+    "b": "loas|G",
+    "poids": 10
+   },
+   {
+    "a": "louhou|R",
+    "b": "renard|N",
+    "poids": 2
+   },
+   {
+    "a": "lalau|J",
+    "b": "louhou|R",
+    "poids": 3
+   },
+   {
+    "a": "loas|G",
+    "b": "louhou|R",
+    "poids": 3
+   },
+   {
+    "a": "lalau|J",
+    "b": "renard|N",
+    "poids": 4
+   },
+   {
+    "a": "loas|G",
+    "b": "renard|N",
+    "poids": 4
+   },
+   {
+    "a": "diouf|M",
+    "b": "lalau|J",
+    "poids": 4
+   },
+   {
+    "a": "diouf|M",
+    "b": "loas|G",
+    "poids": 3
+   },
+   {
+    "a": "lalau|J",
+    "b": "loas|G",
+    "poids": 10
+   },
+   {
+    "a": "fovet|T",
+    "b": "micoulaud-franchi|J",
+    "poids": 13
+   },
+   {
+    "a": "micoulaud-franchi|J",
+    "b": "quiles|C",
+    "poids": 11
+   },
+   {
+    "a": "micoulaud-franchi|J",
+    "b": "thomas|P",
+    "poids": 6
+   },
+   {
+    "a": "micoulaud-franchi|J",
+    "b": "peyre|H",
+    "poids": 2
+   },
+   {
+    "a": "micoulaud-franchi|J",
+    "b": "yrondi|A",
+    "poids": 2
+   },
+   {
+    "a": "peyre|H",
+    "b": "yrondi|A",
+    "poids": 3
+   },
+   {
+    "a": "peyre|H",
+    "b": "quiles|C",
+    "poids": 3
+   },
+   {
+    "a": "fovet|T",
+    "b": "peyre|H",
+    "poids": 3
+   },
+   {
+    "a": "fovet|T",
+    "b": "yrondi|A",
+    "poids": 3
+   },
+   {
+    "a": "quiles|C",
+    "b": "rolland|B",
+    "poids": 2
+   },
+   {
+    "a": "rolland|B",
+    "b": "yrondi|A",
+    "poids": 2
+   },
+   {
+    "a": "fovet|T",
+    "b": "haroche|A",
+    "poids": 2
+   },
+   {
+    "a": "geoffroy|P",
+    "b": "haroche|A",
+    "poids": 2
+   },
+   {
+    "a": "jardri|R",
+    "b": "micoulaud-franchi|J",
+    "poids": 2
+   },
+   {
+    "a": "desailloud|R",
+    "b": "kouidrat|Y",
+    "poids": 4
+   },
+   {
+    "a": "amad|A",
+    "b": "desailloud|R",
+    "poids": 4
+   },
+   {
+    "a": "desailloud|R",
+    "b": "diouf|M",
+    "poids": 3
+   },
+   {
+    "a": "desailloud|R",
+    "b": "loas|G",
+    "poids": 3
+   },
+   {
+    "a": "desailloud|R",
+    "b": "lalau|J",
+    "poids": 4
+   },
+   {
+    "a": "brunelin|J",
+    "b": "fovet|T",
+    "poids": 2
+   },
+   {
+    "a": "adins|C",
+    "b": "fovet|T",
+    "poids": 4
+   },
+   {
+    "a": "adins|C",
+    "b": "geoffroy|P",
+    "poids": 2
+   },
+   {
+    "a": "adins|C",
+    "b": "vaiva|G",
+    "poids": 2
+   },
+   {
+    "a": "adins|C",
+    "b": "thomas|P",
+    "poids": 4
+   },
+   {
+    "a": "adins|C",
+    "b": "amad|A",
+    "poids": 5
+   },
+   {
+    "a": "cottencin|O",
+    "b": "rolland|B",
+    "poids": 2
+   },
+   {
+    "a": "cottencin|O",
+    "b": "jardri|R",
+    "poids": 2
+   },
+   {
+    "a": "pins|D",
+    "b": "rolland|B",
+    "poids": 2
+   },
+   {
+    "a": "gorwood|P",
+    "b": "jardri|R",
+    "poids": 2
+   }
+  ]
+ },
+ "geographie": {
+  "pays": [
+   {
+    "code": "FR",
+    "publications": 1455
+   },
+   {
+    "code": "GB",
+    "publications": 103
+   },
+   {
+    "code": "US",
+    "publications": 20
+   },
+   {
+    "code": "BE",
+    "publications": 10
+   },
+   {
+    "code": "DE",
+    "publications": 8
+   },
+   {
+    "code": "CA",
+    "publications": 7
+   },
+   {
+    "code": "NL",
+    "publications": 7
+   },
+   {
+    "code": "FI",
+    "publications": 6
+   },
+   {
+    "code": "ES",
+    "publications": 6
+   },
+   {
+    "code": "SE",
+    "publications": 5
+   },
+   {
+    "code": "PT",
+    "publications": 5
+   },
+   {
+    "code": "NO",
+    "publications": 5
+   },
+   {
+    "code": "AU",
+    "publications": 5
+   },
+   {
+    "code": "JP",
+    "publications": 3
+   },
+   {
+    "code": "IE",
+    "publications": 2
+   },
+   {
+    "code": "DK",
+    "publications": 2
+   },
+   {
+    "code": "LU",
+    "publications": 2
+   },
+   {
+    "code": "CL",
+    "publications": 2
+   },
+   {
+    "code": "CH",
+    "publications": 1
+   },
+   {
+    "code": "IT",
+    "publications": 1
+   },
+   {
+    "code": "NP",
+    "publications": 1
+   },
+   {
+    "code": "CI",
+    "publications": 1
+   },
+   {
+    "code": "MC",
+    "publications": 1
+   },
+   {
+    "code": "PK",
+    "publications": 1
+   },
+   {
+    "code": "BR",
+    "publications": 1
+   },
+   {
+    "code": "BI",
+    "publications": 1
+   }
+  ],
+  "institutions": [
+   {
+    "nom": "Centre Hospitalier Universitaire de Lille",
+    "pays": "FR",
+    "publications": 167
+   },
+   {
+    "nom": "Université de Lille",
+    "pays": "FR",
+    "publications": 166
+   },
+   {
+    "nom": "Inserm",
+    "pays": "FR",
+    "publications": 136
+   },
+   {
+    "nom": "Centre National de la Recherche Scientifique",
+    "pays": "FR",
+    "publications": 83
+   },
+   {
+    "nom": "Lille Neurosciences & Cognition",
+    "pays": null,
+    "publications": 55
+   },
+   {
+    "nom": "Université Paris Cité",
+    "pays": "FR",
+    "publications": 48
+   },
+   {
+    "nom": "King's College London",
+    "pays": "GB",
+    "publications": 45
+   },
+   {
+    "nom": "Assistance Publique – Hôpitaux de Paris",
+    "pays": "FR",
+    "publications": 42
+   },
+   {
+    "nom": "Sciences Cognitives et Sciences Affectives",
+    "pays": "FR",
+    "publications": 41
+   },
+   {
+    "nom": "Délégation Paris 7",
+    "pays": "FR",
+    "publications": 32
+   },
+   {
+    "nom": "Sorbonne Paris Cité",
+    "pays": "FR",
+    "publications": 28
+   },
+   {
+    "nom": "Hôpital Fontmaure",
+    "pays": "FR",
+    "publications": 25
+   },
+   {
+    "nom": "Lyon 1 Université",
+    "pays": "FR",
+    "publications": 25
+   },
+   {
+    "nom": "Optimisation Thérapeutique en Neuropsychopharmacologie",
+    "pays": "FR",
+    "publications": 22
+   },
+   {
+    "nom": "Fondation FondaMental",
+    "pays": "FR",
+    "publications": 22
+   },
+   {
+    "nom": "Université Paris-Est Créteil",
+    "pays": "FR",
+    "publications": 19
+   },
+   {
+    "nom": "Institut Pasteur de Lille",
+    "pays": "FR",
+    "publications": 16
+   },
+   {
+    "nom": "Université Lille Nord de France",
+    "pays": "FR",
+    "publications": 16
+   },
+   {
+    "nom": "FHU Neurovasc",
+    "pays": "FR",
+    "publications": 15
+   },
+   {
+    "nom": "Centre de Recherche Jean Pierre Aubert",
+    "pays": "FR",
+    "publications": 15
+   },
+   {
+    "nom": "Unité de Recherche Pluridisciplinaire Sport, Santé, Société",
+    "pays": "FR",
+    "publications": 15
+   },
+   {
+    "nom": "Centre Hospitalier Le Vinatier",
+    "pays": "FR",
+    "publications": 15
+   },
+   {
+    "nom": "Hôpitaux Universitaires Henri-Mondor",
+    "pays": "FR",
+    "publications": 13
+   },
+   {
+    "nom": "Délégation Paris 5",
+    "pays": "FR",
+    "publications": 12
+   },
+   {
+    "nom": "Institut de Psychiatrie et Neurosciences de Paris",
+    "pays": "FR",
+    "publications": 12
+   },
+   {
+    "nom": "University College London",
+    "pays": "GB",
+    "publications": 12
+   },
+   {
+    "nom": "Université de Bordeaux",
+    "pays": "FR",
+    "publications": 12
+   },
+   {
+    "nom": "Centre de Recherche en Informatique, Signal et Automatique de Lille",
+    "pays": "FR",
+    "publications": 11
+   },
+   {
+    "nom": "Evaluation des technologies de santé et des pratiques médicales",
+    "pays": null,
+    "publications": 11
+   },
+   {
+    "nom": "Hôpital Maritime de Berck",
+    "pays": "FR",
+    "publications": 11
+   },
+   {
+    "nom": "École Centrale de Lille",
+    "pays": "FR",
+    "publications": 10
+   },
+   {
+    "nom": "Lille’s Cardiology Hospital",
+    "pays": "FR",
+    "publications": 10
+   },
+   {
+    "nom": "Hôpital Bichat-Claude-Bernard",
+    "pays": "FR",
+    "publications": 10
+   },
+   {
+    "nom": "NeuroDiderot",
+    "pays": "FR",
+    "publications": 10
+   },
+   {
+    "nom": "Hôpital Fernand-Widal",
+    "pays": "FR",
+    "publications": 10
+   },
+   {
+    "nom": "Evaluation et recherche en services et politiques en santé pour les populations vulnérables",
+    "pays": "FR",
+    "publications": 10
+   },
+   {
+    "nom": "Centre Hospitalier Universitaire de Bordeaux",
+    "pays": "FR",
+    "publications": 10
+   },
+   {
+    "nom": "Centre de Recherche en Neurosciences de Lyon",
+    "pays": "FR",
+    "publications": 10
+   },
+   {
+    "nom": "South London and Maudsley NHS Foundation Trust",
+    "pays": "GB",
+    "publications": 9
+   },
+   {
+    "nom": "Hôpital Robert-Debré",
+    "pays": "FR",
+    "publications": 9
+   }
+  ]
+ }
+}

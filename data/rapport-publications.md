@@ -1,8 +1,9 @@
 # Relecture de la bibliographie
 
-Généré le 15/08/2026 depuis `data/scholar-export.bib`.
+Généré le 16/08/2026 depuis `data/scholar-export.bib`.
 
 - **274** publications retenues
+- l'introduction de la page annonce « plus de 270 publications » — à réaccorder si ce seuil a changé
 - **209** appariées à un DOI (76 %)
 - **201** avec des affiliations exploitables pour la carte
 - **3** doublon(s) écarté(s)
