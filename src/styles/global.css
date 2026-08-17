@@ -23,13 +23,25 @@
   --font-display: 'EB Garamond', Georgia, 'Times New Roman', serif;
   --font-text: 'EB Garamond', Georgia, 'Times New Roman', serif;
 
-  /* Le cadre commun : c'est lui qui fixe la verticale gauche. */
-  --shell: 68rem;
-  --gutter: clamp(1.25rem, 5vw, 3rem);
+  /* Le cadre commun : c'est lui qui fixe la verticale gauche.
+     Repris de l'ancien site, mesuré à 1146 px de contenu dans une fenêtre de
+     1280 — d'où 80rem de cadre et une gouttière plus large qu'auparavant. */
+  --shell: 80rem;
+  --gutter: clamp(1.25rem, 5.5vw, 4.5rem);
 
   /* Largeur de lecture. Le texte étant au fer à gauche, il s'arrête là où
      l'œil retrouve encore sans peine le début de la ligne suivante. */
   --measure: 74ch;
+
+  /* Rythme vertical de l'ancien site : le titre, l'image et le texte y étaient
+     séparés par le même intervalle de 56 px, ce qui donnait sa respiration à
+     la page. */
+  --rythme: 3.5rem;
+
+  /* Proportion du bandeau, relevée sur les quatre pages de l'ancien site :
+     entre 4,7 et 5,4 pour 1. Une bande fine et large, très loin du bandeau
+     épais qui alourdissait la version précédente. */
+  --bandeau: 4.75 / 1;
 }
 
 *,
@@ -46,7 +58,10 @@ body {
   /* Le Garamond a une petite hauteur d'x : à taille nominale égale, il paraît
      plus petit que la plupart des autres serifs. D'où ce cran supplémentaire. */
   font-size: clamp(1.18rem, 1.1rem + 0.35vw, 1.32rem);
-  line-height: 1.7;
+  /* L'ancien site tenait son élégance d'un interligne très ample : 2,4 fois le
+     corps. Transposé à un serif de 21 px dans une colonne de 74 signes, 1,85
+     donne la même respiration sans disloquer le paragraphe. */
+  line-height: 1.85;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -62,9 +77,12 @@ h3 {
   max-width: var(--measure);
 }
 
+/* L'ancien site donnait au titre 1,83 fois le corps de texte. Le précédent
+   réglage montait à 2,2, ce qui écrasait la page. */
 h1 {
-  font-size: clamp(1.9rem, 1.4rem + 2.2vw, 2.9rem);
-  margin-block: 0 0.7em;
+  font-size: clamp(1.75rem, 1.35rem + 1.7vw, 2.45rem);
+  line-height: 1.25;
+  margin-block: 0 var(--rythme);
 }
 
 h2 {
@@ -77,8 +95,10 @@ h3 {
   margin-block: 1.9em 0.4em;
 }
 
+/* L'interligne fournissant déjà l'essentiel de l'air, l'écart entre paragraphes
+   reste modeste — c'était le rapport de l'ancien site. */
 p {
-  margin-block: 0 1.1em;
+  margin-block: 0 1em;
   max-width: var(--measure);
 }
 
