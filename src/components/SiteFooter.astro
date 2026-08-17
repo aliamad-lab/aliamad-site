@@ -8,37 +8,57 @@ interface Props {
 
 const { locale } = Astro.props;
 const t = ui[locale];
-const year = new Date().getFullYear();
 
-const rattachements =
-  locale === 'fr'
-    ? ['Faculté de médecine, Université de Lille', 'Service de psychiatrie adulte, CHU de Lille']
-    : ['Faculty of Medicine, University of Lille', 'Department of Adult Psychiatry, Lille University Hospital'];
+/**
+ * Repris tel quel de l'ancien site : une simple ligne de liens centrée,
+ * précédée d'un maillon, séparée par des barres verticales, sans fond ni
+ * encadrement. L'adresse de contact s'y ajoute sur la même ligne — elle est
+ * exigée par le cahier des charges §4, que l'ancien site ne respectait pas.
+ */
 ---
 
 <footer class="site-footer">
-  <div class="site-footer__inner">
-    <p class="site-footer__ligne">
-      <strong>{t.contactLabel}</strong>
-      <ContactLink />
-    </p>
+  <p class="site-footer__liens">
+    <span aria-hidden="true">🔗</span>
+    {
+      profileLinks.map((link, i) => (
+        <>
+          {i > 0 && <span class="site-footer__barre" aria-hidden="true">|</span>}
+          <a href={link.href} rel="noopener">
+            {link.label}
+          </a>
+        </>
+      ))
+    }
+  </p>
 
-    <p class="site-footer__ligne">
-      {rattachements.map((r) => <span>{r}</span>)}
-    </p>
-
-    <ul class="site-footer__liens">
-      {
-        profileLinks.map((link) => (
-          <li>
-            <a href={link.href} rel="noopener">
-              {link.label}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-
-    <p class="site-footer__legal">© {year} Ali Amad</p>
-  </div>
+  <p class="site-footer__contact">
+    <span aria-hidden="true">✉</span> <ContactLink />
+  </p>
 </footer>
+
+<style>
+  /* L'ancien site laissait 126 px entre le dernier paragraphe et cette ligne,
+     sans filet ni aplat de couleur. */
+  .site-footer {
+    max-width: var(--shell);
+    margin-inline: auto;
+    padding: 7.9rem var(--gutter) 3.5rem;
+    text-align: center;
+  }
+
+  .site-footer p {
+    margin: 0 0 0.5rem;
+    max-width: none;
+    font-size: 1rem;
+  }
+
+  .site-footer__barre {
+    color: var(--rule);
+    margin-inline: 0.45rem;
+  }
+
+  .site-footer__contact {
+    color: var(--ink-soft);
+  }
+</style>

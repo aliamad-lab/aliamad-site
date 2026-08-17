@@ -29,9 +29,10 @@
   --shell: 80rem;
   --gutter: clamp(1.25rem, 5.5vw, 4.5rem);
 
-  /* Largeur de lecture. Le texte étant au fer à gauche, il s'arrête là où
-     l'œil retrouve encore sans peine le début de la ligne suivante. */
-  --measure: 74ch;
+  /* L'ancien site ne bridait pas la colonne : le texte occupait toute la
+     largeur du cadre, soit 1130 px. C'est ce qui lui donnait son allure, et
+     c'est ce qui est repris ici. */
+  --measure: 100%;
 
   /* Rythme vertical de l'ancien site : le titre, l'image et le texte y étaient
      séparés par le même intervalle de 56 px, ce qui donnait sa respiration à
@@ -57,11 +58,12 @@ body {
   font-family: var(--font-text);
   /* Le Garamond a une petite hauteur d'x : à taille nominale égale, il paraît
      plus petit que la plupart des autres serifs. D'où ce cran supplémentaire. */
-  font-size: clamp(1.18rem, 1.1rem + 0.35vw, 1.32rem);
-  /* L'ancien site tenait son élégance d'un interligne très ample : 2,4 fois le
-     corps. Transposé à un serif de 21 px dans une colonne de 74 signes, 1,85
-     donne la même respiration sans disloquer le paragraphe. */
-  line-height: 1.85;
+  /* Corps de texte de l'ancien site : 16 px. Le Garamond ayant une hauteur d'x
+     plus petite que le Lato d'origine, 17 px rend la même taille apparente. */
+  font-size: 1.06rem;
+  /* Interligne de l'ancien site : 2,4 fois le corps. C'est beaucoup, et c'est
+     précisément ce qui donnait sa respiration à la page. */
+  line-height: 2.4;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -77,28 +79,32 @@ h3 {
   max-width: var(--measure);
 }
 
-/* L'ancien site donnait au titre 1,83 fois le corps de texte. Le précédent
-   réglage montait à 2,2, ce qui écrasait la page. */
+/* Rapports relevés sur l'ancien site : le titre valait 1,83 fois le corps de
+   texte, les sous-titres à peine 1,08 fois — une hiérarchie discrète, portée
+   par la graisse plutôt que par la taille. */
 h1 {
-  font-size: clamp(1.75rem, 1.35rem + 1.7vw, 2.45rem);
-  line-height: 1.25;
+  font-size: clamp(1.6rem, 1.3rem + 1.3vw, 1.95rem);
+  line-height: 1.5;
   margin-block: 0 var(--rythme);
 }
 
 h2 {
-  font-size: clamp(1.4rem, 1.2rem + 1vw, 1.85rem);
-  margin-block: 2.2em 0.5em;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-block: 2em 0.6em;
 }
 
 h3 {
-  font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
-  margin-block: 1.9em 0.4em;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.63;
+  margin-block: 1.8em 0.2em;
 }
 
-/* L'interligne fournissant déjà l'essentiel de l'air, l'écart entre paragraphes
-   reste modeste — c'était le rapport de l'ancien site. */
+/* Ancien site : 16 px entre deux paragraphes, soit un peu moins d'un cadratin.
+   L'interligne fournissait déjà l'essentiel de l'air. */
 p {
-  margin-block: 0 1em;
+  margin-block: 0 0.95em;
   max-width: var(--measure);
 }
 
@@ -250,11 +256,12 @@ main {
   padding: clamp(1.8rem, 4vw, 3rem) var(--gutter) 0;
 }
 
-/* Au fer à gauche et sans césure : le texte justifié coupait les mots en fin
-   de ligne et creusait des espaces irréguliers. */
+/* Texte justifié et non coupé, comme sur l'ancien site. Sur une colonne aussi
+   large — près de 140 signes — la justification répartit l'écart sur beaucoup
+   de mots : les blancs restent discrets, là où une colonne étroite les creusait. */
 .prose p,
 .prose li {
-  text-align: left;
+  text-align: justify;
   hyphens: manual;
 }
 
@@ -290,69 +297,6 @@ main {
   color: var(--ink-soft);
   font-style: italic;
   max-width: var(--measure);
-}
-
-/* ---------- Pied de page ---------- */
-
-/*
- * Compact et dense : une ligne de contact, une ligne de liens, une mention
- * finale. La grille en colonnes laissait un grand vide à droite.
- */
-.site-footer {
-  border-top: 1px solid var(--rule);
-  background: var(--paper-sunk);
-  margin-top: clamp(3rem, 8vw, 5rem);
-}
-
-.site-footer__inner {
-  max-width: var(--shell);
-  margin-inline: auto;
-  padding: 1.6rem var(--gutter);
-  font-size: 0.88rem;
-  line-height: 1.6;
-}
-
-.site-footer__ligne {
-  margin: 0 0 0.35rem;
-  color: var(--ink-soft);
-  max-width: none;
-}
-
-.site-footer__ligne strong {
-  color: var(--ink);
-  font-weight: 600;
-}
-
-/* Séparateur en point médian entre les éléments d'une même ligne. Le script
-   injecté par le composant de contact en est exclu : invisible, il n'a pas à
-   compter dans la suite. */
-.site-footer__ligne > *:not(script) + *:not(script)::before {
-  content: '·';
-  margin-inline: 0.5rem;
-  color: var(--rule);
-}
-
-.site-footer__liens {
-  list-style: none;
-  margin: 0.6rem 0 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.2rem 0;
-}
-
-.site-footer__liens li + li::before {
-  content: '·';
-  margin-inline: 0.5rem;
-  color: var(--rule);
-}
-
-.site-footer__legal {
-  margin: 0.9rem 0 0;
-  padding-top: 0.7rem;
-  border-top: 1px solid var(--rule);
-  font-size: 0.8rem;
-  color: var(--ink-soft);
 }
 
 /*
