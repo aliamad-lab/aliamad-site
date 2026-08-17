@@ -38,19 +38,21 @@ const t = ui[locale];
 </footer>
 
 <style>
-  /* L'ancien site laissait 126 px entre le dernier paragraphe et cette ligne,
-     sans filet ni aplat de couleur. */
+  /* Disposition de l'ancien site — une ligne de liens centrée — mais posée sur
+     un aplat plus soutenu et séparée par un filet : le pied doit se distinguer
+     du corps de la page, ce que l'ancien ne faisait pas. */
   .site-footer {
-    max-width: var(--shell);
-    margin-inline: auto;
-    padding: 7.9rem var(--gutter) 3.5rem;
+    margin-top: 6rem;
+    padding: 2.6rem var(--gutter) 2.8rem;
     text-align: center;
+    background: var(--paper-sunk);
+    border-top: 1px solid var(--rule);
   }
 
   .site-footer p {
-    margin: 0 0 0.5rem;
-    max-width: none;
-    font-size: 1rem;
+    max-width: var(--shell);
+    margin: 0 auto 0.45rem;
+    font-size: 0.98rem;
   }
 
   .site-footer__barre {
