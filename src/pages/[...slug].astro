@@ -24,10 +24,11 @@ const { pageId, title, heading, description, banner, bannerAlt, bannerFocus, ban
 ---
 
 <Base locale="fr" pageId={pageId} title={title} description={description}>
+  {/* Le titre précède l'image : le lecteur sait où il est avant de regarder. */}
+  <h1>{heading}</h1>
   {banner && bannerAlt && (
     <PageBanner image={banner} alt={bannerAlt} focus={bannerFocus} credit={bannerCredit} />
   )}
-  <h1>{heading}</h1>
   <div class="prose">
     <Content />
   </div>

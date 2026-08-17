@@ -3,6 +3,11 @@
  *
  * EB Garamond, papier chaud, bleu de Prusse. Tout passe par des variables :
  * changer une teinte ou une police reste une modification d'une seule ligne.
+ *
+ * Principe de mise en page : une seule verticale gauche.
+ * L'en-tête, le titre de page, le bord gauche de l'image et le texte partent
+ * tous du même bord. Seule la largeur à droite varie — l'image va plus loin que
+ * le texte, qui s'arrête à la largeur de lecture confortable.
  */
 
 :root {
@@ -18,15 +23,13 @@
   --font-display: 'EB Garamond', Georgia, 'Times New Roman', serif;
   --font-text: 'EB Garamond', Georgia, 'Times New Roman', serif;
 
-  /* Largeur de lecture. Le texte étant justifié et coupé automatiquement, la
-     colonne supporte d'être plus large qu'en drapeau : les fins de ligne sont
-     alignées, l'œil retrouve son repère. Au-delà, la lecture décrocherait. */
-  --measure: 47rem;
-  /* Les bandeaux débordent la colonne de texte : une image large ancre la page,
-     là où un texte large fatigue. */
-  --measure-large: 58rem;
-  --shell: 66rem;
+  /* Le cadre commun : c'est lui qui fixe la verticale gauche. */
+  --shell: 68rem;
   --gutter: clamp(1.25rem, 5vw, 3rem);
+
+  /* Largeur de lecture. Le texte étant au fer à gauche, il s'arrête là où
+     l'œil retrouve encore sans peine le début de la ligne suivante. */
+  --measure: 74ch;
 }
 
 *,
@@ -56,11 +59,12 @@ h3 {
   font-weight: 600;
   color: var(--accent-deep);
   text-wrap: balance;
+  max-width: var(--measure);
 }
 
 h1 {
   font-size: clamp(1.9rem, 1.4rem + 2.2vw, 2.9rem);
-  margin-block: 0 0.6em;
+  margin-block: 0 0.7em;
 }
 
 h2 {
@@ -75,6 +79,7 @@ h3 {
 
 p {
   margin-block: 0 1.1em;
+  max-width: var(--measure);
 }
 
 a {
@@ -100,7 +105,7 @@ a:hover {
 .skip-link:focus {
   left: var(--gutter);
   top: 0.5rem;
-  z-index: 10;
+  z-index: 20;
   background: var(--paper);
   padding: 0.5rem 0.9rem;
   border: 1px solid var(--accent);
@@ -108,16 +113,25 @@ a:hover {
 
 /* ---------- En-tête ---------- */
 
+/*
+ * L'en-tête reste au sommet de l'écran pendant le défilement : sur des pages
+ * longues comme Publications, la navigation resterait autrement hors d'atteinte.
+ * Fond opaque obligatoire, sans quoi le texte défilerait au travers.
+ */
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--paper);
   border-bottom: 1px solid var(--rule);
 }
 
 .site-header__inner {
   max-width: var(--shell);
   margin-inline: auto;
-  padding: 1.5rem var(--gutter) 1.1rem;
+  padding: 1.1rem var(--gutter) 0.9rem;
   display: grid;
-  gap: 0.9rem 1.5rem;
+  gap: 0.7rem 1.5rem;
   grid-template-areas:
     'identity lang'
     'nav nav';
@@ -134,7 +148,7 @@ a:hover {
 .site-header__name {
   display: block;
   font-family: var(--font-display);
-  font-size: 1.65rem;
+  font-size: 1.5rem;
   letter-spacing: 0.01em;
   color: var(--accent-deep);
   line-height: 1.15;
@@ -143,9 +157,9 @@ a:hover {
 .site-header__role,
 .site-header__affiliation {
   display: block;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--ink-soft);
-  line-height: 1.35;
+  line-height: 1.3;
 }
 
 .site-nav {
@@ -198,38 +212,30 @@ a:hover {
 }
 
 .lang-switch svg {
-  width: 1.5rem;
+  width: 1.4rem;
   height: auto;
   display: block;
 }
 
 /* ---------- Contenu ---------- */
 
+/*
+ * `main` occupe toute la largeur du cadre : c'est lui qui porte la verticale
+ * gauche. Les paragraphes s'arrêtent d'eux-mêmes à --measure, l'image occupe
+ * toute la largeur disponible. Les deux partent du même bord.
+ */
 main {
-  max-width: var(--measure);
+  max-width: var(--shell);
   margin-inline: auto;
-  padding: clamp(2rem, 5vw, 3.5rem) var(--gutter);
+  padding: clamp(1.8rem, 4vw, 3rem) var(--gutter) 0;
 }
 
-/*
- * Texte justifié, comme dans un livre français.
- *
- * La césure automatique en est la condition : sans elle, le navigateur écarte
- * les mots pour aligner les fins de ligne et creuse des rivières blanches. Elle
- * s'appuie sur l'attribut lang de la page, d'où l'importance de le déclarer
- * correctement — ce que le site Google Sites ne faisait pas.
- *
- * En dessous de 34rem, la colonne devient trop étroite pour que la justification
- * reste propre, même coupée : on repasse au fer à gauche.
- */
-@media (min-width: 34rem) {
-  .prose p,
-  .prose li {
-    text-align: justify;
-    hyphens: auto;
-    /* Évite les coupures trop courtes, disgracieuses en début et fin de mot. */
-    hyphenate-limit-chars: 7 3 3;
-  }
+/* Au fer à gauche et sans césure : le texte justifié coupait les mots en fin
+   de ligne et creusait des espaces irréguliers. */
+.prose p,
+.prose li {
+  text-align: left;
+  hyphens: manual;
 }
 
 .prose h4 {
@@ -239,11 +245,13 @@ main {
   color: var(--ink);
   margin-block: 1.7em 0.4em;
   line-height: 1.3;
+  max-width: var(--measure);
 }
 
 .prose ul {
   margin-block: 0 1.2em;
   padding-left: 1.1rem;
+  max-width: var(--measure);
 }
 
 .prose li {
@@ -261,70 +269,74 @@ main {
   border-left: 2px solid var(--accent);
   color: var(--ink-soft);
   font-style: italic;
+  max-width: var(--measure);
 }
 
 /* ---------- Pied de page ---------- */
 
+/*
+ * Compact et dense : une ligne de contact, une ligne de liens, une mention
+ * finale. La grille en colonnes laissait un grand vide à droite.
+ */
 .site-footer {
   border-top: 1px solid var(--rule);
   background: var(--paper-sunk);
-  margin-top: 4rem;
+  margin-top: clamp(3rem, 8vw, 5rem);
 }
 
 .site-footer__inner {
   max-width: var(--shell);
   margin-inline: auto;
-  padding: 2.5rem var(--gutter) 1rem;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  padding: 1.6rem var(--gutter);
+  font-size: 0.88rem;
+  line-height: 1.6;
 }
 
-.site-footer__heading {
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.11em;
+.site-footer__ligne {
+  margin: 0 0 0.35rem;
   color: var(--ink-soft);
-  margin: 0 0 0.7rem;
+  max-width: none;
+}
+
+.site-footer__ligne strong {
+  color: var(--ink);
   font-weight: 600;
 }
 
-.site-footer p {
-  margin-block: 0 0.5em;
-  font-size: 0.92rem;
+/* Séparateur en point médian entre les éléments d'une même ligne. */
+.site-footer__ligne > * + *::before {
+  content: '·';
+  margin-inline: 0.5rem;
+  color: var(--rule);
 }
 
-.site-footer__address {
-  color: var(--ink-soft);
-  max-width: 24rem;
-}
-
-.site-footer__address span {
-  display: block;
-}
-
-.site-footer__links {
+.site-footer__liens {
   list-style: none;
-  margin: 0;
+  margin: 0.6rem 0 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.3rem 1.1rem;
-  font-size: 0.92rem;
+  gap: 0.2rem 0;
+}
+
+.site-footer__liens li + li::before {
+  content: '·';
+  margin-inline: 0.5rem;
+  color: var(--rule);
 }
 
 .site-footer__legal {
-  max-width: var(--shell);
-  margin-inline: auto;
-  padding: 0 var(--gutter) 2.5rem;
-  font-size: 0.82rem;
+  margin: 0.9rem 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.8rem;
   color: var(--ink-soft);
 }
 
 /*
  * Le menu ne passe sur une seule ligne qu'une fois la place réellement
  * disponible. En deçà, il occupe sa propre rangée : mieux vaut deux rangées
- * franches qu'une rubrique isolée qui retombe seule sous les autres.
+ * franches qu'une rubrique isolée qui retombe seule.
  */
 @media (min-width: 64rem) {
   .site-header__inner {

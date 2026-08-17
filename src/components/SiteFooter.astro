@@ -9,44 +9,36 @@ interface Props {
 const { locale } = Astro.props;
 const t = ui[locale];
 const year = new Date().getFullYear();
+
+const rattachements =
+  locale === 'fr'
+    ? ['Faculté de médecine, Université de Lille', 'Service de psychiatrie adulte, CHU de Lille']
+    : ['Faculty of Medicine, University of Lille', 'Department of Adult Psychiatry, Lille University Hospital'];
 ---
 
 <footer class="site-footer">
   <div class="site-footer__inner">
-    <div class="site-footer__block">
-      <h2 class="site-footer__heading">{t.contactLabel}</h2>
-      <p><ContactLink /></p>
-      <p class="site-footer__address">
-        {/* Une ligne par institution : d'un seul tenant, la ligne était trop longue.
-            L'université reste citée avant l'hôpital. */}
-        <span>
-          {locale === 'fr'
-            ? 'Faculté de médecine, Université de Lille'
-            : 'Faculty of Medicine, University of Lille'}
-        </span>
-        <span>
-          {locale === 'fr'
-            ? 'Service de psychiatrie adulte, CHU de Lille'
-            : 'Department of Adult Psychiatry, Lille University Hospital'}
-        </span>
-      </p>
-    </div>
+    <p class="site-footer__ligne">
+      <strong>{t.contactLabel}</strong>
+      <ContactLink />
+    </p>
 
-    <div class="site-footer__block">
-      <h2 class="site-footer__heading">{t.profiles}</h2>
-      <ul class="site-footer__links">
-        {
-          profileLinks.map((link) => (
-            <li>
-              <a href={link.href} rel="noopener">
-                {link.label}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-    </div>
+    <p class="site-footer__ligne">
+      {rattachements.map((r) => <span>{r}</span>)}
+    </p>
+
+    <ul class="site-footer__liens">
+      {
+        profileLinks.map((link) => (
+          <li>
+            <a href={link.href} rel="noopener">
+              {link.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <p class="site-footer__legal">© {year} Ali Amad</p>
   </div>
-
-  <p class="site-footer__legal">© {year} Ali Amad</p>
 </footer>
