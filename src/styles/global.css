@@ -303,8 +303,10 @@ main {
   font-weight: 600;
 }
 
-/* Séparateur en point médian entre les éléments d'une même ligne. */
-.site-footer__ligne > * + *::before {
+/* Séparateur en point médian entre les éléments d'une même ligne. Le script
+   injecté par le composant de contact en est exclu : invisible, il n'a pas à
+   compter dans la suite. */
+.site-footer__ligne > *:not(script) + *:not(script)::before {
   content: '·';
   margin-inline: 0.5rem;
   color: var(--rule);
