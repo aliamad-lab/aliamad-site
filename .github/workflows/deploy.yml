@@ -29,14 +29,10 @@ jobs:
 
       - run: npm ci
 
-      # Phase de recette : le site est servi dans un sous-répertoire, et ne doit
-      # pas être indexé tant qu'il fait doublon avec aliamad.com.
-      # À la bascule (phase 8), ces deux variables disparaissent et le site
-      # repart à la racine du domaine définitif.
+      # Le site est servi à la racine de www.aliamad.com. Les variables de
+      # recette (SITE_URL, SITE_BASE) ont été retirées lors de la bascule : le
+      # site n'est plus dans un sous-répertoire et redevient indexable.
       - run: npm run build
-        env:
-          SITE_URL: https://aliamad-lab.github.io
-          SITE_BASE: /aliamad-site
 
       - uses: actions/upload-pages-artifact@v5
         with:
