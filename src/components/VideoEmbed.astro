@@ -71,8 +71,12 @@ const label = locale === 'en' ? `Play: ${title}` : `Lire la vidéo : ${title}`;
 </script>
 
 <style>
+  /* La colonne de texte occupant toute la largeur du cadre, une vignette non
+     bridée s'étalait sur près de 1100 px. Ramenée à la taille d'une figure,
+     elle illustre le propos sans l'écraser. */
   .video {
     margin: 2rem 0;
+    max-width: 26rem;
   }
 
   .video__stage {
